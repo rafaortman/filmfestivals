@@ -30,10 +30,10 @@ e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
 - [x] Ambiente validado: internet OK, TMDB key OK.
-- [x] **Cannes / Filme** — `data/raw/cannes_filme.csv` (82 registros, 1951–2025).
+- [x] **Cannes / Filme** — `data/raw/cannes_filme.csv` (83 registros, 1951–2026).
       Empates como linhas separadas; 1968/2020 cancelados omitidos.
-      ⚠️ 2026 ("Fjord"/Mungiu) **excluído** — pós-cutoff e suspeito de erro; verificar.
-      Fonte: Wikipedia (Palme d'Or). Todos `verificado=N`.
+      2026 ("Fjord"/Mungiu, 2ª Palma dele) confirmado em Deadline/Screen/IndieWire/Variety.
+      Fonte: Wikipedia (Palme d'Or) + trade press. Todos `verificado=N` (falta pass oficial).
 - [ ] Cannes / Direção
 - [ ] Cannes / Roteiro
 - [ ] Oscar / Filme  (SPARQL Q102427 testado: retorna dados mas precisa dedupe)
