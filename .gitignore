@@ -1,0 +1,16 @@
+# Segredos — nunca commitar
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Config local do Claude Code
+.claude/
+
+# Fontes de arte (PSD/AI/originais) — não vão pro site
+img/src/
+
+# Python
+__pycache__/
+*.pyc
