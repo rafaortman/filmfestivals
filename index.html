@@ -4,12 +4,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FilmFestivals — em breve</title>
-  <meta name="description" content="Uma timeline dos filmes premiados nos principais festivais de cinema. Em construção.">
+  <title>FilmFestivals — os filmes premiados nos principais festivais de cinema</title>
+  <meta name="description" content="Uma timeline navegável dos filmes premiados nos principais festivais de cinema. Sem ranking, sem nota — só as vitórias que importam.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FilmFestivals">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://rafaortman.github.io/filmfestivals/">
+  <meta property="og:title" content="FilmFestivals — os filmes premiados nos principais festivais.">
+  <meta property="og:description" content="Uma timeline navegável dos filmes premiados nos principais festivais de cinema. Sem ranking, sem nota.">
+  <meta property="og:image" content="https://rafaortman.github.io/filmfestivals/img/shareimg.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="FilmFestivals — os filmes premiados nos principais festivais de cinema.">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FilmFestivals — os filmes premiados nos principais festivais.">
+  <meta name="twitter:description" content="Uma timeline navegável dos filmes premiados nos principais festivais de cinema. Sem ranking, sem nota.">
+  <meta name="twitter:image" content="https://rafaortman.github.io/filmfestivals/img/shareimg.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:opsz,wght@14..32,100..900&display=swap">
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
   <style>
     :root {
       --bg: #0e0f13;
@@ -17,72 +36,1103 @@
       --muted: #9aa0b0;
       --accent: #f5c518;
       --accent-2: #6ea8fe;
+
+      --shade: color-mix(in srgb, var(--bg) 90%, #fff);
+
+      --radius: 12px;
     }
 
-    * { box-sizing: border-box }
+    * {
+      box-sizing: border-box
+    }
 
     body {
       margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 40px 20px;
       background: var(--bg);
       color: var(--txt);
-      font: 16px/1.6 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font: 15px/1.5 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
     }
 
-    main { max-width: 560px; text-align: center }
-
-    .icons {
-      display: flex;
-      gap: 18px;
-      justify-content: center;
-      margin-bottom: 28px;
+    a {
+      color: var(--accent-2)
     }
 
-    .icons img {
-      width: 44px;
-      height: 44px;
-      opacity: .9;
+    input,
+    select,
+    button,
+    textarea {
+      font-family: inherit
+    }
+
+    header {
+      padding: 22px 20px 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Coração global: ver só favoritos. Desativado sem favoritos;
+       borda --accent quando há favoritos; preenchido --accent quando selecionado. */
+    .favview {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      flex: none;
+      border: none;
+      background: none;
+      padding: 8px;
+      width: 40px;
+      height: 40px;
+      line-height: 0;
+      cursor: pointer;
+
+      & svg {
+        width: 100%;
+        height: 100%;
+        display: block
+      }
+
+      & svg path {
+        fill: none;
+        stroke: var(--accent);
+        stroke-width: 64
+      }
+
+      &[aria-pressed="true"] svg path {
+        fill: var(--accent);
+        stroke: none
+      }
+
+      &[aria-disabled="true"] {
+        cursor: pointer;   /* clicável mesmo "vazio": o clique mostra a mensagem */
+
+        & svg path {
+          fill: none;
+          stroke: var(--muted);
+          opacity: .4
+        }
+      }
     }
 
     h1 {
-      font-family: "Fraunces", Georgia, serif;
-      font-weight: 600;
-      font-size: clamp(34px, 8vw, 56px);
-      line-height: 1.05;
-      margin: 0 0 16px;
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: .3px;
+      font-weight: 900;
+
+      & svg {
+        fill: var(--accent);
+        vertical-align: -5px;
+        margin-right: 8px
+      }
+
+      & span {
+        color: var(--accent)
+      }
     }
 
-    h1 .accent { color: var(--accent) }
-
-    p { color: var(--muted); margin: 0 auto; max-width: 42ch }
-
-    .tag {
-      display: inline-block;
-      margin-top: 28px;
-      padding: 6px 14px;
-      border: 1px solid color-mix(in srgb, var(--muted) 40%, transparent);
-      border-radius: 999px;
+    .sub {
+      color: white;
       font-size: 13px;
-      letter-spacing: .04em;
-      text-transform: uppercase;
+      margin-top: 4px;
+
+      small {
+        color: var(--muted);
+        display: block;
+      }
+
+      & a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+
+        &:hover {
+          color: var(--accent)
+        }
+      }
+    }
+
+    .layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 22px;
+      align-items: start;
+
+      @media (max-width: 1000px) {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .filters {
+      background: var(--shade);
+      border-radius: var(--radius);
+      padding: 16px;
+      position: sticky;
+      top: 14px;
+      min-width: 0;
+
+      @media (max-width: 1000px) {
+        position: static
+      }
+
+      & h2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        color: var(--muted);
+        margin: 0 0 6px
+      }
+
+      /* Campos dentro do painel usam --bg p/ contrastar com o --shade do aside */
+      & input[type=text],
+      & select {
+        background: var(--bg)
+      }
+
+      @media (max-width: 1000px) {
+        &:not(.collapsed) .filters-body {
+          margin-top: 14px
+        }
+
+        &.collapsed .filters-body {
+          display: none
+        }
+      }
+    }
+
+    .fgroup {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0
+      }
+    }
+
+    .foot {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid var(--bg);
+      background: var(--shade);
+      padding: 6px 14px;
+      font-size: 11.5px;
       color: var(--muted);
+      line-height: 1.6;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      z-index: 100;
+
+      /* Esfumaçado acima do rodapé: --bg sólido (junto ao rodapé) → transparente (topo).
+         left/right negativos compensam o padding p/ cobrir a largura toda. */
+      &::before {
+        content: "";
+        position: absolute;
+        left: -14px;
+        right: -14px;
+        bottom: 100%;
+        height: 28px;
+        background: linear-gradient(to top, var(--bg), transparent);
+        pointer-events: none
+      }
+
+      & a {
+        color: var(--muted);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--accent-2)
+        }
+      }
+
+      & .updated {
+        white-space: nowrap
+      }
+
+      @media (max-width: 1000px) {
+        position: static;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    /* Toast: mensagem breve ancorada logo abaixo do coração do topo; some sozinha. */
+    .toast {
+      position: absolute;
+      top: 62px;
+      right: 10px;
+      z-index: 300;
+      max-width: min(300px, 80vw);
+      background: var(--shade);
+      border: 1px solid var(--bg);
+      color: var(--txt);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 13px;
+      line-height: 1.4;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, .5);
+
+      &[hidden] {
+        display: none
+      }
+    }
+
+    /* Barra LGPD (informativa): avisa sobre cookies de analytics; some após "Entendi". */
+    .lgpd {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 200;
+      background: var(--shade);
+      border-top: 1px solid var(--bg);
+      padding: 8px 14px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+
+      &[hidden] {
+        display: none
+      }
+
+      & button {
+        flex: none;
+        background: var(--accent);
+        color: #111;
+        border: none;
+        border-radius: 8px;
+        padding: 6px 14px;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer
+      }
+    }
+
+    .cright {
+      white-space: nowrap;
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    label.fld {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0 0 5px
+    }
+
+    input[type=text],
+    select {
+      width: 100%;
+      background: var(--shade);
+      color: var(--txt);
+      border: none;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 14px;
+
+      &:focus {
+        outline: 1px solid var(--accent-2)
+      }
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px
+    }
+
+    .chip {
+      cursor: pointer;
+      user-select: none;
+      background: var(--bg);
+      color: var(--muted);
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 12.5px;
+
+      &.on {
+        background: var(--accent);
+        color: #111;
+        font-weight: 600
+      }
+    }
+
+    .range {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      & input {
+        flex: 1;
+        accent-color: var(--accent-2)
+      }
+    }
+
+    .dualrange {
+      position: relative;
+      height: 26px;
+      margin-top: 2px;
+
+      & input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 26px;
+        margin: 0;
+        background: none;
+        pointer-events: none;
+        -webkit-appearance: none;
+        appearance: none;
+
+        &::-webkit-slider-runnable-track {
+          height: 26px;
+          background: none;
+          border: none
+        }
+
+        &::-moz-range-track {
+          height: 26px;
+          background: none;
+          border: none
+        }
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          pointer-events: auto;
+          width: 16px;
+          height: 16px;
+          margin-top: 5px;
+          border-radius: 50%;
+          background: var(--accent-2);
+          border: 2px solid var(--bg);
+          cursor: pointer;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, .5)
+        }
+
+        &::-moz-range-thumb {
+          pointer-events: auto;
+          width: 16px;
+          height: 16px;
+          border: 2px solid var(--bg);
+          border-radius: 50%;
+          background: var(--accent-2);
+          cursor: pointer;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, .5)
+        }
+      }
+    }
+
+    .dr-track,
+    .dr-fill {
+      position: absolute;
+      top: 11px;
+      height: 4px;
+      border-radius: 2px
+    }
+
+    .dr-track {
+      left: 0;
+      right: 0;
+      background: var(--bg)
+    }
+
+    .dr-fill {
+      background: var(--accent-2)
+    }
+
+    .rangeval {
+      font-size: 12px;
+      color: var(--muted);
+      min-width: 70px;
+      text-align: right
+    }
+
+    .reset {
+      width: 100%;
+      margin-top: 4px;
+      background: var(--bg);
+      color: var(--muted);
+      border: none;
+      border-radius: 8px;
+      padding: 8px;
+      cursor: pointer;
+      font-size: 13px;
+
+      &:hover {
+        color: var(--txt)
+      }
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      flex-wrap: wrap
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 13px;
+
+      & b {
+        color: var(--txt)
+      }
+    }
+
+    .sortwrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      & select {
+        width: auto
+      }
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px
+    }
+
+    .card {
+      background: var(--shade);
+      border-radius: var(--radius);
+      padding: 14px;
+      position: relative;
+      overflow: hidden;
+      align-items: start;
+      display: grid;
+      column-gap: 18px;
+      row-gap: 10px;
+      grid-template-columns: 150px minmax(0, 1fr) minmax(0, 1.5fr);
+      grid-template-areas: "poster body synopsis";
+      cursor: pointer;
+
+      &:hover {
+        background: color-mix(in srgb, var(--bg) 88%, #fff)
+      }
+
+      @media (max-width: 700px) {
+        padding-top: 250px;
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "poster" "body" "synopsis";
+        overflow: unset;
+      }
+    }
+
+    /* Coração de cada card: vazado (muted) por padrão, --accent preenchido quando favoritado. */
+    .cardfav {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      z-index: 2;
+      width: 34px;
+      height: 34px;
+      padding: 6px;
+      border: none;
+      border-radius: 50%;
+      background: transparent;
+      line-height: 0;
+      cursor: pointer;
+
+      & svg {
+        width: 100%;
+        height: 100%;
+        display: block
+      }
+
+      & svg path {
+        fill: none;
+        stroke: var(--muted);
+        stroke-width: 64
+      }
+
+      &:hover svg path {
+        stroke: var(--accent)
+      }
+
+      &.on svg path {
+        fill: var(--accent);
+        stroke: none
+      }
+    }
+
+    .poster {
+      grid-area: poster;
+      align-self: start;
+      width: 100%;
+      aspect-ratio: 2/3;
+      border-radius: 8px;
+      object-fit: cover;
+      background: var(--shade);
+      border: 2px solid var(--shade);
+
+      &.none {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--muted);
+        font-size: 11px;
+        text-align: center;
+        padding: 6px
+      }
+
+      @media (max-width: 700px) {
+        margin-top: 200px;
+        width: unset;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+      }
+    }
+
+    .cbody {
+      grid-area: body;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      @media (max-width: 700px) {
+        text-align: center;
+      }
+    }
+
+    .csyn {
+      grid-area: synopsis;
+      padding-right: 20px;
+      min-width: 0
+    }
+
+    .synopsis {
+      margin: 0;
+      font-weight: 400;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5
+    }
+
+    .ct {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--accent);
+    }
+
+    .cpt {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-top: -4px
+    }
+
+    .meta {
+      font-size: 12.5px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 10px;
+
+      & b {
+        color: var(--txt);
+        font-weight: 500
+      }
+
+      @media (max-width: 700px) {
+        justify-content: center;
+      }
+    }
+
+    .badges {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 2px;
+
+      @media (max-width: 700px) {
+        justify-content: center;
+      }
+    }
+
+    .b {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+
+      &.both {
+        display: block;
+        padding: 0;
+        border-radius: 0;
+        background: none;
+        border: none;
+        color: var(--accent-2);
+      }
+
+      &.pts {
+        background: var(--accent);
+        color: #111
+      }
+    }
+
+    .genres {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+
+      @media (max-width: 700px) {
+        justify-content: center;
+      }
+    }
+
+    .gtag {
+      font-size: 11px;
+      background: var(--bg);
+      color: var(--accent-2);
+      padding: 2px 8px;
+      border-radius: 6px
+    }
+
+    .plats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: auto;
+      padding-top: 6px;
+
+      @media (max-width: 700px) {
+        justify-content: center;
+      }
+    }
+
+    .plat {
+      font-size: 11px;
+      background: var(--bg);
+      color: var(--muted);
+      padding: 2px 8px;
+      border-radius: 6px;
+
+      &.none {
+        color: #c77
+      }
+    }
+
+    .empty {
+      grid-column: 1/-1;
+      text-align: center;
+      color: var(--muted);
+      padding: 50px 0
+    }
+
+    /* ---- Cabeçalho dos filtros + botões ---- */
+    .filters-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+
+      @media (max-width: 1000px) {
+        margin-bottom: 0
+      }
+    }
+
+    /* Botões do cabeçalho (Filtros + Sortear): mesma fonte, size, uppercase e ícone */
+    .hbtn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent);
+      color: #111;
+      border: none;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      &:hover {
+        filter: brightness(1.06)
+      }
+    }
+
+    .mi {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      flex: none
+    }
+
+    /* Botão do modal reaproveita o mesmo visual base */
+    .btn-shuffle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent);
+      color: #111;
+      border: none;
+      border-radius: 999px;
+      padding: 7px 14px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      &:hover {
+        filter: brightness(1.06)
+      }
+
+      &.block {
+        width: 100%;
+        justify-content: center;
+        padding: 11px
+      }
+    }
+
+    /* Desktop: 'Filtros' vira título — some a aparência e o comportamento de botão */
+    .filters-toggle.hbtn {
+      @media (min-width: 821px) {
+        background: none;
+        color: var(--muted);
+        padding: 0;
+        letter-spacing: .8px;
+        cursor: default;
+
+        &:hover {
+          filter: none
+        }
+
+        & .mi {
+          width: 16px;
+          height: 16px;
+          fill: var(--muted)
+        }
+      }
+    }
+
+    /* ---- Modal do sorteio ---- */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .72);
+      z-index: 100;
+      padding: 20px;
+      overflow-y: auto;
+
+      &.open {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center
+      }
+    }
+
+    .modal {
+      position: relative;
+      background: var(--shade);
+      border-radius: var(--radius);
+      width: 100%;
+      max-width: 760px;
+      margin: auto;
+      padding: 20px;
+
+      & .card {
+        background-color: var(--bg);
+        cursor: pointer;
+
+        &:hover {
+          background: color-mix(in srgb, var(--bg) 88%, #fff)
+        }
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 26px;
+      line-height: 1;
+      cursor: pointer;
+      z-index: 2;
+
+      &:hover {
+        color: var(--txt)
+      }
+    }
+
+    .reroll {
+      margin-top: 16px;
+      padding-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      & h3 {
+        margin: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        color: var(--muted);
+        font-weight: 600
+      }
+    }
+
+    .reroll-selects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+
+      & .fld {
+        margin: 0
+      }
+
+      & select {
+        background-color: var(--bg);
+        margin-top: 5px
+      }
+
+      @media (max-width: 700px) {
+        grid-template-columns: 1fr
+      }
+    }
+
+    .modal-msg {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      padding: 30px 0;
+      line-height: 1.6;
+
+      & .reset {
+        width: auto;
+        display: inline-block;
+        margin-top: 12px;
+        padding: 8px 16px
+      }
     }
   </style>
 </head>
 
 <body>
-  <main>
-    <div class="icons">
-      <img src="assets/oscar.svg" alt="Oscar">
-      <img src="assets/palme-dor.svg" alt="Palma de Ouro">
+  <header>
+    <div class="head-main">
+      <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+          <path
+            d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
+        </svg>film<span>curator</span></h1>
+      <div class="sub">
+        <strong>
+          Escolher um bom filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada.
+        </strong>
+        Filtre pelo seu interesse ou simplesmente sorteie um filme.
+      </div>
     </div>
-    <h1>Film<span class="accent">Festivals</span></h1>
-    <p>Uma timeline navegável dos filmes premiados nos principais festivais de cinema. Sem ranking, sem nota — só as vitórias que importam.</p>
-    <span class="tag">Em construção</span>
-  </main>
+    <button class="favview" id="favView" type="button" aria-disabled="true" aria-pressed="false"
+      aria-label="Ver favoritos" title="Ver favoritos">
+      <svg viewBox="0 -960 960 960" aria-hidden="true">
+        <path
+          d="M480-120l-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-159t157-65q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 65t63 159q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z" />
+      </svg>
+    </button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  </header>
+
+  <div class="layout">
+    <aside class="filters collapsed">
+      <div class="filters-head">
+        <button class="hbtn filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="filtersBody"
+          type="button">
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z" />
+          </svg>
+          <span>Filtros</span>
+        </button>
+        <button class="hbtn" id="shuffle" type="button">
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path
+              d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+          </svg>
+          <span>Sortear filme</span>
+        </button>
+      </div>
+
+      <div class="filters-body" id="filtersBody">
+        <div class="fgroup">
+          <h2>Buscar</h2>
+          <input type="text" id="q" placeholder="Título ou diretor…" autocomplete="off">
+        </div>
+
+        <div class="fgroup">
+          <h2>Lista</h2>
+          <div class="chips" id="listChips"><!-- gerado das fontes em app.js --></div>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="platform">Plataforma (BR)</label>
+          <select id="platform">
+            <option value="">Todas</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="country">País de origem</label>
+          <select id="country">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="director">Diretor</label>
+          <select id="director">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="genre">Gênero</label>
+          <select id="genre">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld">Ano do filme</label>
+          <div class="dualrange">
+            <div class="dr-track"></div>
+            <div class="dr-fill" id="yearFill"></div>
+            <input type="range" id="yearMin" step="1">
+            <input type="range" id="yearMax" step="1">
+          </div>
+          <div class="rangeval" id="yearVal" style="text-align:left">—</div>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld">Duração máxima</label>
+          <div class="range">
+            <input type="range" id="dur" min="80" max="321" value="321" step="1">
+            <span class="rangeval" id="durVal">até 321 min</span>
+          </div>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld"><input type="checkbox" id="onlyStream"> Só com streaming no BR</label>
+        </div>
+
+        <button class="reset" id="reset">Limpar filtros</button>
+      </div>
+    </aside>
+
+    <main>
+      <div class="toolbar">
+        <div class="count"><b id="n">0</b> filmes</div>
+        <div class="sortwrap">
+          <span class="count">Ordenar:</span>
+          <select id="sort">
+            <option value="score">Pontos (soma das listas)</option>
+            <option value="gua">Rank Guardian</option>
+            <option value="nyt">Rank Times</option>
+            <option value="bbc">Rank BBC</option>
+            <option value="yearDesc">Ano (mais recente)</option>
+            <option value="yearAsc">Ano (mais antigo)</option>
+            <option value="titleOrig">Título (A–Z)</option>
+            <option value="durAsc">Duração (menor)</option>
+            <option value="durDesc">Duração (maior)</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <span class="updated" id="updated"></span>
+    <div class="info">
+      Listas curadas: 
+      <a href="https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century" target="_blank"
+        rel="noopener">Guardian</a>,
+      <a href="https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html" target="_blank"
+        rel="noopener">The New York Times</a>,
+      <a href="https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films" target="_blank"
+        rel="noopener">BBC</a>,
+      <a href="https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636" target="_blank"
+        rel="noopener">Rolling Stone</a>,
+      <a href="https://www.filmsite.org/villvoice.html" target="_blank" rel="noopener">Village Voice</a> e
+      <a href="https://www.bfi.org.uk/sight-and-sound/news/sight-sound-presents-greatest-films-all-time" target="_blank"
+        rel="noopener">Sight &amp; Sound</a>.
+      Dados fornecidos pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
+    </div>
+    <span class="cright">© <a href="https://rafaortman.github.io/filmcurator/">Rafael Ortman</a> • 2026</span>
+  </footer>
+
+  <div class="lgpd" id="lgpd" hidden>
+    <span>Usamos cookies do Google Analytics para entender como o site é usado. Ao continuar navegando, você concorda.</span>
+    <button type="button" id="lgpdOk">Entendi</button>
+  </div>
+
+  <div class="modal-overlay" id="shuffleModal">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Filme sorteado">
+      <button class="modal-close" id="shuffleClose" aria-label="Fechar" type="button">&times;</button>
+      <div id="shuffleResult"></div>
+      <div class="reroll">
+        <h3>Sortear outro</h3>
+        <div class="reroll-selects">
+          <label class="fld">Gênero
+            <select id="lockGenre">
+              <option value="">Qualquer</option>
+            </select>
+          </label>
+          <label class="fld">Plataforma
+            <select id="lockPlatform">
+              <option value="">Qualquer</option>
+            </select>
+          </label>
+        </div>
+        <button type="button" class="btn-shuffle block" id="shuffleAgain">
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path
+              d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+          </svg>
+          <span>Sortear de novo</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
