@@ -35,8 +35,13 @@ e demais categorias vencidas pelos filmes que já entraram.
       Empates como linhas separadas; 1968/2020 cancelados omitidos.
       2026 ("Fjord"/Mungiu, 2ª Palma dele) confirmado em Deadline/Screen/IndieWire/Variety.
       Fonte: Wikipedia (Palme d'Or) + trade press. Todos `verificado=N` (falta pass oficial).
-- [ ] Cannes / Direção
-- [ ] Cannes / Roteiro
+- [x] **Cannes / Direção** — `data/raw/cannes_direcao.csv` (70 registros, 62 anos,
+      16 linhas de empate). Anos sem prêmio omitidos. Fonte: Wikipedia. `verificado=N`.
+- [x] **Cannes / Roteiro** — `data/raw/cannes_roteiro.csv` (46 registros, 42 anos,
+      8 linhas de empate). Fonte: Wikipedia. `verificado=N`.
+- [~] Cannes / Atuação (Ator+Atriz) — **adiado de propósito** p/ passada dirigida:
+      é badge (não-portão), só importa pros filmes que passam no portão. Dados brutos
+      já levantados (Wikipedia); montar CSV só p/ os filmes do set final.
 - [ ] Oscar / Filme  (SPARQL Q102427 testado: retorna dados mas precisa dedupe)
 - [ ] Oscar / Direção
 - [ ] Oscar / Roteiro
@@ -44,6 +49,14 @@ e demais categorias vencidas pelos filmes que já entraram.
 - [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
 - [ ] Badges não-portão (atuação + outras categorias dos filmes que entraram)
 - [ ] Verificação contra fontes oficiais (flip verificado=N→S)
+
+## Regra de dedupe (crítica, ao combinar baldes)
+Deduplicar filmes por **título + ano + diretor**, NUNCA só por título. Há colisões
+de título entre obras diferentes — ex.: *Othello* de Orson Welles (Filme, Cannes
+1952) vs. *Othello* soviético de Sergei Yutkevich (Direção, Cannes 1956) são filmes
+distintos. O TMDB também desambigua por ano+diretor. Multi-vitórias do MESMO filme
+(ex.: Barton Fink e Elephant, que ganharam Filme+Direção no mesmo ano) devem
+colapsar num só card com vários registros de vitória.
 
 ## Decisão de método (aberta)
 Cannes-topo foi curado à mão (regras difíceis do Grand Prix). Para o resto, avaliar:
