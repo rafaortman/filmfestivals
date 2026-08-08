@@ -22,8 +22,14 @@
     principal), e sem festival em 1948 e 1950.
 
 ## 3. Portão de inclusão (quais filmes entram no banco)
-- Um filme entra se **venceu Melhor Filme, Direção OU Roteiro** — em **qualquer**
-  dos dois festivais, pelo menos uma vez.
+- **[ATUALIZADO 2026-08-07]** Para **Cannes**, o portão foi ampliado para abraçar a
+  estrutura idiossincrática do festival: um filme entra se venceu **Filme (Palma/Grand
+  Prix), Grande Prêmio (2º lugar), Prêmio do Júri, Direção OU Roteiro**. Isso reverte
+  a regra anterior que excluía o "vice" (ver §7). A assimetria com o Oscar é aceita de
+  propósito (Cannes tem mais níveis de premiação relevantes).
+- Para o **Oscar**, o portão segue **Melhor Filme, Direção OU Roteiro**.
+- Regra geral: um filme entra se passou no portão em **qualquer** dos dois festivais,
+  ao menos uma vez.
 - **Nível do filme** (não por festival): basta 1 vitória de portão em 1 festival
   para o filme entrar. (Reversão de uma decisão intermediária "B" que era por
   festival — a decisão final é nível do filme.)
@@ -90,8 +96,11 @@ via TMDB). Removidos: pontuação e ranking de listas (não existem aqui).
   o rótulo**. Não casar pela string do nome.
   - 1951–1954 e 1964–1974: o topo se chamava **Grand Prix**.
   - 1955–1963 e 1975+: **Palma de Ouro**.
-- **Cuidado:** desde 1967 existe um **Grand Prix que é o VICE** da Palma. Esse
-  prêmio de segundo lugar **nunca conta** — só o prêmio principal do ano.
+- **Cuidado com o nome "Grand Prix":** ele foi o **prêmio máximo** em 1951-54 e
+  1964-74 (entra como categoria **Filme**), mas desde 1967 "Grand Prix" passou a ser
+  o **2º lugar** (vice da Palma). **[ATUALIZADO 2026-08-07]** O vice agora **conta**,
+  como categoria própria **Grande Prêmio (2º)** — não se confunde com o Filme. O que
+  importa é separar corretamente: prêmio máximo do ano → Filme; runner-up → Grande Prêmio.
 - **Empates:** todos os filmes empatados recebem o prêmio (ex.: 1951 e 1952
   tiveram Palma compartilhada). Cada empatado vira um registro de vitória normal.
 

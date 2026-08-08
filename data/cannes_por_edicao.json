@@ -6,6 +6,16 @@
           "titulo": "Fjord"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Minotaur"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Dreamed Adventure"
+        }
+      ],
       "direcao": [
         {
           "titulo": "La bola negra",
@@ -40,6 +50,19 @@
           "titulo": "It Was Just an Accident"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Sentimental Value"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Sirāt"
+        },
+        {
+          "titulo": "Sound of Falling"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The Secret Agent",
@@ -68,6 +91,16 @@
       "filme": [
         {
           "titulo": "Anora"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "All We Imagine as Light"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Emilia Pérez"
         }
       ],
       "direcao": [
@@ -100,6 +133,16 @@
           "titulo": "Anatomy of a Fall"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Zone of Interest"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Fallen Leaves"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The Taste of Things",
@@ -128,6 +171,22 @@
       "filme": [
         {
           "titulo": "Triangle of Sadness"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Close"
+        },
+        {
+          "titulo": "Stars at Noon"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Eight Mountains"
+        },
+        {
+          "titulo": "EO"
         }
       ],
       "direcao": [
@@ -160,6 +219,22 @@
           "titulo": "Titane"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Compartment No. 6"
+        },
+        {
+          "titulo": "A Hero"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Ahed's Knee"
+        },
+        {
+          "titulo": "Memoria"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Annette",
@@ -190,6 +265,19 @@
           "titulo": "Parasite"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Atlantics"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Bacurau"
+        },
+        {
+          "titulo": "Les Misérables"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Young Ahmed",
@@ -218,6 +306,16 @@
       "filme": [
         {
           "titulo": "Shoplifters"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "BlacKkKlansman"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Capernaum"
         }
       ],
       "direcao": [
@@ -253,6 +351,16 @@
           "titulo": "The Square"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "BPM (Beats per Minute)"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Loveless"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The Beguiled",
@@ -284,6 +392,16 @@
       "filme": [
         {
           "titulo": "I, Daniel Blake"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "It's Only the End of the World"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "American Honey"
         }
       ],
       "direcao": [
@@ -320,6 +438,16 @@
           "titulo": "Dheepan"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Son of Saul"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Lobster"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The Assassin",
@@ -354,6 +482,19 @@
           "titulo": "Winter Sleep"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Wonders"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Goodbye to Language"
+        },
+        {
+          "titulo": "Mommy"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Foxcatcher",
@@ -382,6 +523,16 @@
       "filme": [
         {
           "titulo": "Blue Is the Warmest Colour"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Inside Llewyn Davis"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Like Father, Like Son"
         }
       ],
       "direcao": [
@@ -414,6 +565,16 @@
           "titulo": "Amour"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Reality"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Angels' Share"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Post Tenebras Lux",
@@ -444,6 +605,19 @@
           "titulo": "The Tree of Life"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Kid with a Bike"
+        },
+        {
+          "titulo": "Once Upon a Time in Anatolia"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Polisse"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Drive",
@@ -472,6 +646,16 @@
       "filme": [
         {
           "titulo": "Uncle Boonmee Who Can Recall His Past Lives"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Of Gods and Men"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "A Screaming Man"
         }
       ],
       "direcao": [
@@ -508,6 +692,19 @@
           "titulo": "The White Ribbon"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "A Prophet"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Fish Tank"
+        },
+        {
+          "titulo": "Thirst"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Kinatay",
@@ -536,6 +733,16 @@
       "filme": [
         {
           "titulo": "The Class"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Gomorrah"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Il divo"
         }
       ],
       "direcao": [
@@ -568,6 +775,19 @@
           "titulo": "4 Months, 3 Weeks and 2 Days"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Mourning Forest"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Persepolis"
+        },
+        {
+          "titulo": "Silent Light"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The Diving Bell and the Butterfly",
@@ -596,6 +816,16 @@
       "filme": [
         {
           "titulo": "The Wind That Shakes the Barley"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Flanders"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Red Road"
         }
       ],
       "direcao": [
@@ -628,6 +858,16 @@
           "titulo": "L'Enfant"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Broken Flowers"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Shanghai Dreams"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Caché",
@@ -656,6 +896,19 @@
       "filme": [
         {
           "titulo": "Fahrenheit 9/11"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Oldboy"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Ladykillers"
+        },
+        {
+          "titulo": "Tropical Malady"
         }
       ],
       "direcao": [
@@ -688,6 +941,16 @@
           "titulo": "Elephant"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Distant"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "At Five in the Afternoon"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Elephant",
@@ -716,6 +979,16 @@
       "filme": [
         {
           "titulo": "The Pianist"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "The Man Without a Past"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Divine Intervention"
         }
       ],
       "direcao": [
@@ -752,6 +1025,12 @@
           "titulo": "The Son's Room"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Piano Teacher"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "The Man Who Wasn't There",
@@ -786,6 +1065,19 @@
           "titulo": "Dancer in the Dark"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Devils on the Doorstep"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Blackboards"
+        },
+        {
+          "titulo": "Songs from the Second Floor"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Yi Yi",
@@ -814,6 +1106,16 @@
       "filme": [
         {
           "titulo": "Rosetta"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Humanité"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Letter"
         }
       ],
       "direcao": [
@@ -850,6 +1152,19 @@
           "titulo": "Eternity and a Day"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Life Is Beautiful"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Celebration"
+        },
+        {
+          "titulo": "Class Trip"
+        }
+      ],
       "direcao": [
         {
           "titulo": "The General",
@@ -883,6 +1198,16 @@
           "titulo": "Taste of Cherry"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Sweet Hereafter"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Western"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Happy Together",
@@ -911,6 +1236,16 @@
       "filme": [
         {
           "titulo": "Secrets & Lies"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Breaking the Waves"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Crash"
         }
       ],
       "direcao": [
@@ -943,6 +1278,16 @@
           "titulo": "Underground"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Ulysses' Gaze"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Don't Forget You're Going to Die"
+        }
+      ],
       "direcao": [
         {
           "titulo": "La Haine",
@@ -967,6 +1312,19 @@
       "filme": [
         {
           "titulo": "Pulp Fiction"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Burnt by the Sun"
+        },
+        {
+          "titulo": "To Live"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "La Reine Margot"
         }
       ],
       "direcao": [
@@ -1002,6 +1360,19 @@
           "titulo": "The Piano"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Faraway, So Close!"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Puppetmaster"
+        },
+        {
+          "titulo": "Raining Stones"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Naked",
@@ -1026,6 +1397,19 @@
       "filme": [
         {
           "titulo": "The Best Intentions"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "The Stolen Children"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Dream of Light"
+        },
+        {
+          "titulo": "An Independent Life"
         }
       ],
       "direcao": [
@@ -1054,6 +1438,19 @@
           "titulo": "Barton Fink"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "La Belle Noiseuse"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Europa"
+        },
+        {
+          "titulo": "Out of Life"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Barton Fink",
@@ -1078,6 +1475,19 @@
       "filme": [
         {
           "titulo": "Wild at Heart"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "The Sting of Death"
+        },
+        {
+          "titulo": "Tilaï"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Hidden Agenda"
         }
       ],
       "direcao": [
@@ -1106,6 +1516,19 @@
           "titulo": "Sex, Lies, and Videotape"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Cinema Paradiso"
+        },
+        {
+          "titulo": "Too Beautiful for You"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Jesus of Montreal"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Time of the Gypsies",
@@ -1130,6 +1553,16 @@
       "filme": [
         {
           "titulo": "Pelle the Conqueror"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "A World Apart"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "A Short Film About Killing"
         }
       ],
       "direcao": [
@@ -1158,6 +1591,19 @@
           "titulo": "Under the Sun of Satan"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Repentance"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Shinran: Path to Purity"
+        },
+        {
+          "titulo": "Yeelen"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Wings of Desire",
@@ -1182,6 +1628,16 @@
       "filme": [
         {
           "titulo": "The Mission"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "The Sacrifice"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Thérèse"
         }
       ],
       "direcao": [
@@ -1218,6 +1674,16 @@
           "titulo": "When Father Was Away on Business"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Birdy"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Colonel Redl"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Rendez-vous",
@@ -1248,6 +1714,12 @@
           "titulo": "Paris Texas"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Diary for My Children"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "A Sunday in the Country",
@@ -1276,6 +1748,16 @@
       "filme": [
         {
           "titulo": "The Ballad of Narayama"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Monty Python's The Meaning of Life"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Kharij"
         }
       ],
       "direcao": [
@@ -1311,6 +1793,12 @@
           "titulo": "Yol"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Night of the Shooting Stars"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Fitzcarraldo",
@@ -1341,6 +1829,12 @@
           "titulo": "Man of Iron"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Light Years Away"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [],
       "roteiro": [
         {
@@ -1367,6 +1861,16 @@
         },
         {
           "titulo": "Kagemusha"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "My American Uncle"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Constant Factor"
         }
       ],
       "direcao": [],
@@ -1397,6 +1901,12 @@
           "titulo": "The Tin Drum"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Siberiade"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Days of Heaven",
@@ -1423,6 +1933,15 @@
           "titulo": "The Tree of Wooden Clogs"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Bye Bye Monkey"
+        },
+        {
+          "titulo": "The Shout"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Empire of Passion",
@@ -1453,6 +1972,8 @@
           "titulo": "Padre Padrone"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [],
       "direcao": [],
       "roteiro": [],
       "ator": [
@@ -1478,6 +1999,15 @@
           "titulo": "Taxi Driver"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Cría Cuervos"
+        },
+        {
+          "titulo": "The Marquise of O"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Down and Dirty",
@@ -1508,6 +2038,12 @@
           "titulo": "Chronicle of the Years of Fire"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Enigma of Kaspar Hauser"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Orders",
@@ -1538,6 +2074,16 @@
           "titulo": "The Conversation"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Arabian Nights"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "La prima Angélica"
+        }
+      ],
       "direcao": [],
       "roteiro": [
         {
@@ -1566,6 +2112,19 @@
           "titulo": "Scarecrow"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "The Mother and the Whore"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Hourglass Sanatorium"
+        },
+        {
+          "titulo": "The Invitation"
+        }
+      ],
       "direcao": [],
       "roteiro": [],
       "ator": [
@@ -1588,6 +2147,16 @@
         },
         {
           "titulo": "The Working Class Goes to Heaven"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Solaris"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Slaughterhouse-Five"
         }
       ],
       "direcao": [
@@ -1616,6 +2185,22 @@
           "titulo": "The Go-Between"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Johnny Got His Gun"
+        },
+        {
+          "titulo": "Taking Off"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Joe Hill"
+        },
+        {
+          "titulo": "Love"
+        }
+      ],
       "direcao": [],
       "roteiro": [],
       "ator": [
@@ -1635,6 +2220,19 @@
       "filme": [
         {
           "titulo": "MASH"
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Investigation of a Citizen Above Suspicion"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "The Falcons"
+        },
+        {
+          "titulo": "The Strawberry Statement"
         }
       ],
       "direcao": [
@@ -1661,6 +2259,16 @@
       "filme": [
         {
           "titulo": "If...."
+        }
+      ],
+      "grande_premio": [
+        {
+          "titulo": "Ådalen 31"
+        }
+      ],
+      "premio_do_juri": [
+        {
+          "titulo": "Z"
         }
       ],
       "direcao": [
@@ -1693,6 +2301,15 @@
           "titulo": "Blow-up"
         }
       ],
+      "grande_premio": [
+        {
+          "titulo": "Accident"
+        },
+        {
+          "titulo": "I Even Met Happy Gypsies"
+        }
+      ],
+      "premio_do_juri": [],
       "direcao": [
         {
           "titulo": "Ten Thousand Days",
@@ -1729,6 +2346,12 @@
           "titulo": "A Man and a Woman"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Alfie"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Lenin in Poland",
@@ -1753,6 +2376,12 @@
       "filme": [
         {
           "titulo": "The Knack ...and How to Get It"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Kwaidan"
         }
       ],
       "direcao": [
@@ -1788,6 +2417,12 @@
           "titulo": "The Umbrellas of Cherbourg"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Woman in the Dunes"
+        }
+      ],
       "direcao": [],
       "roteiro": [],
       "ator": [
@@ -1817,6 +2452,15 @@
           "titulo": "The Leopard"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "The Cassandra Cat"
+        },
+        {
+          "titulo": "Harakiri"
+        }
+      ],
       "direcao": [],
       "roteiro": [
         {
@@ -1840,6 +2484,15 @@
       "filme": [
         {
           "titulo": "O Pagador de Promessas"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "L'Eclisse"
+        },
+        {
+          "titulo": "The Trial of Joan of Arc"
         }
       ],
       "direcao": [],
@@ -1874,6 +2527,12 @@
           "titulo": "Viridiana"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Mother Joan of the Angels"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Chronicle of Flaming Years",
@@ -1900,6 +2559,15 @@
           "titulo": "La dolce vita"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "L'Avventura"
+        },
+        {
+          "titulo": "Odd Obsession"
+        }
+      ],
       "direcao": [],
       "roteiro": [],
       "ator": [],
@@ -1918,6 +2586,12 @@
       "filme": [
         {
           "titulo": "Black Orpheus"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Stars"
         }
       ],
       "direcao": [
@@ -1944,6 +2618,12 @@
       "filme": [
         {
           "titulo": "The Cranes Are Flying"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Mon Oncle"
         }
       ],
       "direcao": [
@@ -1976,6 +2656,15 @@
           "titulo": "Friendly Persuasion"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Kanał"
+        },
+        {
+          "titulo": "The Seventh Seal"
+        }
+      ],
       "direcao": [
         {
           "titulo": "A Man Escaped",
@@ -2002,6 +2691,12 @@
           "titulo": "The Silent World"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "The Mystery of Picasso"
+        }
+      ],
       "direcao": [
         {
           "titulo": "Othello",
@@ -2021,6 +2716,12 @@
       "filme": [
         {
           "titulo": "Marty"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Lost Continent"
         }
       ],
       "direcao": [
@@ -2057,6 +2758,12 @@
           "titulo": "Gate of Hell"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "Knave of Hearts"
+        }
+      ],
       "direcao": [],
       "roteiro": [],
       "ator": [],
@@ -2068,6 +2775,8 @@
           "titulo": "The Wages of Fear"
         }
       ],
+      "grande_premio": [],
+      "premio_do_juri": [],
       "direcao": [],
       "roteiro": [],
       "ator": [],
@@ -2080,6 +2789,12 @@
         },
         {
           "titulo": "Two Cents Worth of Hope"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "We Are All Murderers"
         }
       ],
       "direcao": [
@@ -2113,6 +2828,12 @@
         },
         {
           "titulo": "Miss Julie"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [
+        {
+          "titulo": "All About Eve"
         }
       ],
       "direcao": [

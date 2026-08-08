@@ -29,8 +29,13 @@ Badges não-portão (coletar depois de fechar o set): atuação (com nome do pre
 e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
-- **DATASET DE CANNES COMPLETO** (2026-08-07): 5 baldes, 358 registros de vitória,
-  ~330 pares (título, ano) distintos. Falta só a verificação oficial (verificado=N→S).
+- **DATASET DE CANNES COMPLETO** (2026-08-07): **7 baldes, 509 registros**, 471 pares
+  (título, ano) distintos. Falta só a verificação oficial (verificado=N→S).
+  Baldes: Filme(85), Grande Prêmio 2º(67), Prêmio do Júri(84), Direção(70),
+  Roteiro(46), Ator(75), Atriz(82).
+  **Portão de Cannes AMPLIADO** (ver ESCOPO §3): Filme + Grande Prêmio + Prêmio do
+  Júri + Direção + Roteiro entram como critério de inclusão. Ator/Atriz = badge.
+  Gerar views: `python3 scripts/build_views.py [saida.html]`.
 - [x] Ambiente validado: internet OK, TMDB key OK.
 - [x] **Cannes / Filme** — `data/raw/cannes_filme.csv` (85 registros, 1951–2026;
       74 anos vencedores + 11 empates).
