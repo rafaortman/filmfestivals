@@ -1,0 +1,2073 @@
+{
+  "cannes": {
+    "2026": {
+      "filme": [
+        {
+          "titulo": "Fjord"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "La bola negra"
+        },
+        {
+          "titulo": "Fatherland"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Man of His Time"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Coward",
+          "premiado": "Emmanuel Macchia; Valentin Campagne"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "All of a Sudden",
+          "premiado": "Tao Okamoto; Virginie Efira"
+        }
+      ]
+    },
+    "2025": {
+      "filme": [
+        {
+          "titulo": "It Was Just an Accident"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Secret Agent"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Young Mothers"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Secret Agent",
+          "premiado": "Wagner Moura"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Little Sister",
+          "premiado": "Nadia Melliti"
+        }
+      ]
+    },
+    "2024": {
+      "filme": [
+        {
+          "titulo": "Anora"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Grand Tour"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Substance"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Kinds of Kindness",
+          "premiado": "Jesse Plemons"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Emilia Pérez",
+          "premiado": "Karla Sofía Gascón; Selena Gomez; Adriana Paz; Zoe Saldaña"
+        }
+      ]
+    },
+    "2023": {
+      "filme": [
+        {
+          "titulo": "Anatomy of a Fall"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Taste of Things"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Monster"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Perfect Days",
+          "premiado": "Koji Yakusho"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "About Dry Grasses",
+          "premiado": "Merve Dizdar"
+        }
+      ]
+    },
+    "2022": {
+      "filme": [
+        {
+          "titulo": "Triangle of Sadness"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Decision to Leave"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Boy from Heaven"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Broker",
+          "premiado": "Song Kang-ho"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Holy Spider",
+          "premiado": "Zar Amir Ebrahimi"
+        }
+      ]
+    },
+    "2021": {
+      "filme": [
+        {
+          "titulo": "Titane"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Annette"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Drive My Car"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Nitram",
+          "premiado": "Caleb Landry Jones"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Worst Person in the World",
+          "premiado": "Renate Reinsve"
+        }
+      ]
+    },
+    "2019": {
+      "filme": [
+        {
+          "titulo": "Parasite"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Young Ahmed"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Portrait of a Lady on Fire"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Pain and Glory",
+          "premiado": "Antonio Banderas"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Little Joe",
+          "premiado": "Emily Beecham"
+        }
+      ]
+    },
+    "2018": {
+      "filme": [
+        {
+          "titulo": "Shoplifters"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Cold War"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "3 Faces"
+        },
+        {
+          "titulo": "Happy as Lazzaro"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Dogman",
+          "premiado": "Marcello Fonte"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Ayka",
+          "premiado": "Samal Yeslyamova"
+        }
+      ]
+    },
+    "2017": {
+      "filme": [
+        {
+          "titulo": "The Square"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Beguiled"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Killing of a Sacred Deer"
+        },
+        {
+          "titulo": "You Were Never Really Here"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "You Were Never Really Here",
+          "premiado": "Joaquin Phoenix"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "In the Fade",
+          "premiado": "Diane Kruger"
+        }
+      ]
+    },
+    "2016": {
+      "filme": [
+        {
+          "titulo": "I, Daniel Blake"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Personal Shopper"
+        },
+        {
+          "titulo": "Graduation"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Salesman"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Salesman",
+          "premiado": "Shahab Hosseini"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Ma' Rosa",
+          "premiado": "Jaclyn Jose"
+        }
+      ]
+    },
+    "2015": {
+      "filme": [
+        {
+          "titulo": "Dheepan"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Assassin"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Chronic"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Measure of a Man",
+          "premiado": "Vincent Lindon"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "My King",
+          "premiado": "Emmanuelle Bercot"
+        },
+        {
+          "titulo": "Carol",
+          "premiado": "Rooney Mara"
+        }
+      ]
+    },
+    "2014": {
+      "filme": [
+        {
+          "titulo": "Winter Sleep"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Foxcatcher"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Leviathan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Mr. Turner",
+          "premiado": "Timothy Spall"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Maps to the Stars",
+          "premiado": "Julianne Moore"
+        }
+      ]
+    },
+    "2013": {
+      "filme": [
+        {
+          "titulo": "Blue Is the Warmest Colour"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Heli"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Touch of Sin"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Nebraska",
+          "premiado": "Bruce Dern"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Past",
+          "premiado": "Bérénice Bejo"
+        }
+      ]
+    },
+    "2012": {
+      "filme": [
+        {
+          "titulo": "Amour"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Post Tenebras Lux"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Beyond the Hills"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Hunt",
+          "premiado": "Mads Mikkelsen"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Beyond the Hills",
+          "premiado": "Cristina Flutur; Cosmina Stratan"
+        }
+      ]
+    },
+    "2011": {
+      "filme": [
+        {
+          "titulo": "The Tree of Life"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Drive"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Footnote"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Artist",
+          "premiado": "Jean Dujardin"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Melancholia",
+          "premiado": "Kirsten Dunst"
+        }
+      ]
+    },
+    "2010": {
+      "filme": [
+        {
+          "titulo": "Uncle Boonmee Who Can Recall His Past Lives"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "On Tour"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Poetry"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Biutiful",
+          "premiado": "Javier Bardem"
+        },
+        {
+          "titulo": "La nostra vita",
+          "premiado": "Elio Germano"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Certified Copy",
+          "premiado": "Juliette Binoche"
+        }
+      ]
+    },
+    "2009": {
+      "filme": [
+        {
+          "titulo": "The White Ribbon"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Kinatay"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Spring Fever"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Inglourious Basterds",
+          "premiado": "Christoph Waltz"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Antichrist",
+          "premiado": "Charlotte Gainsbourg"
+        }
+      ]
+    },
+    "2008": {
+      "filme": [
+        {
+          "titulo": "The Class"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Three Monkeys"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Lorna's Silence"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Che",
+          "premiado": "Benicio del Toro"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Linha de Passe",
+          "premiado": "Sandra Corveloni"
+        }
+      ]
+    },
+    "2007": {
+      "filme": [
+        {
+          "titulo": "4 Months, 3 Weeks and 2 Days"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Diving Bell and the Butterfly"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Edge of Heaven"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Banishment",
+          "premiado": "Konstantin Lavronenko"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Secret Sunshine",
+          "premiado": "Jeon Do-yeon"
+        }
+      ]
+    },
+    "2006": {
+      "filme": [
+        {
+          "titulo": "The Wind That Shakes the Barley"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Babel"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Volver"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Days of Glory",
+          "premiado": "elenco (Roschdy Zem et al.)"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Volver",
+          "premiado": "Penélope Cruz; Carmen Maura; Lola Dueñas; Blanca Portillo; Yohana Cobo; Chus Lampreave"
+        }
+      ]
+    },
+    "2005": {
+      "filme": [
+        {
+          "titulo": "L'Enfant"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Caché"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Three Burials of Melquiades Estrada"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Three Burials of Melquiades Estrada",
+          "premiado": "Tommy Lee Jones"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Free Zone",
+          "premiado": "Hanna Laslo"
+        }
+      ]
+    },
+    "2004": {
+      "filme": [
+        {
+          "titulo": "Fahrenheit 9/11"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Exils"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Look at Me"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Nobody Knows",
+          "premiado": "Yūya Yagira"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Clean",
+          "premiado": "Maggie Cheung"
+        }
+      ]
+    },
+    "2003": {
+      "filme": [
+        {
+          "titulo": "Elephant"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Elephant"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Barbarian Invasions"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Distant",
+          "premiado": "Muzaffer Özdemir; Mehmet Emin Toprak"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Barbarian Invasions",
+          "premiado": "Marie-Josée Croze"
+        }
+      ]
+    },
+    "2002": {
+      "filme": [
+        {
+          "titulo": "The Pianist"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Punch-Drunk Love"
+        },
+        {
+          "titulo": "Chi-hwa-seon"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Sweet Sixteen"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Son",
+          "premiado": "Olivier Gourmet"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Man Without a Past",
+          "premiado": "Kati Outinen"
+        }
+      ]
+    },
+    "2001": {
+      "filme": [
+        {
+          "titulo": "The Son's Room"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Man Who Wasn't There"
+        },
+        {
+          "titulo": "Mulholland Drive"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "No Man's Land"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Piano Teacher",
+          "premiado": "Benoît Magimel"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Piano Teacher",
+          "premiado": "Isabelle Huppert"
+        }
+      ]
+    },
+    "2000": {
+      "filme": [
+        {
+          "titulo": "Dancer in the Dark"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Yi Yi"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Nurse Betty"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "In the Mood for Love",
+          "premiado": "Tony Leung Chiu-wai"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Dancer in the Dark",
+          "premiado": "Björk"
+        }
+      ]
+    },
+    "1999": {
+      "filme": [
+        {
+          "titulo": "Rosetta"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "All About My Mother"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Moloch"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Humanité",
+          "premiado": "Emmanuel Schotté"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Humanité",
+          "premiado": "Séverine Caneele"
+        },
+        {
+          "titulo": "Rosetta",
+          "premiado": "Émilie Dequenne"
+        }
+      ]
+    },
+    "1998": {
+      "filme": [
+        {
+          "titulo": "Eternity and a Day"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The General"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Henry Fool"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "My Name Is Joe",
+          "premiado": "Peter Mullan"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Dreamlife of Angels",
+          "premiado": "Élodie Bouchez; Natacha Régnier"
+        }
+      ]
+    },
+    "1997": {
+      "filme": [
+        {
+          "titulo": "The Eel"
+        },
+        {
+          "titulo": "Taste of Cherry"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Happy Together"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Ice Storm"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "She's So Lovely",
+          "premiado": "Sean Penn"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Nil by Mouth",
+          "premiado": "Kathy Burke"
+        }
+      ]
+    },
+    "1996": {
+      "filme": [
+        {
+          "titulo": "Secrets & Lies"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Fargo"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Self Made Hero"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Eighth Day",
+          "premiado": "Daniel Auteuil; Pascal Duquenne"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Secrets & Lies",
+          "premiado": "Brenda Blethyn"
+        }
+      ]
+    },
+    "1995": {
+      "filme": [
+        {
+          "titulo": "Underground"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "La Haine"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Carrington",
+          "premiado": "Jonathan Pryce"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Madness of King George",
+          "premiado": "Helen Mirren"
+        }
+      ]
+    },
+    "1994": {
+      "filme": [
+        {
+          "titulo": "Pulp Fiction"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Caro diario"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Grosse fatigue"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "To Live",
+          "premiado": "Ge You"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "La Reine Margot",
+          "premiado": "Virna Lisi"
+        }
+      ]
+    },
+    "1993": {
+      "filme": [
+        {
+          "titulo": "Farewell My Concubine"
+        },
+        {
+          "titulo": "The Piano"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Naked"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Naked",
+          "premiado": "David Thewlis"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Piano",
+          "premiado": "Holly Hunter"
+        }
+      ]
+    },
+    "1992": {
+      "filme": [
+        {
+          "titulo": "The Best Intentions"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The Player"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "The Player",
+          "premiado": "Tim Robbins"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Best Intentions",
+          "premiado": "Pernilla August"
+        }
+      ]
+    },
+    "1991": {
+      "filme": [
+        {
+          "titulo": "Barton Fink"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Barton Fink"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Barton Fink",
+          "premiado": "John Turturro"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Double Life of Veronique",
+          "premiado": "Irène Jacob"
+        }
+      ]
+    },
+    "1990": {
+      "filme": [
+        {
+          "titulo": "Wild at Heart"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Taxi Blues"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Cyrano de Bergerac",
+          "premiado": "Gérard Depardieu"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Interrogation",
+          "premiado": "Krystyna Janda"
+        }
+      ]
+    },
+    "1989": {
+      "filme": [
+        {
+          "titulo": "Sex, Lies, and Videotape"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Time of the Gypsies"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Sex, Lies, and Videotape",
+          "premiado": "James Spader"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A Cry in the Dark",
+          "premiado": "Meryl Streep"
+        }
+      ]
+    },
+    "1988": {
+      "filme": [
+        {
+          "titulo": "Pelle the Conqueror"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Sur"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Bird",
+          "premiado": "Forest Whitaker"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A World Apart",
+          "premiado": "Barbara Hershey; Jodhi May; Linda Mvusi"
+        }
+      ]
+    },
+    "1987": {
+      "filme": [
+        {
+          "titulo": "Under the Sun of Satan"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Wings of Desire"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Dark Eyes",
+          "premiado": "Marcello Mastroianni"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Shy People",
+          "premiado": "Barbara Hershey"
+        }
+      ]
+    },
+    "1986": {
+      "filme": [
+        {
+          "titulo": "The Mission"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "After Hours"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Ménage",
+          "premiado": "Michel Blanc"
+        },
+        {
+          "titulo": "Mona Lisa",
+          "premiado": "Bob Hoskins"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Rosa Luxemburg",
+          "premiado": "Barbara Sukowa"
+        },
+        {
+          "titulo": "Love Me Forever or Never",
+          "premiado": "Fernanda Torres"
+        }
+      ]
+    },
+    "1985": {
+      "filme": [
+        {
+          "titulo": "When Father Was Away on Business"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Rendez-vous"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Kiss of the Spider Woman",
+          "premiado": "William Hurt"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Official Story",
+          "premiado": "Norma Aleandro"
+        },
+        {
+          "titulo": "Mask",
+          "premiado": "Cher"
+        }
+      ]
+    },
+    "1984": {
+      "filme": [
+        {
+          "titulo": "Paris Texas"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "A Sunday in the Country"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Voyage to Cythera"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Holy Innocents",
+          "premiado": "Alfredo Landa; Francisco Rabal"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Cal",
+          "premiado": "Helen Mirren"
+        }
+      ]
+    },
+    "1983": {
+      "filme": [
+        {
+          "titulo": "The Ballad of Narayama"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "L'Argent"
+        },
+        {
+          "titulo": "Nostalghia"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "The Death of Mario Ricci",
+          "premiado": "Gian Maria Volonté"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Story of Piera",
+          "premiado": "Hanna Schygulla"
+        }
+      ]
+    },
+    "1982": {
+      "filme": [
+        {
+          "titulo": "Missing"
+        },
+        {
+          "titulo": "Yol"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Fitzcarraldo"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Moonlighting"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Missing",
+          "premiado": "Jack Lemmon"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Another Way",
+          "premiado": "Jadwiga Jankowska-Cieślak"
+        }
+      ]
+    },
+    "1981": {
+      "filme": [
+        {
+          "titulo": "Man of Iron"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [
+        {
+          "titulo": "Mephisto"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Tragedy of a Ridiculous Man",
+          "premiado": "Ugo Tognazzi"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Possession",
+          "premiado": "Isabelle Adjani"
+        }
+      ]
+    },
+    "1980": {
+      "filme": [
+        {
+          "titulo": "All That Jazz"
+        },
+        {
+          "titulo": "Kagemusha"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [
+        {
+          "titulo": "La Terrazza"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "A Leap in the Dark",
+          "premiado": "Michel Piccoli"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A Leap in the Dark",
+          "premiado": "Anouk Aimée"
+        }
+      ]
+    },
+    "1979": {
+      "filme": [
+        {
+          "titulo": "Apocalypse Now"
+        },
+        {
+          "titulo": "The Tin Drum"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Days of Heaven"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "The China Syndrome",
+          "premiado": "Jack Lemmon"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Norma Rae",
+          "premiado": "Sally Field"
+        }
+      ]
+    },
+    "1978": {
+      "filme": [
+        {
+          "titulo": "The Tree of Wooden Clogs"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Empire of Passion"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Coming Home",
+          "premiado": "Jon Voight"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "An Unmarried Woman",
+          "premiado": "Jill Clayburgh"
+        },
+        {
+          "titulo": "Violette Nozière",
+          "premiado": "Isabelle Huppert"
+        }
+      ]
+    },
+    "1977": {
+      "filme": [
+        {
+          "titulo": "Padre Padrone"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Elisa, My Life",
+          "premiado": "Fernando Rey"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "3 Women",
+          "premiado": "Shelley Duvall"
+        },
+        {
+          "titulo": "J.A. Martin Photographer",
+          "premiado": "Monique Mercure"
+        }
+      ]
+    },
+    "1976": {
+      "filme": [
+        {
+          "titulo": "Taxi Driver"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Down and Dirty"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Pascual Duarte",
+          "premiado": "José Luis Gómez"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Inheritance",
+          "premiado": "Dominique Sanda"
+        },
+        {
+          "titulo": "Mrs. Dery Where Are You?",
+          "premiado": "Mari Törőcsik"
+        }
+      ]
+    },
+    "1975": {
+      "filme": [
+        {
+          "titulo": "Chronicle of the Years of Fire"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Orders"
+        },
+        {
+          "titulo": "Special Section"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Scent of a Woman",
+          "premiado": "Vittorio Gassman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Lenny",
+          "premiado": "Valérie Perrine"
+        }
+      ]
+    },
+    "1974": {
+      "filme": [
+        {
+          "titulo": "The Conversation"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [
+        {
+          "titulo": "The Sugarland Express"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Last Detail",
+          "premiado": "Jack Nicholson"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Violins at the Ball",
+          "premiado": "Marie-José Nat"
+        }
+      ]
+    },
+    "1973": {
+      "filme": [
+        {
+          "titulo": "The Hireling"
+        },
+        {
+          "titulo": "Scarecrow"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Love and Anarchy",
+          "premiado": "Giancarlo Giannini"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Effect of Gamma Rays on Man-in-the-Moon Marigolds",
+          "premiado": "Joanne Woodward"
+        }
+      ]
+    },
+    "1972": {
+      "filme": [
+        {
+          "titulo": "The Mattei Affair"
+        },
+        {
+          "titulo": "The Working Class Goes to Heaven"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Red Psalm"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "We Won't Grow Old Together",
+          "premiado": "Jean Yanne"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Images",
+          "premiado": "Susannah York"
+        }
+      ]
+    },
+    "1971": {
+      "filme": [
+        {
+          "titulo": "The Go-Between"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Sacco & Vanzetti",
+          "premiado": "Riccardo Cucciolla"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Panic in Needle Park",
+          "premiado": "Kitty Winn"
+        }
+      ]
+    },
+    "1970": {
+      "filme": [
+        {
+          "titulo": "MASH"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Leo the Last"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "The Pizza Triangle",
+          "premiado": "Marcello Mastroianni"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Metello",
+          "premiado": "Ottavia Piccolo"
+        }
+      ]
+    },
+    "1969": {
+      "filme": [
+        {
+          "titulo": "If...."
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Antonio das Mortes"
+        },
+        {
+          "titulo": "All My Compatriots"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Z",
+          "premiado": "Jean-Louis Trintignant"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Isadora",
+          "premiado": "Vanessa Redgrave"
+        }
+      ]
+    },
+    "1967": {
+      "filme": [
+        {
+          "titulo": "Blow-up"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Ten Thousand Days"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Killing Game"
+        },
+        {
+          "titulo": "We Still Kill the Old Way"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Three Days and a Child",
+          "premiado": "Oded Kotler"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Elvira Madigan",
+          "premiado": "Pia Degermark"
+        }
+      ]
+    },
+    "1966": {
+      "filme": [
+        {
+          "titulo": "The Birds the Bees and the Italians"
+        },
+        {
+          "titulo": "A Man and a Woman"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Lenin in Poland"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Hunger",
+          "premiado": "Per Oscarsson"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Morgan – A Suitable Case for Treatment",
+          "premiado": "Vanessa Redgrave"
+        }
+      ]
+    },
+    "1965": {
+      "filme": [
+        {
+          "titulo": "The Knack ...and How to Get It"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Forest of the Hanged"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Hill"
+        },
+        {
+          "titulo": "The 317th Platoon"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Collector",
+          "premiado": "Terence Stamp"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Collector",
+          "premiado": "Samantha Eggar"
+        }
+      ]
+    },
+    "1964": {
+      "filme": [
+        {
+          "titulo": "The Umbrellas of Cherbourg"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Seduced and Abandoned",
+          "premiado": "Saro Urzì"
+        },
+        {
+          "titulo": "Skylark",
+          "premiado": "Antal Páger"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Pumpkin Eater",
+          "premiado": "Anne Bancroft"
+        },
+        {
+          "titulo": "One Potato, Two Potato",
+          "premiado": "Barbara Barrie"
+        }
+      ]
+    },
+    "1963": {
+      "filme": [
+        {
+          "titulo": "The Leopard"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [
+        {
+          "titulo": "Codine"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "This Sporting Life",
+          "premiado": "Richard Harris"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Conjugal Bed",
+          "premiado": "Marina Vlady"
+        }
+      ]
+    },
+    "1962": {
+      "filme": [
+        {
+          "titulo": "O Pagador de Promessas"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "A Taste of Honey",
+          "premiado": "Murray Melvin"
+        },
+        {
+          "titulo": "Long Day's Journey into Night",
+          "premiado": "Ralph Richardson; Jason Robards; Dean Stockwell"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Long Day's Journey into Night",
+          "premiado": "Katharine Hepburn"
+        },
+        {
+          "titulo": "A Taste of Honey",
+          "premiado": "Rita Tushingham"
+        }
+      ]
+    },
+    "1961": {
+      "filme": [
+        {
+          "titulo": "The Long Absence"
+        },
+        {
+          "titulo": "Viridiana"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Chronicle of Flaming Years"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Goodbye Again",
+          "premiado": "Anthony Perkins"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Two Women",
+          "premiado": "Sophia Loren"
+        }
+      ]
+    },
+    "1960": {
+      "filme": [
+        {
+          "titulo": "La dolce vita"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [],
+      "atriz": [
+        {
+          "titulo": "Never on Sunday",
+          "premiado": "Melina Mercouri"
+        },
+        {
+          "titulo": "Seven Days... Seven Nights",
+          "premiado": "Jeanne Moreau"
+        }
+      ]
+    },
+    "1959": {
+      "filme": [
+        {
+          "titulo": "Black Orpheus"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "The 400 Blows"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Compulsion",
+          "premiado": "Bradford Dillman; Dean Stockwell; Orson Welles"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Room at the Top",
+          "premiado": "Simone Signoret"
+        }
+      ]
+    },
+    "1958": {
+      "filme": [
+        {
+          "titulo": "The Cranes Are Flying"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Brink of Life"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Young Husbands"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Long Hot Summer",
+          "premiado": "Paul Newman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Brink of Life",
+          "premiado": "Bibi Andersson; Eva Dahlbeck; Barbro Hiort af Ornäs; Ingrid Thulin"
+        }
+      ]
+    },
+    "1957": {
+      "filme": [
+        {
+          "titulo": "Friendly Persuasion"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "A Man Escaped"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Valley of Peace",
+          "premiado": "John Kitzmiller"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Nights of Cabiria",
+          "premiado": "Giulietta Masina"
+        }
+      ]
+    },
+    "1956": {
+      "filme": [
+        {
+          "titulo": "The Silent World"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Othello"
+        }
+      ],
+      "roteiro": [],
+      "ator": [],
+      "atriz": [
+        {
+          "titulo": "I'll Cry Tomorrow",
+          "premiado": "Susan Hayward"
+        }
+      ]
+    },
+    "1955": {
+      "filme": [
+        {
+          "titulo": "Marty"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Rififi"
+        },
+        {
+          "titulo": "Heroes of Shipka"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Bad Day at Black Rock",
+          "premiado": "Spencer Tracy"
+        },
+        {
+          "titulo": "A Big Family",
+          "premiado": "elenco masculino (A Big Family)"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A Big Family",
+          "premiado": "elenco feminino (A Big Family)"
+        }
+      ]
+    },
+    "1954": {
+      "filme": [
+        {
+          "titulo": "Gate of Hell"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [],
+      "atriz": []
+    },
+    "1953": {
+      "filme": [
+        {
+          "titulo": "The Wages of Fear"
+        }
+      ],
+      "direcao": [],
+      "roteiro": [],
+      "ator": [],
+      "atriz": []
+    },
+    "1952": {
+      "filme": [
+        {
+          "titulo": "Othello"
+        },
+        {
+          "titulo": "Two Cents Worth of Hope"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Fanfan la Tulipe"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Cops and Robbers"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Viva Zapata!",
+          "premiado": "Marlon Brando"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Detective Story",
+          "premiado": "Lee Grant"
+        }
+      ]
+    },
+    "1951": {
+      "filme": [
+        {
+          "titulo": "Miracle in Milan"
+        },
+        {
+          "titulo": "Miss Julie"
+        }
+      ],
+      "direcao": [
+        {
+          "titulo": "Los Olvidados"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Browning Version"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Browning Version",
+          "premiado": "Michael Redgrave"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "All About Eve",
+          "premiado": "Bette Davis"
+        }
+      ]
+    }
+  }
+}
