@@ -28,7 +28,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "A Man of His Time"
+          "titulo": "A Man of His Time",
+          "premiado": "Emmanuel Marre"
         }
       ],
       "ator": [
@@ -71,7 +72,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Young Mothers"
+          "titulo": "Young Mothers",
+          "premiado": "Jean-Pierre & Luc Dardenne"
         }
       ],
       "ator": [
@@ -111,7 +113,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Substance"
+          "titulo": "The Substance",
+          "premiado": "Coralie Fargeat"
         }
       ],
       "ator": [
@@ -151,7 +154,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Monster"
+          "titulo": "Monster",
+          "premiado": "Yuji Sakamoto"
         }
       ],
       "ator": [
@@ -197,7 +201,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Boy from Heaven"
+          "titulo": "Boy from Heaven",
+          "premiado": "Tarik Saleh"
         }
       ],
       "ator": [
@@ -243,7 +248,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Drive My Car"
+          "titulo": "Drive My Car",
+          "premiado": "Ryusuke Hamaguchi; Takamasa Oe"
         }
       ],
       "ator": [
@@ -286,7 +292,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Portrait of a Lady on Fire"
+          "titulo": "Portrait of a Lady on Fire",
+          "premiado": "Céline Sciamma"
         }
       ],
       "ator": [
@@ -326,10 +333,12 @@
       ],
       "roteiro": [
         {
-          "titulo": "3 Faces"
+          "titulo": "3 Faces",
+          "premiado": "Jafar Panahi; Nader Saeivar"
         },
         {
-          "titulo": "Happy as Lazzaro"
+          "titulo": "Happy as Lazzaro",
+          "premiado": "Alice Rohrwacher"
         }
       ],
       "ator": [
@@ -369,10 +378,12 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Killing of a Sacred Deer"
+          "titulo": "The Killing of a Sacred Deer",
+          "premiado": "Yorgos Lanthimos; Efthymis Filippou"
         },
         {
-          "titulo": "You Were Never Really Here"
+          "titulo": "You Were Never Really Here",
+          "premiado": "Lynne Ramsay"
         }
       ],
       "ator": [
@@ -416,7 +427,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Salesman"
+          "titulo": "The Salesman",
+          "premiado": "Asghar Farhadi"
         }
       ],
       "ator": [
@@ -456,7 +468,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Chronic"
+          "titulo": "Chronic",
+          "premiado": "Michel Franco"
         }
       ],
       "ator": [
@@ -503,7 +516,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Leviathan"
+          "titulo": "Leviathan",
+          "premiado": "Andrey Zvyagintsev; Oleg Negin"
         }
       ],
       "ator": [
@@ -543,7 +557,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "A Touch of Sin"
+          "titulo": "A Touch of Sin",
+          "premiado": "Jia Zhangke"
         }
       ],
       "ator": [
@@ -583,7 +598,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Beyond the Hills"
+          "titulo": "Beyond the Hills",
+          "premiado": "Cristian Mungiu; Tatiana Niculescu Bran"
         }
       ],
       "ator": [
@@ -626,7 +642,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Footnote"
+          "titulo": "Footnote",
+          "premiado": "Joseph Cedar"
         }
       ],
       "ator": [
@@ -666,7 +683,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Poetry"
+          "titulo": "Poetry",
+          "premiado": "Lee Chang-dong"
         }
       ],
       "ator": [
@@ -713,7 +731,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Spring Fever"
+          "titulo": "Spring Fever",
+          "premiado": "Mei Feng"
         }
       ],
       "ator": [
@@ -753,7 +772,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Lorna's Silence"
+          "titulo": "Lorna's Silence",
+          "premiado": "Jean-Pierre & Luc Dardenne"
         }
       ],
       "ator": [
@@ -796,7 +816,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Edge of Heaven"
+          "titulo": "The Edge of Heaven",
+          "premiado": "Fatih Akin"
         }
       ],
       "ator": [
@@ -836,7 +857,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Volver"
+          "titulo": "Volver",
+          "premiado": "Pedro Almodóvar"
         }
       ],
       "ator": [
@@ -876,7 +898,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Three Burials of Melquiades Estrada"
+          "titulo": "The Three Burials of Melquiades Estrada",
+          "premiado": "Guillermo Arriaga"
         }
       ],
       "ator": [
@@ -919,7 +942,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Look at Me"
+          "titulo": "Look at Me",
+          "premiado": "Agnès Jaoui; Jean-Pierre Bacri"
         }
       ],
       "ator": [
@@ -959,7 +983,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Barbarian Invasions"
+          "titulo": "The Barbarian Invasions",
+          "premiado": "Denys Arcand"
         }
       ],
       "ator": [
@@ -1003,7 +1028,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Sweet Sixteen"
+          "titulo": "Sweet Sixteen",
+          "premiado": "Paul Laverty"
         }
       ],
       "ator": [
@@ -1043,7 +1069,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "No Man's Land"
+          "titulo": "No Man's Land",
+          "premiado": "Danis Tanović"
         }
       ],
       "ator": [
@@ -1086,7 +1113,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Nurse Betty"
+          "titulo": "Nurse Betty",
+          "premiado": "James Flamberg; John C. Richards"
         }
       ],
       "ator": [
@@ -1126,7 +1154,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Moloch"
+          "titulo": "Moloch",
+          "premiado": "Yuri Arabov"
         }
       ],
       "ator": [
@@ -1173,7 +1202,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Henry Fool"
+          "titulo": "Henry Fool",
+          "premiado": "Hal Hartley"
         }
       ],
       "ator": [
@@ -1216,7 +1246,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Ice Storm"
+          "titulo": "The Ice Storm",
+          "premiado": "James Schamus"
         }
       ],
       "ator": [
@@ -1256,7 +1287,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "A Self Made Hero"
+          "titulo": "A Self Made Hero",
+          "premiado": "Jacques Audiard; Alain Le Henry"
         }
       ],
       "ator": [
@@ -1335,7 +1367,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Grosse fatigue"
+          "titulo": "Grosse fatigue",
+          "premiado": "Michel Blanc"
         }
       ],
       "ator": [
@@ -1728,7 +1761,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Voyage to Cythera"
+          "titulo": "Voyage to Cythera",
+          "premiado": "Thanassis Valtinos; Theo Angelopoulos; Tonino Guerra"
         }
       ],
       "ator": [
@@ -1807,7 +1841,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Moonlighting"
+          "titulo": "Moonlighting",
+          "premiado": "Jerzy Skolimowski"
         }
       ],
       "ator": [
@@ -1838,7 +1873,8 @@
       "direcao": [],
       "roteiro": [
         {
-          "titulo": "Mephisto"
+          "titulo": "Mephisto",
+          "premiado": "István Szabó"
         }
       ],
       "ator": [
@@ -1876,7 +1912,8 @@
       "direcao": [],
       "roteiro": [
         {
-          "titulo": "La Terrazza"
+          "titulo": "La Terrazza",
+          "premiado": "Furio Scarpelli; Agenore Incrocci; Ettore Scola"
         }
       ],
       "ator": [
@@ -2087,7 +2124,8 @@
       "direcao": [],
       "roteiro": [
         {
-          "titulo": "The Sugarland Express"
+          "titulo": "The Sugarland Express",
+          "premiado": "Steven Spielberg; Hal Barwood; Matthew Robbins"
         }
       ],
       "ator": [
@@ -2318,10 +2356,12 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Killing Game"
+          "titulo": "The Killing Game",
+          "premiado": "Alain Jessua"
         },
         {
-          "titulo": "We Still Kill the Old Way"
+          "titulo": "We Still Kill the Old Way",
+          "premiado": "Elio Petri"
         }
       ],
       "ator": [
@@ -2392,10 +2432,12 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Hill"
+          "titulo": "The Hill",
+          "premiado": "Ray Rigby"
         },
         {
-          "titulo": "The 317th Platoon"
+          "titulo": "The 317th Platoon",
+          "premiado": "Pierre Schoendoerffer"
         }
       ],
       "ator": [
@@ -2464,7 +2506,8 @@
       "direcao": [],
       "roteiro": [
         {
-          "titulo": "Codine"
+          "titulo": "Codine",
+          "premiado": "Dumitru Carabat; Henri Colpi; Yves Jamiaque"
         }
       ],
       "ator": [
@@ -2634,7 +2677,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Young Husbands"
+          "titulo": "Young Husbands",
+          "premiado": "Pier Paolo Pasolini; Massimo Franciosa; Pasquale Festa Campanile"
         }
       ],
       "ator": [
@@ -2805,7 +2849,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "Cops and Robbers"
+          "titulo": "Cops and Robbers",
+          "premiado": "Piero Tellini"
         }
       ],
       "ator": [
@@ -2844,7 +2889,8 @@
       ],
       "roteiro": [
         {
-          "titulo": "The Browning Version"
+          "titulo": "The Browning Version",
+          "premiado": "Terence Rattigan"
         }
       ],
       "ator": [
