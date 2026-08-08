@@ -8,10 +8,12 @@
       ],
       "direcao": [
         {
-          "titulo": "La bola negra"
+          "titulo": "La bola negra",
+          "premiado": "Javier Calvo & Javier Ambrossi"
         },
         {
-          "titulo": "Fatherland"
+          "titulo": "Fatherland",
+          "premiado": "Paweł Pawlikowski"
         }
       ],
       "roteiro": [
@@ -40,7 +42,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Secret Agent"
+          "titulo": "The Secret Agent",
+          "premiado": "Kleber Mendonça Filho"
         }
       ],
       "roteiro": [
@@ -69,7 +72,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Grand Tour"
+          "titulo": "Grand Tour",
+          "premiado": "Miguel Gomes"
         }
       ],
       "roteiro": [
@@ -98,7 +102,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Taste of Things"
+          "titulo": "The Taste of Things",
+          "premiado": "Tran Anh Hung"
         }
       ],
       "roteiro": [
@@ -127,7 +132,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Decision to Leave"
+          "titulo": "Decision to Leave",
+          "premiado": "Park Chan-wook"
         }
       ],
       "roteiro": [
@@ -156,7 +162,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Annette"
+          "titulo": "Annette",
+          "premiado": "Leos Carax"
         }
       ],
       "roteiro": [
@@ -185,7 +192,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Young Ahmed"
+          "titulo": "Young Ahmed",
+          "premiado": "Jean-Pierre & Luc Dardenne"
         }
       ],
       "roteiro": [
@@ -214,7 +222,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Cold War"
+          "titulo": "Cold War",
+          "premiado": "Paweł Pawlikowski"
         }
       ],
       "roteiro": [
@@ -246,7 +255,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Beguiled"
+          "titulo": "The Beguiled",
+          "premiado": "Sofia Coppola"
         }
       ],
       "roteiro": [
@@ -278,10 +288,12 @@
       ],
       "direcao": [
         {
-          "titulo": "Personal Shopper"
+          "titulo": "Personal Shopper",
+          "premiado": "Olivier Assayas"
         },
         {
-          "titulo": "Graduation"
+          "titulo": "Graduation",
+          "premiado": "Cristian Mungiu"
         }
       ],
       "roteiro": [
@@ -310,7 +322,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Assassin"
+          "titulo": "The Assassin",
+          "premiado": "Hou Hsiao-hsien"
         }
       ],
       "roteiro": [
@@ -343,7 +356,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Foxcatcher"
+          "titulo": "Foxcatcher",
+          "premiado": "Bennett Miller"
         }
       ],
       "roteiro": [
@@ -372,7 +386,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Heli"
+          "titulo": "Heli",
+          "premiado": "Amat Escalante"
         }
       ],
       "roteiro": [
@@ -401,7 +416,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Post Tenebras Lux"
+          "titulo": "Post Tenebras Lux",
+          "premiado": "Carlos Reygadas"
         }
       ],
       "roteiro": [
@@ -430,7 +446,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Drive"
+          "titulo": "Drive",
+          "premiado": "Nicolas Winding Refn"
         }
       ],
       "roteiro": [
@@ -459,7 +476,8 @@
       ],
       "direcao": [
         {
-          "titulo": "On Tour"
+          "titulo": "On Tour",
+          "premiado": "Mathieu Amalric"
         }
       ],
       "roteiro": [
@@ -492,7 +510,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Kinatay"
+          "titulo": "Kinatay",
+          "premiado": "Brillante Mendoza"
         }
       ],
       "roteiro": [
@@ -521,7 +540,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Three Monkeys"
+          "titulo": "Three Monkeys",
+          "premiado": "Nuri Bilge Ceylan"
         }
       ],
       "roteiro": [
@@ -550,7 +570,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Diving Bell and the Butterfly"
+          "titulo": "The Diving Bell and the Butterfly",
+          "premiado": "Julian Schnabel"
         }
       ],
       "roteiro": [
@@ -579,7 +600,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Babel"
+          "titulo": "Babel",
+          "premiado": "Alejandro González Iñárritu"
         }
       ],
       "roteiro": [
@@ -608,7 +630,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Caché"
+          "titulo": "Caché",
+          "premiado": "Michael Haneke"
         }
       ],
       "roteiro": [
@@ -637,7 +660,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Exils"
+          "titulo": "Exils",
+          "premiado": "Tony Gatlif"
         }
       ],
       "roteiro": [
@@ -666,7 +690,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Elephant"
+          "titulo": "Elephant",
+          "premiado": "Gus Van Sant"
         }
       ],
       "roteiro": [
@@ -695,10 +720,12 @@
       ],
       "direcao": [
         {
-          "titulo": "Punch-Drunk Love"
+          "titulo": "Punch-Drunk Love",
+          "premiado": "Paul Thomas Anderson"
         },
         {
-          "titulo": "Chi-hwa-seon"
+          "titulo": "Chi-hwa-seon",
+          "premiado": "Im Kwon-taek"
         }
       ],
       "roteiro": [
@@ -727,10 +754,12 @@
       ],
       "direcao": [
         {
-          "titulo": "The Man Who Wasn't There"
+          "titulo": "The Man Who Wasn't There",
+          "premiado": "Joel Coen"
         },
         {
-          "titulo": "Mulholland Drive"
+          "titulo": "Mulholland Drive",
+          "premiado": "David Lynch"
         }
       ],
       "roteiro": [
@@ -759,7 +788,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Yi Yi"
+          "titulo": "Yi Yi",
+          "premiado": "Edward Yang"
         }
       ],
       "roteiro": [
@@ -788,7 +818,8 @@
       ],
       "direcao": [
         {
-          "titulo": "All About My Mother"
+          "titulo": "All About My Mother",
+          "premiado": "Pedro Almodóvar"
         }
       ],
       "roteiro": [
@@ -821,7 +852,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The General"
+          "titulo": "The General",
+          "premiado": "John Boorman"
         }
       ],
       "roteiro": [
@@ -853,7 +885,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Happy Together"
+          "titulo": "Happy Together",
+          "premiado": "Wong Kar-wai"
         }
       ],
       "roteiro": [
@@ -882,7 +915,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Fargo"
+          "titulo": "Fargo",
+          "premiado": "Joel Coen"
         }
       ],
       "roteiro": [
@@ -911,7 +945,8 @@
       ],
       "direcao": [
         {
-          "titulo": "La Haine"
+          "titulo": "La Haine",
+          "premiado": "Mathieu Kassovitz"
         }
       ],
       "roteiro": [],
@@ -936,7 +971,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Caro diario"
+          "titulo": "Caro diario",
+          "premiado": "Nanni Moretti"
         }
       ],
       "roteiro": [
@@ -968,7 +1004,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Naked"
+          "titulo": "Naked",
+          "premiado": "Mike Leigh"
         }
       ],
       "roteiro": [],
@@ -993,7 +1030,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The Player"
+          "titulo": "The Player",
+          "premiado": "Robert Altman"
         }
       ],
       "roteiro": [],
@@ -1018,7 +1056,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Barton Fink"
+          "titulo": "Barton Fink",
+          "premiado": "Joel Coen"
         }
       ],
       "roteiro": [],
@@ -1043,7 +1082,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Taxi Blues"
+          "titulo": "Taxi Blues",
+          "premiado": "Pavel Lungin"
         }
       ],
       "roteiro": [],
@@ -1068,7 +1108,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Time of the Gypsies"
+          "titulo": "Time of the Gypsies",
+          "premiado": "Emir Kusturica"
         }
       ],
       "roteiro": [],
@@ -1093,7 +1134,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Sur"
+          "titulo": "Sur",
+          "premiado": "Fernando Solanas"
         }
       ],
       "roteiro": [],
@@ -1118,7 +1160,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Wings of Desire"
+          "titulo": "Wings of Desire",
+          "premiado": "Wim Wenders"
         }
       ],
       "roteiro": [],
@@ -1143,7 +1186,8 @@
       ],
       "direcao": [
         {
-          "titulo": "After Hours"
+          "titulo": "After Hours",
+          "premiado": "Martin Scorsese"
         }
       ],
       "roteiro": [],
@@ -1176,7 +1220,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Rendez-vous"
+          "titulo": "Rendez-vous",
+          "premiado": "André Téchiné"
         }
       ],
       "roteiro": [],
@@ -1205,7 +1250,8 @@
       ],
       "direcao": [
         {
-          "titulo": "A Sunday in the Country"
+          "titulo": "A Sunday in the Country",
+          "premiado": "Bertrand Tavernier"
         }
       ],
       "roteiro": [
@@ -1234,10 +1280,12 @@
       ],
       "direcao": [
         {
-          "titulo": "L'Argent"
+          "titulo": "L'Argent",
+          "premiado": "Robert Bresson"
         },
         {
-          "titulo": "Nostalghia"
+          "titulo": "Nostalghia",
+          "premiado": "Andrei Tarkovsky"
         }
       ],
       "roteiro": [],
@@ -1265,7 +1313,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Fitzcarraldo"
+          "titulo": "Fitzcarraldo",
+          "premiado": "Werner Herzog"
         }
       ],
       "roteiro": [
@@ -1350,7 +1399,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Days of Heaven"
+          "titulo": "Days of Heaven",
+          "premiado": "Terrence Malick"
         }
       ],
       "roteiro": [],
@@ -1375,7 +1425,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Empire of Passion"
+          "titulo": "Empire of Passion",
+          "premiado": "Nagisa Ōshima"
         }
       ],
       "roteiro": [],
@@ -1429,7 +1480,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Down and Dirty"
+          "titulo": "Down and Dirty",
+          "premiado": "Ettore Scola"
         }
       ],
       "roteiro": [],
@@ -1458,10 +1510,12 @@
       ],
       "direcao": [
         {
-          "titulo": "Orders"
+          "titulo": "Orders",
+          "premiado": "Michel Brault"
         },
         {
-          "titulo": "Special Section"
+          "titulo": "Special Section",
+          "premiado": "Costa-Gavras"
         }
       ],
       "roteiro": [],
@@ -1538,7 +1592,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Red Psalm"
+          "titulo": "Red Psalm",
+          "premiado": "Miklós Jancsó"
         }
       ],
       "roteiro": [],
@@ -1584,7 +1639,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Leo the Last"
+          "titulo": "Leo the Last",
+          "premiado": "John Boorman"
         }
       ],
       "roteiro": [],
@@ -1609,10 +1665,12 @@
       ],
       "direcao": [
         {
-          "titulo": "Antonio das Mortes"
+          "titulo": "Antonio das Mortes",
+          "premiado": "Glauber Rocha"
         },
         {
-          "titulo": "All My Compatriots"
+          "titulo": "All My Compatriots",
+          "premiado": "Vojtěch Jasný"
         }
       ],
       "roteiro": [],
@@ -1637,7 +1695,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Ten Thousand Days"
+          "titulo": "Ten Thousand Days",
+          "premiado": "Ferenc Kósa"
         }
       ],
       "roteiro": [
@@ -1672,7 +1731,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Lenin in Poland"
+          "titulo": "Lenin in Poland",
+          "premiado": "Sergei Yutkevich"
         }
       ],
       "roteiro": [],
@@ -1697,7 +1757,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Forest of the Hanged"
+          "titulo": "Forest of the Hanged",
+          "premiado": "Liviu Ciulei"
         }
       ],
       "roteiro": [
@@ -1815,7 +1876,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Chronicle of Flaming Years"
+          "titulo": "Chronicle of Flaming Years",
+          "premiado": "Yuliya Solntseva"
         }
       ],
       "roteiro": [],
@@ -1860,7 +1922,8 @@
       ],
       "direcao": [
         {
-          "titulo": "The 400 Blows"
+          "titulo": "The 400 Blows",
+          "premiado": "François Truffaut"
         }
       ],
       "roteiro": [],
@@ -1885,7 +1948,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Brink of Life"
+          "titulo": "Brink of Life",
+          "premiado": "Ingmar Bergman"
         }
       ],
       "roteiro": [
@@ -1914,7 +1978,8 @@
       ],
       "direcao": [
         {
-          "titulo": "A Man Escaped"
+          "titulo": "A Man Escaped",
+          "premiado": "Robert Bresson"
         }
       ],
       "roteiro": [],
@@ -1939,7 +2004,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Othello"
+          "titulo": "Othello",
+          "premiado": "Sergei Yutkevich"
         }
       ],
       "roteiro": [],
@@ -1959,10 +2025,12 @@
       ],
       "direcao": [
         {
-          "titulo": "Rififi"
+          "titulo": "Rififi",
+          "premiado": "Jules Dassin"
         },
         {
-          "titulo": "Heroes of Shipka"
+          "titulo": "Heroes of Shipka",
+          "premiado": "Sergei Vasilyev"
         }
       ],
       "roteiro": [],
@@ -2016,7 +2084,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Fanfan la Tulipe"
+          "titulo": "Fanfan la Tulipe",
+          "premiado": "Christian-Jaque"
         }
       ],
       "roteiro": [
@@ -2048,7 +2117,8 @@
       ],
       "direcao": [
         {
-          "titulo": "Los Olvidados"
+          "titulo": "Los Olvidados",
+          "premiado": "Luis Buñuel"
         }
       ],
       "roteiro": [
