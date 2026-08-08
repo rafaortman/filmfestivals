@@ -29,6 +29,8 @@ Badges não-portão (coletar depois de fechar o set): atuação (com nome do pre
 e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
+- **DATASET DE CANNES COMPLETO** (2026-08-07): 5 baldes, 358 registros de vitória,
+  ~330 pares (título, ano) distintos. Falta só a verificação oficial (verificado=N→S).
 - [x] Ambiente validado: internet OK, TMDB key OK.
 - [x] **Cannes / Filme** — `data/raw/cannes_filme.csv` (85 registros, 1951–2026;
       74 anos vencedores + 11 empates).
@@ -39,9 +41,11 @@ e demais categorias vencidas pelos filmes que já entraram.
       16 linhas de empate). Anos sem prêmio omitidos. Fonte: Wikipedia. `verificado=N`.
 - [x] **Cannes / Roteiro** — `data/raw/cannes_roteiro.csv` (46 registros, 42 anos,
       8 linhas de empate). Fonte: Wikipedia. `verificado=N`.
-- [~] Cannes / Atuação (Ator+Atriz) — **adiado de propósito** p/ passada dirigida:
-      é badge (não-portão), só importa pros filmes que passam no portão. Dados brutos
-      já levantados (Wikipedia); montar CSV só p/ os filmes do set final.
+- [x] **Cannes / Ator** — `data/raw/cannes_ator.csv` (75 registros). badge.
+- [x] **Cannes / Atriz** — `data/raw/cannes_atriz.csv` (82 registros). badge.
+      (Nota: "coletar dado de Cannes" NÃO depende de Oscar — são coisas separadas.
+      O Oscar só entra na etapa de MONTAGEM, ao decidir quais filmes viram card.
+      Elencos/empates registrados como dados; premiado com vários nomes usa "; ".)
 - [ ] Oscar / Filme  (SPARQL Q102427 testado: retorna dados mas precisa dedupe)
 - [ ] Oscar / Direção
 - [ ] Oscar / Roteiro
