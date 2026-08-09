@@ -27,7 +27,11 @@
   Prix), Grande Prêmio (2º lugar), Prêmio do Júri, Direção OU Roteiro**. Isso reverte
   a regra anterior que excluía o "vice" (ver §7). A assimetria com o Oscar é aceita de
   propósito (Cannes tem mais níveis de premiação relevantes).
-- Para o **Oscar**, o portão segue **Melhor Filme, Direção OU Roteiro**.
+- **[ATUALIZADO 2026-08-09]** Para o **Oscar**, o portão é **Melhor Filme, Direção,
+  Roteiro OU Melhor Filme Estrangeiro/Internacional**. O Estrangeiro entrou pra abraçar o
+  cinema mundial que raramente leva Filme/Direção/Roteiro por ser não-anglófono (traz 47
+  filmes que nenhum outro portão pega). Só a **categoria competitiva (cerimônia 1957+)**;
+  os prêmios honorários avulsos a filme estrangeiro de 1947–1955 ficam de fora.
 - Regra geral: um filme entra se passou no portão em **qualquer** dos dois festivais,
   ao menos uma vez.
 - **Nível do filme** (não por festival): basta 1 vitória de portão em 1 festival

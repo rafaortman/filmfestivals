@@ -24,6 +24,11 @@
           "premiado": "Ryan Coogler"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Sentimental Value"
+        }
+      ],
       "ator": [
         {
           "titulo": "Sinners",
@@ -59,6 +64,11 @@
         {
           "titulo": "Conclave",
           "premiado": "Peter Straughan"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "I'm Still Here"
         }
       ],
       "ator": [
@@ -98,6 +108,11 @@
           "premiado": "Justine Triet; Arthur Harari"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Zone of Interest"
+        }
+      ],
       "ator": [
         {
           "titulo": "Oppenheimer",
@@ -133,6 +148,11 @@
         {
           "titulo": "Women Talking",
           "premiado": "Sarah Polley"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "All Quiet on the Western Front"
         }
       ],
       "ator": [
@@ -172,6 +192,11 @@
           "premiado": "Siân Héder"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Drive My Car"
+        }
+      ],
       "ator": [
         {
           "titulo": "King Richard",
@@ -207,6 +232,11 @@
         {
           "titulo": "The Father",
           "premiado": "Christopher Hampton; Florian Zeller"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Another Round"
         }
       ],
       "ator": [
@@ -246,6 +276,11 @@
           "premiado": "Han Jin-won; Bong Joon-ho"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Parasite"
+        }
+      ],
       "ator": [
         {
           "titulo": "Joker",
@@ -281,6 +316,11 @@
         {
           "titulo": "Green Book",
           "premiado": "Peter Farrelly; Nick Vallelonga; Brian Currie"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Roma"
         }
       ],
       "ator": [
@@ -320,6 +360,11 @@
           "premiado": "Jordan Peele"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "A Fantastic Woman"
+        }
+      ],
       "ator": [
         {
           "titulo": "Darkest Hour",
@@ -355,6 +400,11 @@
         {
           "titulo": "Moonlight",
           "premiado": "Tarell Alvin McCraney; Barry Jenkins"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Salesman"
         }
       ],
       "ator": [
@@ -394,6 +444,11 @@
           "premiado": "Charles Randolph; Adam McKay"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Son of Saul"
+        }
+      ],
       "ator": [
         {
           "titulo": "The Revenant",
@@ -429,6 +484,11 @@
         {
           "titulo": "The Imitation Game",
           "premiado": "Graham Moore"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Ida"
         }
       ],
       "ator": [
@@ -468,6 +528,11 @@
           "premiado": "Spike Jonze"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Great Beauty"
+        }
+      ],
       "ator": [
         {
           "titulo": "Dallas Buyers Club",
@@ -503,6 +568,11 @@
         {
           "titulo": "Django Unchained",
           "premiado": "Quentin Tarantino"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Amour"
         }
       ],
       "ator": [
@@ -542,6 +612,11 @@
           "premiado": "Nat Faxon; Alexander Payne; Jim Rash"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "A Separation"
+        }
+      ],
       "ator": [
         {
           "titulo": "The Artist",
@@ -577,6 +652,11 @@
         {
           "titulo": "The Social Network",
           "premiado": "Aaron Sorkin"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "In a Better World"
         }
       ],
       "ator": [
@@ -616,6 +696,11 @@
           "premiado": "Mark Boal"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Secret in Their Eyes"
+        }
+      ],
       "ator": [
         {
           "titulo": "Crazy Heart",
@@ -651,6 +736,11 @@
         {
           "titulo": "Slumdog Millionaire",
           "premiado": "Simon Beaufoy"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Departures"
         }
       ],
       "ator": [
@@ -690,6 +780,11 @@
           "premiado": "Joel Coen; Ethan Coen"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Counterfeiters"
+        }
+      ],
       "ator": [
         {
           "titulo": "There Will Be Blood",
@@ -725,6 +820,11 @@
         {
           "titulo": "The Departed",
           "premiado": "William Monahan"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Lives of Others"
         }
       ],
       "ator": [
@@ -764,6 +864,11 @@
           "premiado": "Paul Haggis; Robert Moresco"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Tsotsi"
+        }
+      ],
       "ator": [
         {
           "titulo": "Capote",
@@ -799,6 +904,11 @@
         {
           "titulo": "Sideways",
           "premiado": "Jim Taylor; Alexander Payne"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Sea Inside"
         }
       ],
       "ator": [
@@ -838,6 +948,11 @@
           "premiado": "Philippa Boyens; Fran Walsh; Peter Jackson"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Barbarian Invasions"
+        }
+      ],
       "ator": [
         {
           "titulo": "Mystic River",
@@ -873,6 +988,11 @@
         {
           "titulo": "The Pianist",
           "premiado": "Ronald Harwood"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Nowhere in Africa"
         }
       ],
       "ator": [
@@ -912,6 +1032,11 @@
           "premiado": "Julian Fellowes"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "No Man's Land"
+        }
+      ],
       "ator": [
         {
           "titulo": "Training Day",
@@ -947,6 +1072,11 @@
         {
           "titulo": "Traffic",
           "premiado": "Stephen Gaghan"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Crouching Tiger, Hidden Dragon"
         }
       ],
       "ator": [
@@ -986,6 +1116,11 @@
           "premiado": "John Irving"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "All About My Mother"
+        }
+      ],
       "ator": [
         {
           "titulo": "American Beauty",
@@ -1021,6 +1156,11 @@
         {
           "titulo": "Shakespeare in Love",
           "premiado": "Tom Stoppard; Marc Norman"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Life Is Beautiful"
         }
       ],
       "ator": [
@@ -1060,6 +1200,11 @@
           "premiado": "Brian Helgeland; Curtis Hanson"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Character"
+        }
+      ],
       "ator": [
         {
           "titulo": "As Good as It Gets",
@@ -1095,6 +1240,11 @@
         {
           "titulo": "Sling Blade",
           "premiado": "Billy Bob Thornton"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Kolya"
         }
       ],
       "ator": [
@@ -1134,6 +1284,11 @@
           "premiado": "Christopher McQuarrie"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Antonia's Line"
+        }
+      ],
       "ator": [
         {
           "titulo": "Leaving Las Vegas",
@@ -1169,6 +1324,11 @@
         {
           "titulo": "Pulp Fiction",
           "premiado": "Quentin Tarantino; Roger Avary"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Burnt by the Sun"
         }
       ],
       "ator": [
@@ -1208,6 +1368,11 @@
           "premiado": "Jane Campion"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Belle Époque"
+        }
+      ],
       "ator": [
         {
           "titulo": "Philadelphia",
@@ -1243,6 +1408,11 @@
         {
           "titulo": "The Crying Game",
           "premiado": "Neil Jordan"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Indochine"
         }
       ],
       "ator": [
@@ -1282,6 +1452,11 @@
           "premiado": "Callie Khouri"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Mediterraneo"
+        }
+      ],
       "ator": [
         {
           "titulo": "The Silence of the Lambs",
@@ -1317,6 +1492,11 @@
         {
           "titulo": "Ghost",
           "premiado": "Bruce Joel Rubin"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Journey of Hope"
         }
       ],
       "ator": [
@@ -1356,6 +1536,11 @@
           "premiado": "Alfred Uhry"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Cinema Paradiso"
+        }
+      ],
       "ator": [
         {
           "titulo": "My Left Foot",
@@ -1391,6 +1576,11 @@
         {
           "titulo": "Rain Man",
           "premiado": "Barry Morrow; Ronald Bass"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Pelle the Conqueror"
         }
       ],
       "ator": [
@@ -1430,6 +1620,11 @@
           "premiado": "Bernardo Bertolucci; Mark Peploe"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Babette's Feast"
+        }
+      ],
       "ator": [
         {
           "titulo": "Wall Street",
@@ -1465,6 +1660,11 @@
         {
           "titulo": "Hannah and Her Sisters",
           "premiado": "Woody Allen"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Assault"
         }
       ],
       "ator": [
@@ -1504,6 +1704,11 @@
           "premiado": "William Kelley; Earl W. Wallace; Pamela Wallace"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Official Story"
+        }
+      ],
       "ator": [
         {
           "titulo": "Kiss of the Spider Woman",
@@ -1539,6 +1744,11 @@
         {
           "titulo": "Places in the Heart",
           "premiado": "Robert Benton"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Dangerous Moves"
         }
       ],
       "ator": [
@@ -1578,6 +1788,11 @@
           "premiado": "James L. Brooks"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Fanny and Alexander"
+        }
+      ],
       "ator": [
         {
           "titulo": "Tender Mercies",
@@ -1613,6 +1828,11 @@
         {
           "titulo": "Missing",
           "premiado": "Donald E. Stewart; Costa-Gavras"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Begin the Beguine"
         }
       ],
       "ator": [
@@ -1652,6 +1872,11 @@
           "premiado": "Ernest Thompson"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Mephisto"
+        }
+      ],
       "ator": [
         {
           "titulo": "On Golden Pond",
@@ -1687,6 +1912,11 @@
         {
           "titulo": "Ordinary People",
           "premiado": "Alvin Sargent"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Moscow Does Not Believe in Tears"
         }
       ],
       "ator": [
@@ -1726,6 +1956,11 @@
           "premiado": "Robert Benton"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Tin Drum"
+        }
+      ],
       "ator": [
         {
           "titulo": "Kramer vs. Kramer",
@@ -1761,6 +1996,11 @@
         {
           "titulo": "Midnight Express",
           "premiado": "Oliver Stone"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Get Out Your Handkerchiefs"
         }
       ],
       "ator": [
@@ -1800,6 +2040,11 @@
           "premiado": "Alvin Sargent"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Madame Rosa"
+        }
+      ],
       "ator": [
         {
           "titulo": "The Goodbye Girl",
@@ -1835,6 +2080,11 @@
         {
           "titulo": "Network",
           "premiado": "Paddy Chayefsky"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Black and White in Color"
         }
       ],
       "ator": [
@@ -1874,6 +2124,11 @@
           "premiado": "Bo Goldman; Lawrence Hauben"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Dersu Uzala"
+        }
+      ],
       "ator": [
         {
           "titulo": "One Flew Over the Cuckoo's Nest",
@@ -1909,6 +2164,11 @@
         {
           "titulo": "The Godfather Part II",
           "premiado": "Mario Puzo; Francis Ford Coppola"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Amarcord"
         }
       ],
       "ator": [
@@ -1948,6 +2208,11 @@
           "premiado": "David S. Ward"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Day for Night"
+        }
+      ],
       "ator": [
         {
           "titulo": "Save the Tiger",
@@ -1983,6 +2248,11 @@
         {
           "titulo": "The Godfather",
           "premiado": "Mario Puzo; Francis Ford Coppola"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Discreet Charm of the Bourgeoisie"
         }
       ],
       "ator": [
@@ -2022,6 +2292,11 @@
           "premiado": "Paddy Chayefsky"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Garden of the Finzi-Continis"
+        }
+      ],
       "ator": [
         {
           "titulo": "The French Connection",
@@ -2057,6 +2332,11 @@
         {
           "titulo": "Patton",
           "premiado": "Francis Ford Coppola; Edmund H. North"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Investigation of a Citizen Above Suspicion"
         }
       ],
       "ator": [
@@ -2096,6 +2376,11 @@
           "premiado": "Waldo Salt"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Z"
+        }
+      ],
       "ator": [
         {
           "titulo": "True Grit",
@@ -2131,6 +2416,11 @@
         {
           "titulo": "The Producers",
           "premiado": "Mel Brooks"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "War and Peace"
         }
       ],
       "ator": [
@@ -2174,6 +2464,11 @@
           "premiado": "Stirling Silliphant"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Closely Watched Trains"
+        }
+      ],
       "ator": [
         {
           "titulo": "In the Heat of the Night",
@@ -2209,6 +2504,11 @@
         {
           "titulo": "A Man for All Seasons",
           "premiado": "Robert Bolt"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "A Man and a Woman"
         }
       ],
       "ator": [
@@ -2248,6 +2548,11 @@
           "premiado": "Robert Bolt"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Shop on Main Street"
+        }
+      ],
       "ator": [
         {
           "titulo": "Cat Ballou",
@@ -2283,6 +2588,11 @@
         {
           "titulo": "Father Goose",
           "premiado": "Frank Tarloff; S. H. Barnett; Peter Stone"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Yesterday, Today and Tomorrow"
         }
       ],
       "ator": [
@@ -2322,6 +2632,11 @@
           "premiado": "John Osborne"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "8½"
+        }
+      ],
       "ator": [
         {
           "titulo": "Lilies of the Field",
@@ -2357,6 +2672,11 @@
         {
           "titulo": "To Kill a Mockingbird",
           "premiado": "Horton Foote"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Sundays and Cybele"
         }
       ],
       "ator": [
@@ -2396,6 +2716,11 @@
           "premiado": "William Inge"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Through a Glass Darkly"
+        }
+      ],
       "ator": [
         {
           "titulo": "Judgment at Nuremberg",
@@ -2431,6 +2756,11 @@
         {
           "titulo": "The Apartment",
           "premiado": "Billy Wilder; I. A. L. Diamond"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "The Virgin Spring"
         }
       ],
       "ator": [
@@ -2470,6 +2800,11 @@
           "premiado": "Neil Paterson"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Black Orpheus"
+        }
+      ],
       "ator": [
         {
           "titulo": "Ben-Hur",
@@ -2507,6 +2842,11 @@
           "premiado": "Harold Jacob Smith; Nedrick Young"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Mon Oncle"
+        }
+      ],
       "ator": [
         {
           "titulo": "Separate Tables",
@@ -2542,6 +2882,11 @@
         {
           "titulo": "The Bridge on the River Kwai",
           "premiado": "Carl Foreman; Michael Wilson; Pierre Boulle"
+        }
+      ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "Nights of Cabiria"
         }
       ],
       "ator": [
@@ -2585,6 +2930,11 @@
           "premiado": "Albert Lamorisse"
         }
       ],
+      "filme_estrangeiro": [
+        {
+          "titulo": "La Strada"
+        }
+      ],
       "ator": [
         {
           "titulo": "The King and I",
@@ -2626,6 +2976,7 @@
           "premiado": "Paddy Chayefsky"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Marty",
@@ -2667,6 +3018,7 @@
           "premiado": "George Seaton"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "On the Waterfront",
@@ -2708,6 +3060,7 @@
           "premiado": "Charles Brackett; Richard L. Breen; Walter Reisch"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Stalag 17",
@@ -2749,6 +3102,7 @@
           "premiado": "T. E. B. Clarke"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "High Noon",
@@ -2790,6 +3144,7 @@
           "premiado": "James Bernard; Paul Dehn"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The African Queen",
@@ -2831,6 +3186,7 @@
           "premiado": "Billy Wilder; Charles Brackett; D. M. Marshman, Jr."
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Cyrano de Bergerac",
@@ -2872,6 +3228,7 @@
           "premiado": "Douglas Morrow"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "All the King's Men",
@@ -2909,6 +3266,7 @@
           "premiado": "John Huston"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Hamlet",
@@ -2950,6 +3308,7 @@
           "premiado": "Sidney Sheldon"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "A Double Life",
@@ -2991,6 +3350,7 @@
           "premiado": "Muriel Box; Sydney Box"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Best Years of Our Lives",
@@ -3032,6 +3392,7 @@
           "premiado": "Billy Wilder; Charles Brackett"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Lost Weekend",
@@ -3073,6 +3434,7 @@
           "premiado": "Lamar Trotti"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Going My Way",
@@ -3114,6 +3476,7 @@
           "premiado": "William Saroyan"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Watch on the Rhine",
@@ -3155,6 +3518,7 @@
           "premiado": "Michael Kanin; Ring Lardner Jr."
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Yankee Doodle Dandy",
@@ -3196,6 +3560,7 @@
           "premiado": "Harry Segall"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Sergeant York",
@@ -3237,6 +3602,7 @@
           "premiado": "Donald Ogden Stewart"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Philadelphia Story",
@@ -3274,6 +3640,7 @@
           "premiado": "Lewis R. Foster"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Goodbye, Mr. Chips",
@@ -3311,6 +3678,7 @@
           "premiado": "George Bernard Shaw; Cecil Arthur Lewis; Ian Dalrymple; W. P. Lipscomb"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Boys Town",
@@ -3348,6 +3716,7 @@
           "premiado": "Norman Reilly Raine; Géza Herczeg; Heinz Herald"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Captains Courageous",
@@ -3385,6 +3754,7 @@
           "premiado": "Sheridan Gibney; Pierre Collings"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Story of Louis Pasteur",
@@ -3422,6 +3792,7 @@
           "premiado": "Ben Hecht; Charles MacArthur"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Informer",
@@ -3459,6 +3830,7 @@
           "premiado": "Arthur Caesar"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "It Happened One Night",
@@ -3496,6 +3868,7 @@
           "premiado": "Robert Lord"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Private Life of Henry VIII",
@@ -3533,6 +3906,7 @@
           "premiado": "Frances Marion"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Dr. Jekyll and Mr. Hyde",
@@ -3574,6 +3948,7 @@
           "premiado": "John Monk Saunders"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "A Free Soul",
@@ -3609,6 +3984,7 @@
         }
       ],
       "roteiro": [],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "Disraeli",
@@ -3661,6 +4037,7 @@
           "premiado": "Ben Hecht"
         }
       ],
+      "filme_estrangeiro": [],
       "ator": [
         {
           "titulo": "The Last Command",

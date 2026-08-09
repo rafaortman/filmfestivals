@@ -15,12 +15,15 @@ def slug(s):
     return s.lower().replace(" ", "_")
 
 # ordem e rótulo das categorias no card/edição
-CAT_ORDER = ["Filme", "Grande Prêmio", "Prêmio do Júri", "Direção", "Roteiro", "Ator", "Atriz"]
+CAT_ORDER = ["Filme", "Grande Prêmio", "Prêmio do Júri", "Direção", "Roteiro",
+             "Filme Estrangeiro", "Ator", "Atriz"]
 # Prêmios de FILME usam o nome próprio icônico em francês; categorias de craft/pessoa
 # ficam em português (o francês genérico não agrega). Nomes internos seguem canônicos.
+# "Filme Estrangeiro" é só do Oscar (Cannes deixa vazio); o rótulo francês não se aplica.
 CAT_LABEL = {"Filme": "Palme d'Or", "Grande Prêmio": "Grand Prix",
              "Prêmio do Júri": "Prix du Jury", "Direção": "Direção",
-             "Roteiro": "Roteiro", "Ator": "Ator", "Atriz": "Atriz"}
+             "Roteiro": "Roteiro", "Filme Estrangeiro": "Filme Estrangeiro",
+             "Ator": "Ator", "Atriz": "Atriz"}
 CAT_KEY = {c: slug(c) for c in CAT_ORDER}
 # onde está o nome da pessoa premiada (categorias de obra não têm)
 NAME_FROM = {"Direção": "diretor", "Roteiro": "premiado", "Ator": "premiado", "Atriz": "premiado"}

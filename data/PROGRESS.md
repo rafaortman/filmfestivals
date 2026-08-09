@@ -53,16 +53,16 @@ e demais categorias vencidas pelos filmes que já entraram.
       (Nota: "coletar dado de Cannes" NÃO depende de Oscar — são coisas separadas.
       O Oscar só entra na etapa de MONTAGEM, ao decidir quais filmes viram card.
       Elencos/empates registrados como dados; premiado com vários nomes usa "; ".)
-- [x] **Oscar / Filme, Direção, Roteiro, Ator, Atriz** — via Wikidata SPARQL (P585 =
-      ano da cerimônia; **recorte cerimônia ≥1929**). `data/raw/oscar_*.csv`, **607
-      registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
+- [x] **Oscar / Filme, Direção, Roteiro, Filme Estrangeiro, Ator, Atriz** — via Wikidata
+      SPARQL (P585 = ano da cerimônia; **recorte cerimônia ≥1929**). `data/raw/oscar_*.csv`,
+      **677 registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
       (fonte única Wikidata; falta conferência 2ª fonte).
 - [ ] Conferência do Oscar (flip N→S, como no Cannes) — Wikipedia por-cerimônia/oscars.org
 - [ ] Combinar baldes (Cannes+Oscar) → set de filmes no portão
 - [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
 - [ ] Badges não-portão (outras categorias dos filmes que entraram)
 
-## Dataset do Oscar (2026-08-09): 607 registros, 97 edições (1929–2026)
+## Dataset do Oscar (2026-08-09): 677 registros, 97 edições (1929–2026)
 Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
 as listas por-categoria da Wikipédia via WebFetch **alucinaram** (ex.: "2024 Wicked" como
 Best Picture) e **pularam anos** (resumidor). Wikidata é estruturado e não passa por
@@ -83,8 +83,12 @@ resumo.
   ano. NÃO é empate (sub-categorias distintas); empate só quando 2 filmes na MESMA
   sub-categoria — não ocorre.
 - **QIDs**: Filme Q102427; Direção Q103360 (+ Comédia 1929 Q3451157); Roteiro Q41417 +
-  Q107258 + Q504298; Ator Q103916; Atriz Q103618.
-- Baldes: Filme 99, Direção 99, Roteiro 208, Ator 100, Atriz 101.
+  Q107258 + Q504298; **Filme Estrangeiro/Internacional Q105304**; Ator Q103916; Atriz Q103618.
+- Baldes: Filme 99, Direção 99, Roteiro 208, **Filme Estrangeiro 70**, Ator 100, Atriz 101
+  = **677 registros**.
+- **Filme Estrangeiro** (2026-08-09, novo portão — ESCOPO §3): 70 vencedores da categoria
+  competitiva (1957 La Strada → 2026), sem buracos. Só a competitiva; honorários 1947–1955
+  fora. Adiciona **47 filmes** que nenhum outro portão (Oscar F/D/R ou Cannes) cobria.
 - **Anomalias 1929–1932 (dados corretos, modelo antigo do Oscar):** 1929 tem 2 topos de
   Filme (Wings + Sunrise/Unique-Artistic) e Direção dividida Drama (Borzage/Seventh
   Heaven) + Comédia (Milestone/Two Arabian Knights); Ator 1929 = Jannings (2 filmes),

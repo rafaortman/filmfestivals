@@ -11,10 +11,12 @@ A ideia é navegar a história do cinema premiado, não ordenar filmes por "qual
 
 ## Por que a partir de 1951
 
-O recorte começa em **1951** porque é quando Cannes se torna **anual e contínuo**, com
-um "prêmio principal" identificável todo ano. Antes disso há anomalias: em 1946 a 1ª
-edição pós-guerra premiou 11 filmes (um por país); 1947 teve prêmios só por gênero; e
-não houve festival em 1948 nem 1950.
+Para **Cannes**, o recorte começa em **1951** porque é quando o festival se torna
+**anual e contínuo**, com um "prêmio principal" identificável todo ano. Antes disso há
+anomalias: em 1946 a 1ª edição pós-guerra premiou 11 filmes (um por país); 1947 teve
+prêmios só por gênero; e não houve festival em 1948 nem 1950. O **Oscar**, que já era
+regular, entra desde a **1ª cerimônia (1929)** — por isso o começo da timeline tem
+filmes premiados só pelo Oscar.
 
 ## As idiossincrasias de Cannes
 
@@ -72,6 +74,8 @@ identidade de cada um é mais fiel do que forçar uma equivalência artificial.
 ## Sobre os dados
 
 As listas de vencedores são dados públicos (premiações não têm proteção autoral).
-Levantadas de fontes de referência e conferidas contra as fontes oficiais dos festivais
-(festival-cannes.com e oscars.org). Informações de cada filme (pôster, sinopse, país,
-duração, onde assistir no Brasil) vêm do **TMDB**.
+Os dados de **Cannes** (509 vitórias, 1951–2026) foram conferidos registro a registro
+contra uma segunda fonte independente (Wikidata + os artigos por edição da Wikipédia).
+Os de **Oscar** (1929–2026) vêm do Wikidata e ainda passarão pela mesma conferência.
+Informações de cada filme (pôster, sinopse, país, duração, onde assistir no Brasil) vêm
+do **TMDB**.
