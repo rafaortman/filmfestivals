@@ -12,11 +12,11 @@ def slug(s):
 
 # ordem e rótulo das categorias no card/edição
 CAT_ORDER = ["Filme", "Grande Prêmio", "Prêmio do Júri", "Direção", "Roteiro", "Ator", "Atriz"]
-# labels originais em francês (display); nomes internos das categorias ficam canônicos
+# Prêmios de FILME usam o nome próprio icônico em francês; categorias de craft/pessoa
+# ficam em português (o francês genérico não agrega). Nomes internos seguem canônicos.
 CAT_LABEL = {"Filme": "Palme d'Or", "Grande Prêmio": "Grand Prix",
-             "Prêmio do Júri": "Prix du Jury", "Direção": "Prix de la mise en scène",
-             "Roteiro": "Prix du scénario", "Ator": "Prix d'interprétation masculine",
-             "Atriz": "Prix d'interprétation féminine"}
+             "Prêmio do Júri": "Prix du Jury", "Direção": "Direção",
+             "Roteiro": "Roteiro", "Ator": "Ator", "Atriz": "Atriz"}
 CAT_KEY = {c: slug(c) for c in CAT_ORDER}
 # onde está o nome da pessoa premiada (categorias de obra não têm)
 NAME_FROM = {"Direção": "diretor", "Roteiro": "premiado", "Ator": "premiado", "Atriz": "premiado"}
@@ -82,7 +82,7 @@ h1{{max-width:860px;margin:0 auto 6px;font-size:22px}}h1 span{{color:var(--accen
 .val{{font-size:14.5px}}.who{{color:var(--muted)}}.none{{color:#4a4c57}}
 </style></head><body>
 <h1>Cannes — conferência por <span>edição</span></h1>
-<div class="hint">{len(cannes)} edições (1951–2026). Labels no original em francês. "—" = não premiado no ano. Vírgula = empate entre filmes. Mise en scène (direção), scénario (roteiro) e interprétation (atuação) mostram o nome de quem ganhou.</div>
+<div class="hint">{len(cannes)} edições (1951–2026). Prêmios de filme com o nome icônico em francês (Palme d'Or, Grand Prix, Prix du Jury); demais categorias em português. "—" = não premiado no ano. Vírgula = empate entre filmes. Direção, Roteiro, Ator e Atriz mostram o nome de quem ganhou.</div>
 {"".join(rows)}</body></html>'''
     open(sys.argv[1], "w", encoding="utf-8").write(doc)
     print(f"HTML: {sys.argv[1]}")
