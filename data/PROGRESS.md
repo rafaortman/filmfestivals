@@ -29,10 +29,10 @@ Badges não-portão (coletar depois de fechar o set): atuação (com nome do pre
 e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
-- **DATASET DE CANNES COMPLETO** (2026-08-07): **7 baldes, 509 registros**, 471 pares
-  (título, ano) distintos. Conferência: **474 verificado=S**, **35 verificado=P**
-  (só badges de atuação — ator 14, atriz 21). **Portão 100% conferido** (Filme,
-  Grande Prêmio, Júri, Direção, Roteiro = 0 P). Ver seção Conferência abaixo.
+- **DATASET DE CANNES COMPLETO E 100% CONFERIDO** (2026-08-09): **7 baldes, 509
+  registros**, 471 pares (título, ano) distintos. Conferência: **509/509
+  verificado=S, ZERO P** — cada registro confirmado por 2ª fonte (Wikidata na 1ª
+  passada + artigos Wikipédia por-edição nas lotes 1–3). Ver seção Conferência.
   Baldes: Filme(85), Grande Prêmio 2º(67), Prêmio do Júri(84), Direção(70),
   Roteiro(46), Ator(75), Atriz(82).
   **Portão de Cannes AMPLIADO** (ver ESCOPO §3): Filme + Grande Prêmio + Prêmio do
@@ -86,9 +86,8 @@ retrospectiva por ano mostra só o line-up, não os premiados.)
   virados P→S**. **PORTÃO ZERADO**: Filme 85/85, Grande Prêmio 67/67, Júri 84/84,
   Direção 70/70, Roteiro 46/46 — 0 `P`. Sobraram badges de atuação em anos ainda
   não fetchados.
-- **Restam 35 `P`** (só atuação, não-portão): ator 14, atriz 21, em ~27 anos de
-  1951–2008 não cobertos ainda. Lote 3 = fechar esses (baixa prioridade: badges não
-  afetam o set de filmes).
+- **Lote 3** (2026-08-09): 27 anos (1951–2008) conferidos, **35 registros de atuação
+  virados P→S** (ator 14, atriz 21). **CANNES ZERADO: 509/509 = S, 0 P.**
 
 ## Streaming (decisão de sequenciamento, 2026-08-07)
 Disponibilidade em streaming é a **ÚLTIMA etapa** e deve ser **recorrente** (script que
