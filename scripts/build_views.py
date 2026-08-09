@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Lê os baldes de vitória (data/raw/*.csv) e gera:
+  - data/cannes_todos.csv        (tabela plana combinada, fonte p/ o Google Sheet)
   - data/cannes_por_edicao.json  (estrutura aninhada festival -> ano -> categoria)
   - <saida_html>                  (página de conferência por edição), se passada como argv[1]
 Rode da raiz do repo: python3 scripts/build_views.py [saida.html]
+
+Os raw/*.csv são a ÚNICA fonte de verdade (inclui `verificado`); estas views são
+100% derivadas — sempre regere depois de editar os baldes, pra nada divergir.
 """
 import csv, glob, json, sys, html, os, unicodedata
 
@@ -36,7 +40,27 @@ def load(fest):
     return {y: data[y] for y in sorted(data, key=int, reverse=True)}
 
 
+def build_combined(fest="cannes", path="data/cannes_todos.csv"):
+    """Tabela plana combinada a partir dos raw/*.csv, ordenada por ano desc e
+    depois pela ordem canônica de categorias. Reflete `verificado` do raw."""
+    cat_idx = {c: i for i, c in enumerate(CAT_ORDER)}
+    rows = []
+    for f in sorted(glob.glob(f"data/raw/{fest}_*.csv")):
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            rows.append(r)
+    rows.sort(key=lambda r: (-int(r["ano_premio"]), cat_idx.get(r["categoria"], 99)))
+    with open(path, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.writer(f)
+        w.writerow(["Ano", "Festival", "Categoria", "Título", "Diretor",
+                    "Premiado", "Empate", "Verificado"])
+        for r in rows:
+            w.writerow([r["ano_premio"], r["festival"], r["categoria"], r["titulo"],
+                        r["diretor"], r["premiado"], r["empate"], r["verificado"]])
+    print(f"CSV:  {path} | {len(rows)} registros")
+
+
 def main():
+    build_combined()
     cannes = load("cannes")
     out = {"cannes": cannes}
     json.dump(out, open("data/cannes_por_edicao.json", "w", encoding="utf-8"),
