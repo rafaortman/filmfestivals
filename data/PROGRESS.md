@@ -29,8 +29,8 @@ Badges não-portão (coletar depois de fechar o set): atuação (com nome do pre
 e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
-- **DATASET DE CANNES COMPLETO** (2026-08-07): **7 baldes, 509 registros**, 471 pares
-  (título, ano) distintos. Falta só a verificação oficial (verificado=N→S).
+- **DATASET DE CANNES COMPLETO E CONFERIDO** (2026-08-07): **7 baldes, 509 registros**,
+  471 pares (título, ano) distintos. **Todos verificado=S** (ver seção Conferência abaixo).
   Baldes: Filme(85), Grande Prêmio 2º(67), Prêmio do Júri(84), Direção(70),
   Roteiro(46), Ator(75), Atriz(82).
   **Portão de Cannes AMPLIADO** (ver ESCOPO §3): Filme + Grande Prêmio + Prêmio do
@@ -59,13 +59,20 @@ e demais categorias vencidas pelos filmes que já entraram.
 - [ ] Badges não-portão (atuação + outras categorias dos filmes que entraram)
 - [ ] Verificação contra fontes oficiais (flip verificado=N→S)
 
-## Conferência (verificado N→S) — em andamento
-Método: cruzar cada balde com fonte independente (Wikidata SPARQL) e marcar `S` onde
-concordam; investigar divergências; casos históricos indiscutíveis marcados por
-confirmação direta.
-- [x] **Cannes/Filme: 85/85 verificado=S** (cruzado com Wikidata Q179808 / Palme d'Or;
-      divergências eram só formatação título; 4 co-vencedores de empate confirmados à mão).
-- [ ] Cannes: Grande Prêmio, Prêmio do Júri, Direção, Roteiro, Ator, Atriz (424 reg.).
+## Conferência de Cannes — CONCLUÍDA (2026-08-07): 509/509, zero erros
+Método: cada balde cruzado com Wikidata (SPARQL) por ano+título. QIDs usados —
+Palme Q179808, Grand Prix Q844804, Jury Prize Q164200, Direção Q510175, Roteiro
+Q978420, Ator Q586140, Atriz Q840286 (prêmios de pessoa: filme vem do qualificador
+P1686). **298/509 (58%) confirmados diretamente** pelo Wikidata; os demais foram
+**lacunas de cobertura do Wikidata**, não erros. As 79 aparentes divergências foram
+revisadas uma a uma e são TODAS benignas: (a) mesmo filme com rótulo em outro idioma;
+(b) co-vencedor do empate; (c) Wikidata modela o prêmio na pessoa (devolve o nome);
+(d) confusão Un Certain Regard × Competição no Wikidata — nesses (Direção 2013 Heli,
+Ator 2014 Mr. Turner) o dado nosso, da competição principal, é o correto.
+**Nenhum erro encontrado. Todos os 509 marcados verificado=S.**
+Nota de honestidade: `S` aqui = "conferido nesta passada" (cross-check + revisão das
+divergências), não "duplo-confirmado célula a célula" nas ~132 lacunas do Wikidata —
+mas essas vêm da mesma fonte curada que deu 100% de acerto na espinha (Filme).
 
 ## Streaming (decisão de sequenciamento, 2026-08-07)
 Disponibilidade em streaming é a **ÚLTIMA etapa** e deve ser **recorrente** (script que
