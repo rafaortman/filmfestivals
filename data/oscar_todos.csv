@@ -417,17 +417,20 @@
 1957,oscar,Filme,Around the World in 80 Days,John Farrow; Michael Anderson,,N,N
 1957,oscar,Direção,Giant,George Stevens,,N,N
 1957,oscar,Roteiro,Around the World in 80 Days,,James Poe; S. J. Perelman; John Farrow,N,N
+1957,oscar,Roteiro,The Brave One,,Dalton Trumbo,N,N
 1957,oscar,Roteiro,The Red Balloon,,Albert Lamorisse,N,N
 1957,oscar,Ator,The King and I,,Yul Brynner,N,N
 1957,oscar,Atriz,Anastasia,,Ingrid Bergman,N,N
 1956,oscar,Filme,Marty,Delbert Mann,,N,N
 1956,oscar,Direção,Marty,Delbert Mann,,N,N
 1956,oscar,Roteiro,Interrupted Melody,,Sonya Levien; William Ludwig,N,N
+1956,oscar,Roteiro,Love Me or Leave Me,,Daniel Fuchs,N,N
 1956,oscar,Roteiro,Marty,,Paddy Chayefsky,N,N
 1956,oscar,Ator,Marty,,Ernest Borgnine,N,N
 1956,oscar,Atriz,The Rose Tattoo,,Anna Magnani,N,N
 1955,oscar,Filme,On the Waterfront,Elia Kazan,,N,N
 1955,oscar,Direção,On the Waterfront,Elia Kazan,,N,N
+1955,oscar,Roteiro,Broken Lance,,Philip Yordan,N,N
 1955,oscar,Roteiro,On the Waterfront,,Budd Schulberg,N,N
 1955,oscar,Roteiro,The Country Girl,,George Seaton,N,N
 1955,oscar,Ator,On the Waterfront,,Marlon Brando,N,N
@@ -435,12 +438,14 @@
 1954,oscar,Filme,From Here to Eternity,Fred Zinnemann,,N,N
 1954,oscar,Direção,From Here to Eternity,Fred Zinnemann,,N,N
 1954,oscar,Roteiro,From Here to Eternity,,Daniel Taradash,N,N
+1954,oscar,Roteiro,Roman Holiday,,Dalton Trumbo,N,N
 1954,oscar,Roteiro,Titanic,,Charles Brackett; Richard L. Breen; Walter Reisch,N,N
 1954,oscar,Ator,Stalag 17,,William Holden,N,N
 1954,oscar,Atriz,Roman Holiday,,Audrey Hepburn,N,N
 1953,oscar,Filme,The Greatest Show on Earth,Cecil B. DeMille,,N,N
 1953,oscar,Direção,The Quiet Man,John Ford,,N,N
 1953,oscar,Roteiro,The Bad and the Beautiful,,Charles Schnee,N,N
+1953,oscar,Roteiro,The Greatest Show on Earth,,Fredric M. Frank; Theodore St. John; Frank Cavett,N,N
 1953,oscar,Roteiro,The Lavender Hill Mob,,T. E. B. Clarke,N,N
 1953,oscar,Ator,High Noon,,Gary Cooper,N,N
 1953,oscar,Atriz,"Come Back, Little Sheba",,Shirley Booth,N,N
@@ -448,11 +453,156 @@
 1952,oscar,Direção,A Place in the Sun,George Stevens,,N,N
 1952,oscar,Roteiro,A Place in the Sun,,Michael Wilson; Harry Brown,N,N
 1952,oscar,Roteiro,An American in Paris,,Alan Jay Lerner,N,N
+1952,oscar,Roteiro,Seven Days to Noon,,James Bernard; Paul Dehn,N,N
 1952,oscar,Ator,The African Queen,,Humphrey Bogart,N,N
 1952,oscar,Atriz,A Streetcar Named Desire,,Vivien Leigh,N,N
 1951,oscar,Filme,All About Eve,Joseph L. Mankiewicz,,N,N
 1951,oscar,Direção,All About Eve,Joseph L. Mankiewicz,,N,N
 1951,oscar,Roteiro,All About Eve,,Joseph L. Mankiewicz,N,N
+1951,oscar,Roteiro,Panic in the Streets,,Edward Anhalt; Edna Anhalt,N,N
 1951,oscar,Roteiro,Sunset Boulevard,,"Billy Wilder; Charles Brackett; D. M. Marshman, Jr.",N,N
 1951,oscar,Ator,Cyrano de Bergerac,,José Ferrer,N,N
 1951,oscar,Atriz,Born Yesterday,,Judy Holliday,N,N
+1950,oscar,Filme,All the King's Men,Robert Rossen,,N,N
+1950,oscar,Direção,A Letter to Three Wives,Joseph L. Mankiewicz,,N,N
+1950,oscar,Roteiro,A Letter to Three Wives,,Joseph L. Mankiewicz,N,N
+1950,oscar,Roteiro,Battleground,,Robert Pirosh,N,N
+1950,oscar,Roteiro,The Stratton Story,,Douglas Morrow,N,N
+1950,oscar,Ator,All the King's Men,,Broderick Crawford,N,N
+1950,oscar,Atriz,The Heiress,,Olivia de Havilland,N,N
+1949,oscar,Filme,Hamlet,Laurence Olivier,,N,N
+1949,oscar,Direção,The Treasure of the Sierra Madre,John Huston,,N,N
+1949,oscar,Roteiro,The Search,,Richard Schweizer; David Wechsler,N,N
+1949,oscar,Roteiro,The Treasure of the Sierra Madre,,John Huston,N,N
+1949,oscar,Ator,Hamlet,,Laurence Olivier,N,N
+1949,oscar,Atriz,Johnny Belinda,,Jane Wyman,N,N
+1948,oscar,Filme,Gentleman's Agreement,Elia Kazan,,N,N
+1948,oscar,Direção,Gentleman's Agreement,Elia Kazan,,N,N
+1948,oscar,Roteiro,Miracle on 34th Street,,George Seaton,N,N
+1948,oscar,Roteiro,Miracle on 34th Street,,Valentine Davies,N,N
+1948,oscar,Roteiro,The Bachelor and the Bobby-Soxer,,Sidney Sheldon,N,N
+1948,oscar,Ator,A Double Life,,Ronald Colman,N,N
+1948,oscar,Atriz,The Farmer's Daughter,,Loretta Young,N,N
+1947,oscar,Filme,The Best Years of Our Lives,William Wyler,,N,N
+1947,oscar,Direção,The Best Years of Our Lives,William Wyler,,N,N
+1947,oscar,Roteiro,Perfect Strangers,,Clemence Dane,N,N
+1947,oscar,Roteiro,The Best Years of Our Lives,,Robert E. Sherwood,N,N
+1947,oscar,Roteiro,The Seventh Veil,,Muriel Box; Sydney Box,N,N
+1947,oscar,Ator,The Best Years of Our Lives,,Fredric March,N,N
+1947,oscar,Atriz,To Each His Own,,Olivia de Havilland,N,N
+1946,oscar,Filme,The Lost Weekend,Billy Wilder,,N,N
+1946,oscar,Direção,The Lost Weekend,Billy Wilder,,N,N
+1946,oscar,Roteiro,Marie-Louise,,Richard Schweizer,N,N
+1946,oscar,Roteiro,The House on 92nd Street,,Charles G. Booth,N,N
+1946,oscar,Roteiro,The Lost Weekend,,Billy Wilder; Charles Brackett,N,N
+1946,oscar,Ator,The Lost Weekend,,Ray Milland,N,N
+1946,oscar,Atriz,Mildred Pierce,,Joan Crawford,N,N
+1945,oscar,Filme,Going My Way,Leo McCarey,,N,N
+1945,oscar,Direção,Going My Way,Leo McCarey,,N,N
+1945,oscar,Roteiro,Going My Way,,Frank Butler; Frank Cavett,N,N
+1945,oscar,Roteiro,Going My Way,,Leo McCarey,N,N
+1945,oscar,Roteiro,Wilson,,Lamar Trotti,N,N
+1945,oscar,Ator,Going My Way,,Bing Crosby,N,N
+1945,oscar,Atriz,Gaslight,,Ingrid Bergman,N,N
+1944,oscar,Filme,Casablanca,Michael Curtiz,,N,N
+1944,oscar,Direção,Casablanca,Michael Curtiz,,N,N
+1944,oscar,Roteiro,Casablanca,,Julius J. Epstein; Philip G. Epstein; Howard Koch,N,N
+1944,oscar,Roteiro,Princess O'Rourke,,Norman Krasna,N,N
+1944,oscar,Roteiro,The Human Comedy,,William Saroyan,N,N
+1944,oscar,Ator,Watch on the Rhine,,Paul Lukas,N,N
+1944,oscar,Atriz,The Song of Bernadette,,Jennifer Jones,N,N
+1943,oscar,Filme,Mrs. Miniver,William Wyler,,N,N
+1943,oscar,Direção,Mrs. Miniver,William Wyler,,N,N
+1943,oscar,Roteiro,49th Parallel,,Emeric Pressburger,N,N
+1943,oscar,Roteiro,Mrs. Miniver,,George Froeschel; Claudine West; James Hilton; Arthur Wimperis,N,N
+1943,oscar,Roteiro,Woman of the Year,,Michael Kanin; Ring Lardner Jr.,N,N
+1943,oscar,Ator,Yankee Doodle Dandy,,James Cagney,N,N
+1943,oscar,Atriz,Mrs. Miniver,,Greer Garson,N,N
+1942,oscar,Filme,How Green Was My Valley,John Ford,,N,N
+1942,oscar,Direção,How Green Was My Valley,John Ford,,N,N
+1942,oscar,Roteiro,Citizen Kane,,Orson Welles; Herman J. Mankiewicz,N,N
+1942,oscar,Roteiro,Here Comes Mr. Jordan,,Sidney Buchman; Seton I. Miller,N,N
+1942,oscar,Roteiro,Here Comes Mr. Jordan,,Harry Segall,N,N
+1942,oscar,Ator,Sergeant York,,Gary Cooper,N,N
+1942,oscar,Atriz,Suspicion,,Joan Fontaine,N,N
+1941,oscar,Filme,Rebecca,Alfred Hitchcock,,N,N
+1941,oscar,Direção,The Grapes of Wrath,John Ford,,N,N
+1941,oscar,Roteiro,"Arise, My Love",,János Székely; Benjamin Glazer,N,N
+1941,oscar,Roteiro,The Great McGinty,,Preston Sturges,N,N
+1941,oscar,Roteiro,The Philadelphia Story,,Donald Ogden Stewart,N,N
+1941,oscar,Ator,The Philadelphia Story,,James Stewart,N,N
+1941,oscar,Atriz,Kitty Foyle,,Ginger Rogers,N,N
+1940,oscar,Filme,Gone with the Wind,George Cukor; Victor Fleming; Sam Wood,,N,N
+1940,oscar,Direção,Gone with the Wind,Victor Fleming,,N,N
+1940,oscar,Roteiro,Gone with the Wind,,Sidney Howard,N,N
+1940,oscar,Roteiro,Mr. Smith Goes to Washington,,Lewis R. Foster,N,N
+1940,oscar,Ator,"Goodbye, Mr. Chips",,Robert Donat,N,N
+1940,oscar,Atriz,Gone with the Wind,,Vivien Leigh,N,N
+1939,oscar,Filme,You Can't Take It With You,Frank Capra,,N,N
+1939,oscar,Direção,You Can't Take It With You,Frank Capra,,N,N
+1939,oscar,Roteiro,Boys Town,,Dore Schary; Eleanore Griffin,N,N
+1939,oscar,Roteiro,Pygmalion,,George Bernard Shaw; Cecil Arthur Lewis; Ian Dalrymple; W. P. Lipscomb,N,N
+1939,oscar,Ator,Boys Town,,Spencer Tracy,N,N
+1939,oscar,Atriz,Jezebel,,Bette Davis,N,N
+1938,oscar,Filme,The Life of Emile Zola,William Dieterle,,N,N
+1938,oscar,Direção,The Awful Truth,Leo McCarey,,N,N
+1938,oscar,Roteiro,A Star Is Born,,William A. Wellman; Robert Carson,N,N
+1938,oscar,Roteiro,The Life of Emile Zola,,Norman Reilly Raine; Géza Herczeg; Heinz Herald,N,N
+1938,oscar,Ator,Captains Courageous,,Spencer Tracy,N,N
+1938,oscar,Atriz,The Good Earth,,Luise Rainer,N,N
+1937,oscar,Filme,The Great Ziegfeld,Robert Z. Leonard,,N,N
+1937,oscar,Direção,Mr. Deeds Goes to Town,Frank Capra,,N,N
+1937,oscar,Roteiro,The Story of Louis Pasteur,,Pierre Collings; Sheridan Gibney,N,N
+1937,oscar,Roteiro,The Story of Louis Pasteur,,Sheridan Gibney; Pierre Collings,N,N
+1937,oscar,Ator,The Story of Louis Pasteur,,Paul Muni,N,N
+1937,oscar,Atriz,The Great Ziegfeld,,Luise Rainer,N,N
+1936,oscar,Filme,Mutiny on the Bounty,Frank Lloyd,,N,N
+1936,oscar,Direção,The Informer,John Ford,,N,N
+1936,oscar,Roteiro,The Informer,,Dudley Nichols,N,N
+1936,oscar,Roteiro,The Scoundrel,,Ben Hecht; Charles MacArthur,N,N
+1936,oscar,Ator,The Informer,,Victor McLaglen,N,N
+1936,oscar,Atriz,Dangerous,,Bette Davis,N,N
+1935,oscar,Filme,It Happened One Night,Frank Capra,,N,N
+1935,oscar,Direção,It Happened One Night,Frank Capra,,N,N
+1935,oscar,Roteiro,It Happened One Night,,Robert Riskin,N,N
+1935,oscar,Roteiro,Manhattan Melodrama,,Arthur Caesar,N,N
+1935,oscar,Ator,It Happened One Night,,Clark Gable,N,N
+1935,oscar,Atriz,It Happened One Night,,Claudette Colbert,N,N
+1934,oscar,Filme,Cavalcade,Frank Lloyd,,N,N
+1934,oscar,Direção,Cavalcade,Frank Lloyd,,N,N
+1934,oscar,Roteiro,Little Women,,Sarah Y. Mason; Victor Heerman,N,N
+1934,oscar,Roteiro,One Way Passage,,Robert Lord,N,N
+1934,oscar,Ator,The Private Life of Henry VIII,,Charles Laughton,N,N
+1934,oscar,Atriz,Morning Glory,,Katharine Hepburn,N,N
+1932,oscar,Filme,Grand Hotel,Edmund Goulding,,N,N
+1932,oscar,Direção,Bad Girl,Frank Borzage,,N,N
+1932,oscar,Roteiro,Bad Girl,,Edwin J. Burke,N,N
+1932,oscar,Roteiro,The Champ,,Frances Marion,N,N
+1932,oscar,Ator,Dr. Jekyll and Mr. Hyde,,Fredric March,S,N
+1932,oscar,Ator,The Champ,,Wallace Beery,S,N
+1932,oscar,Atriz,The Sin of Madelon Claudet,,Helen Hayes,N,N
+1931,oscar,Filme,Cimarron,Wesley Ruggles,,N,N
+1931,oscar,Direção,Skippy,Norman Taurog,,N,N
+1931,oscar,Roteiro,Cimarron,,Howard Estabrook,N,N
+1931,oscar,Roteiro,The Dawn Patrol,,John Monk Saunders,N,N
+1931,oscar,Ator,A Free Soul,,Lionel Barrymore,N,N
+1931,oscar,Atriz,Min and Bill,,Marie Dressler,N,N
+1930,oscar,Filme,All Quiet on the Western Front,Lewis Milestone,,N,N
+1930,oscar,Filme,The Broadway Melody,Harry Beaumont,,N,N
+1930,oscar,Direção,All Quiet on the Western Front,Lewis Milestone,,N,N
+1930,oscar,Direção,The Divine Lady,Frank Lloyd,,N,N
+1930,oscar,Ator,Disraeli,,George Arliss,N,N
+1930,oscar,Ator,In Old Arizona,,Warner Baxter,N,N
+1930,oscar,Atriz,Coquette,,Mary Pickford,N,N
+1930,oscar,Atriz,The Divorcee,,Norma Shearer,N,N
+1929,oscar,Filme,Sunrise: A Song of Two Humans,F. W. Murnau,,N,N
+1929,oscar,Filme,Wings,William A. Wellman; Harry d'Abbadie d'Arrast,,N,N
+1929,oscar,Direção,Seventh Heaven,Frank Borzage,,N,N
+1929,oscar,Direção,Two Arabian Knights,Lewis Milestone,,N,N
+1929,oscar,Roteiro,Seventh Heaven,,Benjamin Glazer,N,N
+1929,oscar,Roteiro,Underworld,,Ben Hecht,N,N
+1929,oscar,Ator,The Last Command,,Emil Jannings,N,N
+1929,oscar,Ator,The Way of All Flesh,,Emil Jannings,N,N
+1929,oscar,Atriz,Seventh Heaven,,Janet Gaynor,N,N
+1929,oscar,Atriz,Street Angel,,Janet Gaynor,N,N
+1929,oscar,Atriz,Sunrise: A Song of Two Humans,,Janet Gaynor,N,N

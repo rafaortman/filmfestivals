@@ -54,37 +54,55 @@ e demais categorias vencidas pelos filmes que já entraram.
       O Oscar só entra na etapa de MONTAGEM, ao decidir quais filmes viram card.
       Elencos/empates registrados como dados; premiado com vários nomes usa "; ".)
 - [x] **Oscar / Filme, Direção, Roteiro, Ator, Atriz** — via Wikidata SPARQL (P585 =
-      ano da cerimônia; recorte cerimônia ≥1951). `data/raw/oscar_*.csv`, **457
-      registros, 76 edições (1951–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
+      ano da cerimônia; **recorte cerimônia ≥1929**). `data/raw/oscar_*.csv`, **607
+      registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
       (fonte única Wikidata; falta conferência 2ª fonte).
 - [ ] Conferência do Oscar (flip N→S, como no Cannes) — Wikipedia por-cerimônia/oscars.org
 - [ ] Combinar baldes (Cannes+Oscar) → set de filmes no portão
 - [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
 - [ ] Badges não-portão (outras categorias dos filmes que entraram)
 
-## Dataset do Oscar (2026-08-09): 457 registros, 76 edições
+## Dataset do Oscar (2026-08-09): 607 registros, 97 edições (1929–2026)
 Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
 as listas por-categoria da Wikipédia via WebFetch **alucinaram** (ex.: "2024 Wicked" como
 Best Picture) e **pularam anos** (resumidor). Wikidata é estruturado e não passa por
 resumo.
+- **Recorte: cerimônia ≥1929** (Rafa, 2026-08-09). O 1951 do ESCOPO §2 era só p/ Cannes
+  (que não tem continuidade antes de 1951); o §6 já previa Oscar até 1929. Cannes segue
+  1951+; Oscar vai de 1929. Assimetria aceita (filmes só-Oscar em 1929–1950 no início).
+- **1933 não existe**: o Oscar não teve cerimônia em 1933 (a 6ª foi em 1934). Ausência
+  correta, não buraco.
 - **Ano = ano da cerimônia** (ESCOPO §4): vem do qualificador **P585** (point in time)
-  do statement P166 (award received). Cobre 1951–2026 inteiro. Recorte: cerimônia ≥1951.
+  do statement P166 (award received). Cobre 1929–2026.
 - **Filme** (Q102427): prêmio é recebido pelo filme E pelos produtores → filtrar humanos
   (`MINUS wdt:P31 wd:Q5`). **Pessoa** (Direção Q103360, Roteiro Orig Q41417 + Adapt Q107258,
   Ator Q103916, Atriz Q103618): recebido pela pessoa; filme vem do qualificador **P1686**
   ("for work"); premiado = nome da pessoa.
-- **Roteiro = balde único** (ESCOPO §8): Original + Adaptado juntos → ~2 filmes/ano (não é
-  empate; empate só quando 2 filmes na MESMA sub-categoria — não ocorre no recorte).
-- Baldes: Filme 76, Direção 76, Roteiro 152 (76+76), Ator 76, Atriz 77 (empate real 1969
-  Streisand/Hepburn).
-- **Correções manuais** (erros/lacunas do Wikidata): labels sem inglês resolvidos
-  (Forrest Gump, La La Land, Darling, The Lavender Hill Mob); linha espúria "Daniels"
-  (grupo) removida do Filme 2022 (CODA é o certo); **EEAAO** Direção+Roteiro estavam
-  datados 2022 no P585 → corrigido p/ 2023 (95ª cerimônia); **Meryl Streep** Atriz 1983
-  (Sophie's Choice) e 2012 (The Iron Lady) faltavam (statements sem P1686) → adicionadas;
-  rótulo de dupla "Daniels" removido quando os nomes individuais já constavam.
+- **Roteiro = balde único** (ESCOPO §8): junta Original (Q41417) + Adaptado (Q107258) +
+  **Best Story/Motion Picture Story (Q504298**, categoria antiga 1929–1957) → 2–3 filmes/
+  ano. NÃO é empate (sub-categorias distintas); empate só quando 2 filmes na MESMA
+  sub-categoria — não ocorre.
+- **QIDs**: Filme Q102427; Direção Q103360 (+ Comédia 1929 Q3451157); Roteiro Q41417 +
+  Q107258 + Q504298; Ator Q103916; Atriz Q103618.
+- Baldes: Filme 99, Direção 99, Roteiro 208, Ator 100, Atriz 101.
+- **Anomalias 1929–1932 (dados corretos, modelo antigo do Oscar):** 1929 tem 2 topos de
+  Filme (Wings + Sunrise/Unique-Artistic) e Direção dividida Drama (Borzage/Seventh
+  Heaven) + Comédia (Milestone/Two Arabian Knights); Ator 1929 = Jannings (2 filmes),
+  Atriz 1929 = Gaynor (3 filmes) — 1 pessoa, NÃO empate. **1930 teve 2 cerimônias** (2ª e
+  3ª) → 2 filmes com ano=1930, NÃO empate.
+- **Empate real (S)**: só os 2 da história p/ nossas categorias — Ator 1932 (March/Beery)
+  e Atriz 1969 (Streisand/Hepburn). Todo o resto empate=N (hardcoded; contagem crua por
+  ano não serve por causa das anomalias acima).
+- **Correções manuais** (lacunas/erros do Wikidata): labels sem inglês resolvidos
+  (Forrest Gump, La La Land, Darling, The Lavender Hill Mob); "Daniels" (grupo) removido
+  do Filme 2022 (CODA é o certo) e do premiado quando os nomes individuais já constavam;
+  **EEAAO** Direção+Roteiro datados 2022 no P585 → corrigido p/ 2023 (95ª); **Streep**
+  Atriz 1983/2012 e **Sunrise/Murnau** (Filme 1929) e **Seventh Heaven/Borzage** (Direção
+  1929) adicionados (statements sem P585/P1686 no Wikidata).
+- **Lacuna conhecida**: Roteiro 1930 (prêmio de escrita das 2 cerimônias de 1930 sob QID
+  não coletado) — deixar p/ a conferência preencher.
 - **verificado=N**: fonte única (Wikidata). Próximo = conferência 2ª fonte (Wikipedia
-  por-cerimônia ou oscars.org), flip N→S, igual ao Cannes.
+  por-cerimônia "Nth Academy Awards", ordinal = ano−1928; ou oscars.org), flip N→S.
 
 ## Conferência de Cannes — CONCLUÍDA (2026-08-07): 509/509, zero erros
 Método: cada balde cruzado com Wikidata (SPARQL) por ano+título. QIDs usados —

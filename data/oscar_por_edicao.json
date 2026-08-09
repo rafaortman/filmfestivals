@@ -2577,6 +2577,10 @@
           "premiado": "James Poe; S. J. Perelman; John Farrow"
         },
         {
+          "titulo": "The Brave One",
+          "premiado": "Dalton Trumbo"
+        },
+        {
           "titulo": "The Red Balloon",
           "premiado": "Albert Lamorisse"
         }
@@ -2614,6 +2618,10 @@
           "premiado": "Sonya Levien; William Ludwig"
         },
         {
+          "titulo": "Love Me or Leave Me",
+          "premiado": "Daniel Fuchs"
+        },
+        {
           "titulo": "Marty",
           "premiado": "Paddy Chayefsky"
         }
@@ -2646,6 +2654,10 @@
         }
       ],
       "roteiro": [
+        {
+          "titulo": "Broken Lance",
+          "premiado": "Philip Yordan"
+        },
         {
           "titulo": "On the Waterfront",
           "premiado": "Budd Schulberg"
@@ -2688,6 +2700,10 @@
           "premiado": "Daniel Taradash"
         },
         {
+          "titulo": "Roman Holiday",
+          "premiado": "Dalton Trumbo"
+        },
+        {
           "titulo": "Titanic",
           "premiado": "Charles Brackett; Richard L. Breen; Walter Reisch"
         }
@@ -2723,6 +2739,10 @@
         {
           "titulo": "The Bad and the Beautiful",
           "premiado": "Charles Schnee"
+        },
+        {
+          "titulo": "The Greatest Show on Earth",
+          "premiado": "Fredric M. Frank; Theodore St. John; Frank Cavett"
         },
         {
           "titulo": "The Lavender Hill Mob",
@@ -2764,6 +2784,10 @@
         {
           "titulo": "An American in Paris",
           "premiado": "Alan Jay Lerner"
+        },
+        {
+          "titulo": "Seven Days to Noon",
+          "premiado": "James Bernard; Paul Dehn"
         }
       ],
       "ator": [
@@ -2799,6 +2823,10 @@
           "premiado": "Joseph L. Mankiewicz"
         },
         {
+          "titulo": "Panic in the Streets",
+          "premiado": "Edward Anhalt; Edna Anhalt"
+        },
+        {
           "titulo": "Sunset Boulevard",
           "premiado": "Billy Wilder; Charles Brackett; D. M. Marshman, Jr."
         }
@@ -2813,6 +2841,848 @@
         {
           "titulo": "Born Yesterday",
           "premiado": "Judy Holliday"
+        }
+      ]
+    },
+    "1950": {
+      "filme": [
+        {
+          "titulo": "All the King's Men"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "A Letter to Three Wives",
+          "premiado": "Joseph L. Mankiewicz"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Letter to Three Wives",
+          "premiado": "Joseph L. Mankiewicz"
+        },
+        {
+          "titulo": "Battleground",
+          "premiado": "Robert Pirosh"
+        },
+        {
+          "titulo": "The Stratton Story",
+          "premiado": "Douglas Morrow"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "All the King's Men",
+          "premiado": "Broderick Crawford"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Heiress",
+          "premiado": "Olivia de Havilland"
+        }
+      ]
+    },
+    "1949": {
+      "filme": [
+        {
+          "titulo": "Hamlet"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Treasure of the Sierra Madre",
+          "premiado": "John Huston"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Search",
+          "premiado": "Richard Schweizer; David Wechsler"
+        },
+        {
+          "titulo": "The Treasure of the Sierra Madre",
+          "premiado": "John Huston"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Hamlet",
+          "premiado": "Laurence Olivier"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Johnny Belinda",
+          "premiado": "Jane Wyman"
+        }
+      ]
+    },
+    "1948": {
+      "filme": [
+        {
+          "titulo": "Gentleman's Agreement"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Gentleman's Agreement",
+          "premiado": "Elia Kazan"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Miracle on 34th Street",
+          "premiado": "George Seaton"
+        },
+        {
+          "titulo": "Miracle on 34th Street",
+          "premiado": "Valentine Davies"
+        },
+        {
+          "titulo": "The Bachelor and the Bobby-Soxer",
+          "premiado": "Sidney Sheldon"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "A Double Life",
+          "premiado": "Ronald Colman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Farmer's Daughter",
+          "premiado": "Loretta Young"
+        }
+      ]
+    },
+    "1947": {
+      "filme": [
+        {
+          "titulo": "The Best Years of Our Lives"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Best Years of Our Lives",
+          "premiado": "William Wyler"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Perfect Strangers",
+          "premiado": "Clemence Dane"
+        },
+        {
+          "titulo": "The Best Years of Our Lives",
+          "premiado": "Robert E. Sherwood"
+        },
+        {
+          "titulo": "The Seventh Veil",
+          "premiado": "Muriel Box; Sydney Box"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Best Years of Our Lives",
+          "premiado": "Fredric March"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "To Each His Own",
+          "premiado": "Olivia de Havilland"
+        }
+      ]
+    },
+    "1946": {
+      "filme": [
+        {
+          "titulo": "The Lost Weekend"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Lost Weekend",
+          "premiado": "Billy Wilder"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Marie-Louise",
+          "premiado": "Richard Schweizer"
+        },
+        {
+          "titulo": "The House on 92nd Street",
+          "premiado": "Charles G. Booth"
+        },
+        {
+          "titulo": "The Lost Weekend",
+          "premiado": "Billy Wilder; Charles Brackett"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Lost Weekend",
+          "premiado": "Ray Milland"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Mildred Pierce",
+          "premiado": "Joan Crawford"
+        }
+      ]
+    },
+    "1945": {
+      "filme": [
+        {
+          "titulo": "Going My Way"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Going My Way",
+          "premiado": "Leo McCarey"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Going My Way",
+          "premiado": "Frank Butler; Frank Cavett"
+        },
+        {
+          "titulo": "Going My Way",
+          "premiado": "Leo McCarey"
+        },
+        {
+          "titulo": "Wilson",
+          "premiado": "Lamar Trotti"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Going My Way",
+          "premiado": "Bing Crosby"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Gaslight",
+          "premiado": "Ingrid Bergman"
+        }
+      ]
+    },
+    "1944": {
+      "filme": [
+        {
+          "titulo": "Casablanca"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Casablanca",
+          "premiado": "Michael Curtiz"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Casablanca",
+          "premiado": "Julius J. Epstein; Philip G. Epstein; Howard Koch"
+        },
+        {
+          "titulo": "Princess O'Rourke",
+          "premiado": "Norman Krasna"
+        },
+        {
+          "titulo": "The Human Comedy",
+          "premiado": "William Saroyan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Watch on the Rhine",
+          "premiado": "Paul Lukas"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Song of Bernadette",
+          "premiado": "Jennifer Jones"
+        }
+      ]
+    },
+    "1943": {
+      "filme": [
+        {
+          "titulo": "Mrs. Miniver"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Mrs. Miniver",
+          "premiado": "William Wyler"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "49th Parallel",
+          "premiado": "Emeric Pressburger"
+        },
+        {
+          "titulo": "Mrs. Miniver",
+          "premiado": "George Froeschel; Claudine West; James Hilton; Arthur Wimperis"
+        },
+        {
+          "titulo": "Woman of the Year",
+          "premiado": "Michael Kanin; Ring Lardner Jr."
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Yankee Doodle Dandy",
+          "premiado": "James Cagney"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Mrs. Miniver",
+          "premiado": "Greer Garson"
+        }
+      ]
+    },
+    "1942": {
+      "filme": [
+        {
+          "titulo": "How Green Was My Valley"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "How Green Was My Valley",
+          "premiado": "John Ford"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Citizen Kane",
+          "premiado": "Orson Welles; Herman J. Mankiewicz"
+        },
+        {
+          "titulo": "Here Comes Mr. Jordan",
+          "premiado": "Sidney Buchman; Seton I. Miller"
+        },
+        {
+          "titulo": "Here Comes Mr. Jordan",
+          "premiado": "Harry Segall"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Sergeant York",
+          "premiado": "Gary Cooper"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Suspicion",
+          "premiado": "Joan Fontaine"
+        }
+      ]
+    },
+    "1941": {
+      "filme": [
+        {
+          "titulo": "Rebecca"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Grapes of Wrath",
+          "premiado": "John Ford"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Arise, My Love",
+          "premiado": "János Székely; Benjamin Glazer"
+        },
+        {
+          "titulo": "The Great McGinty",
+          "premiado": "Preston Sturges"
+        },
+        {
+          "titulo": "The Philadelphia Story",
+          "premiado": "Donald Ogden Stewart"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Philadelphia Story",
+          "premiado": "James Stewart"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Kitty Foyle",
+          "premiado": "Ginger Rogers"
+        }
+      ]
+    },
+    "1940": {
+      "filme": [
+        {
+          "titulo": "Gone with the Wind"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Gone with the Wind",
+          "premiado": "Victor Fleming"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Gone with the Wind",
+          "premiado": "Sidney Howard"
+        },
+        {
+          "titulo": "Mr. Smith Goes to Washington",
+          "premiado": "Lewis R. Foster"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Goodbye, Mr. Chips",
+          "premiado": "Robert Donat"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Gone with the Wind",
+          "premiado": "Vivien Leigh"
+        }
+      ]
+    },
+    "1939": {
+      "filme": [
+        {
+          "titulo": "You Can't Take It With You"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "You Can't Take It With You",
+          "premiado": "Frank Capra"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Boys Town",
+          "premiado": "Dore Schary; Eleanore Griffin"
+        },
+        {
+          "titulo": "Pygmalion",
+          "premiado": "George Bernard Shaw; Cecil Arthur Lewis; Ian Dalrymple; W. P. Lipscomb"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Boys Town",
+          "premiado": "Spencer Tracy"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Jezebel",
+          "premiado": "Bette Davis"
+        }
+      ]
+    },
+    "1938": {
+      "filme": [
+        {
+          "titulo": "The Life of Emile Zola"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Awful Truth",
+          "premiado": "Leo McCarey"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Star Is Born",
+          "premiado": "William A. Wellman; Robert Carson"
+        },
+        {
+          "titulo": "The Life of Emile Zola",
+          "premiado": "Norman Reilly Raine; Géza Herczeg; Heinz Herald"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Captains Courageous",
+          "premiado": "Spencer Tracy"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Good Earth",
+          "premiado": "Luise Rainer"
+        }
+      ]
+    },
+    "1937": {
+      "filme": [
+        {
+          "titulo": "The Great Ziegfeld"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Mr. Deeds Goes to Town",
+          "premiado": "Frank Capra"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Story of Louis Pasteur",
+          "premiado": "Pierre Collings; Sheridan Gibney"
+        },
+        {
+          "titulo": "The Story of Louis Pasteur",
+          "premiado": "Sheridan Gibney; Pierre Collings"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Story of Louis Pasteur",
+          "premiado": "Paul Muni"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Great Ziegfeld",
+          "premiado": "Luise Rainer"
+        }
+      ]
+    },
+    "1936": {
+      "filme": [
+        {
+          "titulo": "Mutiny on the Bounty"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Informer",
+          "premiado": "John Ford"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Informer",
+          "premiado": "Dudley Nichols"
+        },
+        {
+          "titulo": "The Scoundrel",
+          "premiado": "Ben Hecht; Charles MacArthur"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Informer",
+          "premiado": "Victor McLaglen"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Dangerous",
+          "premiado": "Bette Davis"
+        }
+      ]
+    },
+    "1935": {
+      "filme": [
+        {
+          "titulo": "It Happened One Night"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "It Happened One Night",
+          "premiado": "Frank Capra"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "It Happened One Night",
+          "premiado": "Robert Riskin"
+        },
+        {
+          "titulo": "Manhattan Melodrama",
+          "premiado": "Arthur Caesar"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "It Happened One Night",
+          "premiado": "Clark Gable"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "It Happened One Night",
+          "premiado": "Claudette Colbert"
+        }
+      ]
+    },
+    "1934": {
+      "filme": [
+        {
+          "titulo": "Cavalcade"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Cavalcade",
+          "premiado": "Frank Lloyd"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Little Women",
+          "premiado": "Sarah Y. Mason; Victor Heerman"
+        },
+        {
+          "titulo": "One Way Passage",
+          "premiado": "Robert Lord"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Private Life of Henry VIII",
+          "premiado": "Charles Laughton"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Morning Glory",
+          "premiado": "Katharine Hepburn"
+        }
+      ]
+    },
+    "1932": {
+      "filme": [
+        {
+          "titulo": "Grand Hotel"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Bad Girl",
+          "premiado": "Frank Borzage"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Bad Girl",
+          "premiado": "Edwin J. Burke"
+        },
+        {
+          "titulo": "The Champ",
+          "premiado": "Frances Marion"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Dr. Jekyll and Mr. Hyde",
+          "premiado": "Fredric March"
+        },
+        {
+          "titulo": "The Champ",
+          "premiado": "Wallace Beery"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Sin of Madelon Claudet",
+          "premiado": "Helen Hayes"
+        }
+      ]
+    },
+    "1931": {
+      "filme": [
+        {
+          "titulo": "Cimarron"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Skippy",
+          "premiado": "Norman Taurog"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Cimarron",
+          "premiado": "Howard Estabrook"
+        },
+        {
+          "titulo": "The Dawn Patrol",
+          "premiado": "John Monk Saunders"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "A Free Soul",
+          "premiado": "Lionel Barrymore"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Min and Bill",
+          "premiado": "Marie Dressler"
+        }
+      ]
+    },
+    "1930": {
+      "filme": [
+        {
+          "titulo": "All Quiet on the Western Front"
+        },
+        {
+          "titulo": "The Broadway Melody"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "All Quiet on the Western Front",
+          "premiado": "Lewis Milestone"
+        },
+        {
+          "titulo": "The Divine Lady",
+          "premiado": "Frank Lloyd"
+        }
+      ],
+      "roteiro": [],
+      "ator": [
+        {
+          "titulo": "Disraeli",
+          "premiado": "George Arliss"
+        },
+        {
+          "titulo": "In Old Arizona",
+          "premiado": "Warner Baxter"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Coquette",
+          "premiado": "Mary Pickford"
+        },
+        {
+          "titulo": "The Divorcee",
+          "premiado": "Norma Shearer"
+        }
+      ]
+    },
+    "1929": {
+      "filme": [
+        {
+          "titulo": "Sunrise: A Song of Two Humans"
+        },
+        {
+          "titulo": "Wings"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Seventh Heaven",
+          "premiado": "Frank Borzage"
+        },
+        {
+          "titulo": "Two Arabian Knights",
+          "premiado": "Lewis Milestone"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Seventh Heaven",
+          "premiado": "Benjamin Glazer"
+        },
+        {
+          "titulo": "Underworld",
+          "premiado": "Ben Hecht"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Last Command",
+          "premiado": "Emil Jannings"
+        },
+        {
+          "titulo": "The Way of All Flesh",
+          "premiado": "Emil Jannings"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Seventh Heaven",
+          "premiado": "Janet Gaynor"
+        },
+        {
+          "titulo": "Street Angel",
+          "premiado": "Janet Gaynor"
+        },
+        {
+          "titulo": "Sunrise: A Song of Two Humans",
+          "premiado": "Janet Gaynor"
         }
       ]
     }
