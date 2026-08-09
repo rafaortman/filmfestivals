@@ -3983,7 +3983,16 @@
           "premiado": "Frank Lloyd"
         }
       ],
-      "roteiro": [],
+      "roteiro": [
+        {
+          "titulo": "The Big House",
+          "premiado": "Frances Marion"
+        },
+        {
+          "titulo": "The Patriot",
+          "premiado": "Hans Kraly"
+        }
+      ],
       "filme_estrangeiro": [],
       "ator": [
         {

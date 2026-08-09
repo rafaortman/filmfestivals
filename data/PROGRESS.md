@@ -55,14 +55,14 @@ e demais categorias vencidas pelos filmes que já entraram.
       Elencos/empates registrados como dados; premiado com vários nomes usa "; ".)
 - [x] **Oscar / Filme, Direção, Roteiro, Filme Estrangeiro, Ator, Atriz** — via Wikidata
       SPARQL (P585 = ano da cerimônia; **recorte cerimônia ≥1929**). `data/raw/oscar_*.csv`,
-      **677 registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
+      **679 registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
       (fonte única Wikidata; falta conferência 2ª fonte).
 - [ ] Conferência do Oscar (flip N→S, como no Cannes) — Wikipedia por-cerimônia/oscars.org
 - [ ] Combinar baldes (Cannes+Oscar) → set de filmes no portão
 - [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
 - [ ] Badges não-portão (outras categorias dos filmes que entraram)
 
-## Dataset do Oscar (2026-08-09): 677 registros, 97 edições (1929–2026)
+## Dataset do Oscar (2026-08-09): 679 registros, 97 edições (1929–2026)
 Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
 as listas por-categoria da Wikipédia via WebFetch **alucinaram** (ex.: "2024 Wicked" como
 Best Picture) e **pularam anos** (resumidor). Wikidata é estruturado e não passa por
@@ -84,8 +84,8 @@ resumo.
   sub-categoria — não ocorre.
 - **QIDs**: Filme Q102427; Direção Q103360 (+ Comédia 1929 Q3451157); Roteiro Q41417 +
   Q107258 + Q504298; **Filme Estrangeiro/Internacional Q105304**; Ator Q103916; Atriz Q103618.
-- Baldes: Filme 99, Direção 99, Roteiro 208, **Filme Estrangeiro 70**, Ator 100, Atriz 101
-  = **677 registros**.
+- Baldes: Filme 99, Direção 99, Roteiro 210, **Filme Estrangeiro 70**, Ator 100, Atriz 101
+  = **679 registros**.
 - **Filme Estrangeiro** (2026-08-09, novo portão — ESCOPO §3): 70 vencedores da categoria
   competitiva (1957 La Strada → 2026), sem buracos. Só a competitiva; honorários 1947–1955
   fora. Adiciona **47 filmes** que nenhum outro portão (Oscar F/D/R ou Cannes) cobria.
@@ -103,8 +103,8 @@ resumo.
   **EEAAO** Direção+Roteiro datados 2022 no P585 → corrigido p/ 2023 (95ª); **Streep**
   Atriz 1983/2012 e **Sunrise/Murnau** (Filme 1929) e **Seventh Heaven/Borzage** (Direção
   1929) adicionados (statements sem P585/P1686 no Wikidata).
-- **Lacuna conhecida**: Roteiro 1930 (prêmio de escrita das 2 cerimônias de 1930 sob QID
-  não coletado) — deixar p/ a conferência preencher.
+- Roteiro 1930 (2 cerimônias) preenchido à mão via Wikipédia por-cerimônia: Hans Kraly
+  (The Patriot, 2ª) e Frances Marion (The Big House, 3ª). Sem buracos restantes.
 - **verificado=N**: fonte única (Wikidata). Próximo = conferência 2ª fonte (Wikipedia
   por-cerimônia "Nth Academy Awards", ordinal = ano−1928; ou oscars.org), flip N→S.
 
