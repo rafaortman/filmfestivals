@@ -59,6 +59,20 @@ e demais categorias vencidas pelos filmes que já entraram.
 - [ ] Badges não-portão (atuação + outras categorias dos filmes que entraram)
 - [ ] Verificação contra fontes oficiais (flip verificado=N→S)
 
+## Conferência (verificado N→S) — em andamento
+Método: cruzar cada balde com fonte independente (Wikidata SPARQL) e marcar `S` onde
+concordam; investigar divergências; casos históricos indiscutíveis marcados por
+confirmação direta.
+- [x] **Cannes/Filme: 85/85 verificado=S** (cruzado com Wikidata Q179808 / Palme d'Or;
+      divergências eram só formatação título; 4 co-vencedores de empate confirmados à mão).
+- [ ] Cannes: Grande Prêmio, Prêmio do Júri, Direção, Roteiro, Ator, Atriz (424 reg.).
+
+## Streaming (decisão de sequenciamento, 2026-08-07)
+Disponibilidade em streaming é a **ÚLTIMA etapa** e deve ser **recorrente** (script que
+reroda), NÃO congelada. Motivos: (1) é volátil (muda toda semana); (2) só vale pros
+filmes que entram no set; (3) vem junto do TMDB `watch/providers`. Ordem: fechar portão
+(Cannes+Oscar) → casar TMDB → enriquecer (pôster/sinopse/streaming) → refresh agendável.
+
 ## Regra de dedupe (crítica, ao combinar baldes)
 Deduplicar filmes por **título + ano + diretor**, NUNCA só por título. Há colisões
 de título entre obras diferentes — ex.: *Othello* de Orson Welles (Filme, Cannes
