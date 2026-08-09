@@ -721,14 +721,6 @@
     "premiado": "Yuji Sakamoto",
     "portao": true,
     "empate": false
-   },
-   {
-    "festival": "oscar",
-    "categoria": "Atriz",
-    "ano": 2004,
-    "premiado": "Charlize Theron",
-    "portao": false,
-    "empate": false
    }
   ]
  },
@@ -5866,6 +5858,35 @@
    {
     "festival": "cannes",
     "categoria": "Direção",
+    "ano": 1998,
+    "premiado": "",
+    "portao": true,
+    "empate": false
+   }
+  ]
+ },
+ {
+  "titulo": "Titanic",
+  "diretor": "James Cameron",
+  "ano_ancora": 1998,
+  "fonte": "oscar",
+  "anos_portao": {
+   "oscar": [
+    1998
+   ]
+  },
+  "premios": [
+   {
+    "festival": "oscar",
+    "categoria": "Direção",
+    "ano": 1998,
+    "premiado": "",
+    "portao": true,
+    "empate": false
+   },
+   {
+    "festival": "oscar",
+    "categoria": "Filme",
     "ano": 1998,
     "premiado": "",
     "portao": true,
@@ -13717,13 +13738,12 @@
  },
  {
   "titulo": "Titanic",
-  "diretor": "James Cameron",
+  "diretor": "",
   "ano_ancora": 1954,
   "fonte": "oscar",
   "anos_portao": {
    "oscar": [
-    1954,
-    1998
+    1954
    ]
   },
   "premios": [
@@ -13732,22 +13752,6 @@
     "categoria": "Roteiro",
     "ano": 1954,
     "premiado": "Charles Brackett; Richard L. Breen; Walter Reisch",
-    "portao": true,
-    "empate": false
-   },
-   {
-    "festival": "oscar",
-    "categoria": "Direção",
-    "ano": 1998,
-    "premiado": "",
-    "portao": true,
-    "empate": false
-   },
-   {
-    "festival": "oscar",
-    "categoria": "Filme",
-    "ano": 1998,
-    "premiado": "",
     "portao": true,
     "empate": false
    }

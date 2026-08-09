@@ -17,3 +17,7 @@ __pycache__/
 
 # Cache de verificação (wikitext baixado por verify_oscar.py) — regenerável
 scripts/verify_cache/
+
+# Cache TMDB e CSV de revisão (regeneráveis)
+.cache/
+data/enrich_revisao.csv

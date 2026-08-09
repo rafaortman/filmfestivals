@@ -74,13 +74,18 @@ def split_group(group):
         if nd is None:
             nd = {"toks": rt, "recs": []}; nodes.append(nd)
         nd["recs"].append(r)
-    # pass 2: registros sem diretor -> no mais proximo em ano
-    for r in group:
-        if r["diretor"]:
-            continue
-        nd = min(nodes, key=lambda n: min((abs(r["ano"] - x["ano"]) for x in n["recs"]),
-                                          default=9999))
-        nd["recs"].append(r)
+    # pass 2: registros sem diretor -> no mais proximo em ano; se todos os nos estao
+    # longe (>4 anos), e outro filme de mesmo titulo (ex.: Titanic 1953 vs 1997) -> no novo.
+    for r in sorted((r for r in group if not r["diretor"]), key=lambda r: r["ano"]):
+        withrecs = [n for n in nodes if n["recs"]]
+        if not withrecs:
+            nodes[0]["recs"].append(r); continue
+        nd = min(withrecs, key=lambda n: min(abs(r["ano"] - x["ano"]) for x in n["recs"]))
+        d = min(abs(r["ano"] - x["ano"]) for x in nd["recs"])
+        if d <= 4:
+            nd["recs"].append(r)
+        else:
+            nodes.append({"toks": set(), "recs": [r]})
     return [n["recs"] for n in nodes if n["recs"]]
 
 def load_records():
