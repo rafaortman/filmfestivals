@@ -29,8 +29,9 @@ Badges não-portão (coletar depois de fechar o set): atuação (com nome do pre
 e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
-- **DATASET DE CANNES COMPLETO E CONFERIDO** (2026-08-07): **7 baldes, 509 registros**,
-  471 pares (título, ano) distintos. **Todos verificado=S** (ver seção Conferência abaixo).
+- **DATASET DE CANNES COMPLETO** (2026-08-07): **7 baldes, 509 registros**, 471 pares
+  (título, ano) distintos. Conferência: **377 verificado=S** (cruzado c/ Wikidata),
+  **132 verificado=P** (pendente 2ª fonte). Ver seção Conferência abaixo.
   Baldes: Filme(85), Grande Prêmio 2º(67), Prêmio do Júri(84), Direção(70),
   Roteiro(46), Ator(75), Atriz(82).
   **Portão de Cannes AMPLIADO** (ver ESCOPO §3): Filme + Grande Prêmio + Prêmio do
@@ -69,10 +70,18 @@ revisadas uma a uma e são TODAS benignas: (a) mesmo filme com rótulo em outro 
 (b) co-vencedor do empate; (c) Wikidata modela o prêmio na pessoa (devolve o nome);
 (d) confusão Un Certain Regard × Competição no Wikidata — nesses (Direção 2013 Heli,
 Ator 2014 Mr. Turner) o dado nosso, da competição principal, é o correto.
-**Nenhum erro encontrado. Todos os 509 marcados verificado=S.**
-Nota de honestidade: `S` aqui = "conferido nesta passada" (cross-check + revisão das
-divergências), não "duplo-confirmado célula a célula" nas ~132 lacunas do Wikidata —
-mas essas vêm da mesma fonte curada que deu 100% de acerto na espinha (Filme).
+**Nenhuma contradição encontrada** (≠ "zero erros": o método não prova ausência de erro).
+Marcação em DOIS níveis (honesta):
+- `S` = teve contraparte no Wikidata (confirmado ou divergência benigna revisada): **377**.
+- `P` = SEM 2ª fonte ainda (Wikidata em branco pro ano); só na fonte original curada: **132**.
+
+### Sobre fechar os 132 `P`
+O **site oficial (festival-cannes.com) NÃO serve** pra isso: a retrospectiva por ano
+mostra só o line-up, não os premiados; listas oficiais de vencedores só existem como
+press release dos anos recentes. Logo, 2ª fonte viável e pescável = **artigos por
+edição da Wikipédia** ("1975 Cannes Film Festival" etc., independentes dos artigos
+por-prêmio que usei) ou MUBI. Custo: ~61 fetches (61 anos). Os `P` do portão (afetam o
+set) são 65: grande_premio 5, juri 22, direcao 20, roteiro 18; atuação (badge) = 67.
 
 ## Streaming (decisão de sequenciamento, 2026-08-07)
 Disponibilidade em streaming é a **ÚLTIMA etapa** e deve ser **recorrente** (script que

@@ -1,40 +1,40 @@
 festival,categoria,ano_premio,titulo,diretor,premiado,empate,verificado
-cannes,Direção,1951,Los Olvidados,Luis Buñuel,,N,S
-cannes,Direção,1952,Fanfan la Tulipe,Christian-Jaque,,N,S
+cannes,Direção,1951,Los Olvidados,Luis Buñuel,,N,P
+cannes,Direção,1952,Fanfan la Tulipe,Christian-Jaque,,N,P
 cannes,Direção,1955,Rififi,Jules Dassin,,S,S
 cannes,Direção,1955,Heroes of Shipka,Sergei Vasilyev,,S,S
-cannes,Direção,1956,Othello,Sergei Yutkevich,,N,S
+cannes,Direção,1956,Othello,Sergei Yutkevich,,N,P
 cannes,Direção,1957,A Man Escaped,Robert Bresson,,N,S
 cannes,Direção,1958,Brink of Life,Ingmar Bergman,,N,S
 cannes,Direção,1959,The 400 Blows,François Truffaut,,N,S
-cannes,Direção,1961,Chronicle of Flaming Years,Yuliya Solntseva,,N,S
+cannes,Direção,1961,Chronicle of Flaming Years,Yuliya Solntseva,,N,P
 cannes,Direção,1965,Forest of the Hanged,Liviu Ciulei,,N,S
-cannes,Direção,1966,Lenin in Poland,Sergei Yutkevich,,N,S
+cannes,Direção,1966,Lenin in Poland,Sergei Yutkevich,,N,P
 cannes,Direção,1967,Ten Thousand Days,Ferenc Kósa,,N,S
 cannes,Direção,1969,Antonio das Mortes,Glauber Rocha,,S,S
 cannes,Direção,1969,All My Compatriots,Vojtěch Jasný,,S,S
 cannes,Direção,1970,Leo the Last,John Boorman,,N,S
-cannes,Direção,1972,Red Psalm,Miklós Jancsó,,N,S
+cannes,Direção,1972,Red Psalm,Miklós Jancsó,,N,P
 cannes,Direção,1975,Orders,Michel Brault,,S,S
 cannes,Direção,1975,Special Section,Costa-Gavras,,S,S
 cannes,Direção,1976,Down and Dirty,Ettore Scola,,N,S
 cannes,Direção,1978,Empire of Passion,Nagisa Ōshima,,N,S
 cannes,Direção,1979,Days of Heaven,Terrence Malick,,N,S
-cannes,Direção,1982,Fitzcarraldo,Werner Herzog,,N,S
+cannes,Direção,1982,Fitzcarraldo,Werner Herzog,,N,P
 cannes,Direção,1983,L'Argent,Robert Bresson,,S,S
 cannes,Direção,1983,Nostalghia,Andrei Tarkovsky,,S,S
 cannes,Direção,1984,A Sunday in the Country,Bertrand Tavernier,,N,S
-cannes,Direção,1985,Rendez-vous,André Téchiné,,N,S
+cannes,Direção,1985,Rendez-vous,André Téchiné,,N,P
 cannes,Direção,1986,After Hours,Martin Scorsese,,N,S
 cannes,Direção,1987,Wings of Desire,Wim Wenders,,N,S
 cannes,Direção,1988,Sur,Fernando Solanas,,N,S
 cannes,Direção,1989,Time of the Gypsies,Emir Kusturica,,N,S
 cannes,Direção,1990,Taxi Blues,Pavel Lungin,,N,S
 cannes,Direção,1991,Barton Fink,Joel Coen,,N,S
-cannes,Direção,1992,The Player,Robert Altman,,N,S
-cannes,Direção,1993,Naked,Mike Leigh,,N,S
+cannes,Direção,1992,The Player,Robert Altman,,N,P
+cannes,Direção,1993,Naked,Mike Leigh,,N,P
 cannes,Direção,1994,Caro diario,Nanni Moretti,,N,S
-cannes,Direção,1995,La Haine,Mathieu Kassovitz,,N,S
+cannes,Direção,1995,La Haine,Mathieu Kassovitz,,N,P
 cannes,Direção,1996,Fargo,Joel Coen,,N,S
 cannes,Direção,1997,Happy Together,Wong Kar-wai,,N,S
 cannes,Direção,1998,The General,John Boorman,,N,S
@@ -48,23 +48,23 @@ cannes,Direção,2003,Elephant,Gus Van Sant,,N,S
 cannes,Direção,2004,Exils,Tony Gatlif,,N,S
 cannes,Direção,2005,Caché,Michael Haneke,,N,S
 cannes,Direção,2006,Babel,Alejandro González Iñárritu,,N,S
-cannes,Direção,2007,The Diving Bell and the Butterfly,Julian Schnabel,,N,S
+cannes,Direção,2007,The Diving Bell and the Butterfly,Julian Schnabel,,N,P
 cannes,Direção,2008,Three Monkeys,Nuri Bilge Ceylan,,N,S
 cannes,Direção,2009,Kinatay,Brillante Mendoza,,N,S
 cannes,Direção,2010,On Tour,Mathieu Amalric,,N,S
 cannes,Direção,2011,Drive,Nicolas Winding Refn,,N,S
-cannes,Direção,2012,Post Tenebras Lux,Carlos Reygadas,,N,S
+cannes,Direção,2012,Post Tenebras Lux,Carlos Reygadas,,N,P
 cannes,Direção,2013,Heli,Amat Escalante,,N,S
-cannes,Direção,2014,Foxcatcher,Bennett Miller,,N,S
-cannes,Direção,2015,The Assassin,Hou Hsiao-hsien,,N,S
+cannes,Direção,2014,Foxcatcher,Bennett Miller,,N,P
+cannes,Direção,2015,The Assassin,Hou Hsiao-hsien,,N,P
 cannes,Direção,2016,Personal Shopper,Olivier Assayas,,S,S
 cannes,Direção,2016,Graduation,Cristian Mungiu,,S,S
-cannes,Direção,2017,The Beguiled,Sofia Coppola,,N,S
-cannes,Direção,2018,Cold War,Paweł Pawlikowski,,N,S
-cannes,Direção,2019,Young Ahmed,Jean-Pierre & Luc Dardenne,,N,S
-cannes,Direção,2021,Annette,Leos Carax,,N,S
+cannes,Direção,2017,The Beguiled,Sofia Coppola,,N,P
+cannes,Direção,2018,Cold War,Paweł Pawlikowski,,N,P
+cannes,Direção,2019,Young Ahmed,Jean-Pierre & Luc Dardenne,,N,P
+cannes,Direção,2021,Annette,Leos Carax,,N,P
 cannes,Direção,2022,Decision to Leave,Park Chan-wook,,N,S
-cannes,Direção,2023,The Taste of Things,Tran Anh Hung,,N,S
+cannes,Direção,2023,The Taste of Things,Tran Anh Hung,,N,P
 cannes,Direção,2024,Grand Tour,Miguel Gomes,,N,S
 cannes,Direção,2025,The Secret Agent,Kleber Mendonça Filho,,N,S
 cannes,Direção,2026,La bola negra,Javier Calvo & Javier Ambrossi,,S,S
