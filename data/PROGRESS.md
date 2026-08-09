@@ -30,8 +30,9 @@ e demais categorias vencidas pelos filmes que já entraram.
 
 ## Status
 - **DATASET DE CANNES COMPLETO** (2026-08-07): **7 baldes, 509 registros**, 471 pares
-  (título, ano) distintos. Conferência: **377 verificado=S** (cruzado c/ Wikidata),
-  **132 verificado=P** (pendente 2ª fonte). Ver seção Conferência abaixo.
+  (título, ano) distintos. Conferência: **474 verificado=S**, **35 verificado=P**
+  (só badges de atuação — ator 14, atriz 21). **Portão 100% conferido** (Filme,
+  Grande Prêmio, Júri, Direção, Roteiro = 0 P). Ver seção Conferência abaixo.
   Baldes: Filme(85), Grande Prêmio 2º(67), Prêmio do Júri(84), Direção(70),
   Roteiro(46), Ator(75), Atriz(82).
   **Portão de Cannes AMPLIADO** (ver ESCOPO §3): Filme + Grande Prêmio + Prêmio do
@@ -72,16 +73,22 @@ revisadas uma a uma e são TODAS benignas: (a) mesmo filme com rótulo em outro 
 Ator 2014 Mr. Turner) o dado nosso, da competição principal, é o correto.
 **Nenhuma contradição encontrada** (≠ "zero erros": o método não prova ausência de erro).
 Marcação em DOIS níveis (honesta):
-- `S` = teve contraparte no Wikidata (confirmado ou divergência benigna revisada): **377**.
-- `P` = SEM 2ª fonte ainda (Wikidata em branco pro ano); só na fonte original curada: **132**.
+- `S` = confirmado por 2ª fonte (Wikidata OU artigo Wikipédia por-edição).
+- `P` = SEM 2ª fonte ainda; só na fonte original curada.
 
-### Sobre fechar os 132 `P`
-O **site oficial (festival-cannes.com) NÃO serve** pra isso: a retrospectiva por ano
-mostra só o line-up, não os premiados; listas oficiais de vencedores só existem como
-press release dos anos recentes. Logo, 2ª fonte viável e pescável = **artigos por
-edição da Wikipédia** ("1975 Cannes Film Festival" etc., independentes dos artigos
-por-prêmio que usei) ou MUBI. Custo: ~61 fetches (61 anos). Os `P` do portão (afetam o
-set) são 65: grande_premio 5, juri 22, direcao 20, roteiro 18; atuação (badge) = 67.
+### Fechar os `P` via Wikipédia por-edição — EM ANDAMENTO
+2ª fonte usada: **artigos por edição da Wikipédia** ("YYYY Cannes Film Festival",
+independentes dos artigos por-prêmio da 1ª passada). 1 fetch por ano confirma todos
+os baldes daquele ano de uma vez. (Site oficial festival-cannes.com NÃO serve: a
+retrospectiva por ano mostra só o line-up, não os premiados.)
+- **Lote 1** (2026-08-09): 12 anos, 18 registros (portão).
+- **Lote 2** (2026-08-09): 30 anos conferidos (1956 + 1988–2025), **79 registros
+  virados P→S**. **PORTÃO ZERADO**: Filme 85/85, Grande Prêmio 67/67, Júri 84/84,
+  Direção 70/70, Roteiro 46/46 — 0 `P`. Sobraram badges de atuação em anos ainda
+  não fetchados.
+- **Restam 35 `P`** (só atuação, não-portão): ator 14, atriz 21, em ~27 anos de
+  1951–2008 não cobertos ainda. Lote 3 = fechar esses (baixa prioridade: badges não
+  afetam o set de filmes).
 
 ## Streaming (decisão de sequenciamento, 2026-08-07)
 Disponibilidade em streaming é a **ÚLTIMA etapa** e deve ser **recorrente** (script que
