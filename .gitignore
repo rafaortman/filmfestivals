@@ -14,3 +14,6 @@ img/src/
 # Python
 __pycache__/
 *.pyc
+
+# Cache de verificação (wikitext baixado por verify_oscar.py) — regenerável
+scripts/verify_cache/
