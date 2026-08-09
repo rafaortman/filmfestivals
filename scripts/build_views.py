@@ -59,15 +59,24 @@ def build_combined(fest="cannes", path="data/cannes_todos.csv"):
     print(f"CSV:  {path} | {len(rows)} registros")
 
 
-def main():
-    build_combined()
-    cannes = load("cannes")
-    out = {"cannes": cannes}
-    json.dump(out, open("data/cannes_por_edicao.json", "w", encoding="utf-8"),
-              ensure_ascii=False, indent=2)
-    print(f"JSON: data/cannes_por_edicao.json | {len(cannes)} edições")
+FESTIVAIS = ["cannes", "oscar"]
 
-    if len(sys.argv) < 2:
+
+def main():
+    cannes = None
+    for fest in FESTIVAIS:
+        if not glob.glob(f"data/raw/{fest}_*.csv"):
+            continue
+        build_combined(fest, f"data/{fest}_todos.csv")
+        ed = load(fest)
+        json.dump({fest: ed}, open(f"data/{fest}_por_edicao.json", "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=2)
+        print(f"JSON: data/{fest}_por_edicao.json | {len(ed)} edições")
+        if fest == "cannes":
+            cannes = ed
+
+    # HTML de conferência (só Cannes, rótulos icônicos) se um caminho for passado
+    if len(sys.argv) < 2 or cannes is None:
         return
     def films(lst):
         if not lst:

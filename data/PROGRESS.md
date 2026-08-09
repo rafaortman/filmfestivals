@@ -53,13 +53,38 @@ e demais categorias vencidas pelos filmes que já entraram.
       (Nota: "coletar dado de Cannes" NÃO depende de Oscar — são coisas separadas.
       O Oscar só entra na etapa de MONTAGEM, ao decidir quais filmes viram card.
       Elencos/empates registrados como dados; premiado com vários nomes usa "; ".)
-- [ ] Oscar / Filme  (SPARQL Q102427 testado: retorna dados mas precisa dedupe)
-- [ ] Oscar / Direção
-- [ ] Oscar / Roteiro
-- [ ] Combinar baldes → set de filmes no portão
+- [x] **Oscar / Filme, Direção, Roteiro, Ator, Atriz** — via Wikidata SPARQL (P585 =
+      ano da cerimônia; recorte cerimônia ≥1951). `data/raw/oscar_*.csv`, **457
+      registros, 76 edições (1951–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
+      (fonte única Wikidata; falta conferência 2ª fonte).
+- [ ] Conferência do Oscar (flip N→S, como no Cannes) — Wikipedia por-cerimônia/oscars.org
+- [ ] Combinar baldes (Cannes+Oscar) → set de filmes no portão
 - [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
-- [ ] Badges não-portão (atuação + outras categorias dos filmes que entraram)
-- [ ] Verificação contra fontes oficiais (flip verificado=N→S)
+- [ ] Badges não-portão (outras categorias dos filmes que entraram)
+
+## Dataset do Oscar (2026-08-09): 457 registros, 76 edições
+Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
+as listas por-categoria da Wikipédia via WebFetch **alucinaram** (ex.: "2024 Wicked" como
+Best Picture) e **pularam anos** (resumidor). Wikidata é estruturado e não passa por
+resumo.
+- **Ano = ano da cerimônia** (ESCOPO §4): vem do qualificador **P585** (point in time)
+  do statement P166 (award received). Cobre 1951–2026 inteiro. Recorte: cerimônia ≥1951.
+- **Filme** (Q102427): prêmio é recebido pelo filme E pelos produtores → filtrar humanos
+  (`MINUS wdt:P31 wd:Q5`). **Pessoa** (Direção Q103360, Roteiro Orig Q41417 + Adapt Q107258,
+  Ator Q103916, Atriz Q103618): recebido pela pessoa; filme vem do qualificador **P1686**
+  ("for work"); premiado = nome da pessoa.
+- **Roteiro = balde único** (ESCOPO §8): Original + Adaptado juntos → ~2 filmes/ano (não é
+  empate; empate só quando 2 filmes na MESMA sub-categoria — não ocorre no recorte).
+- Baldes: Filme 76, Direção 76, Roteiro 152 (76+76), Ator 76, Atriz 77 (empate real 1969
+  Streisand/Hepburn).
+- **Correções manuais** (erros/lacunas do Wikidata): labels sem inglês resolvidos
+  (Forrest Gump, La La Land, Darling, The Lavender Hill Mob); linha espúria "Daniels"
+  (grupo) removida do Filme 2022 (CODA é o certo); **EEAAO** Direção+Roteiro estavam
+  datados 2022 no P585 → corrigido p/ 2023 (95ª cerimônia); **Meryl Streep** Atriz 1983
+  (Sophie's Choice) e 2012 (The Iron Lady) faltavam (statements sem P1686) → adicionadas;
+  rótulo de dupla "Daniels" removido quando os nomes individuais já constavam.
+- **verificado=N**: fonte única (Wikidata). Próximo = conferência 2ª fonte (Wikipedia
+  por-cerimônia ou oscars.org), flip N→S, igual ao Cannes.
 
 ## Conferência de Cannes — CONCLUÍDA (2026-08-07): 509/509, zero erros
 Método: cada balde cruzado com Wikidata (SPARQL) por ano+título. QIDs usados —

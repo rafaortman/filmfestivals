@@ -1,0 +1,2820 @@
+{
+  "oscar": {
+    "2026": {
+      "filme": [
+        {
+          "titulo": "One Battle After Another"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "One Battle After Another",
+          "premiado": "Paul Thomas Anderson"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "One Battle After Another",
+          "premiado": "Paul Thomas Anderson"
+        },
+        {
+          "titulo": "Sinners",
+          "premiado": "Ryan Coogler"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Sinners",
+          "premiado": "Michael B. Jordan"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Hamnet",
+          "premiado": "Jessie Buckley"
+        }
+      ]
+    },
+    "2025": {
+      "filme": [
+        {
+          "titulo": "Anora"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Anora",
+          "premiado": "Sean Baker"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Anora",
+          "premiado": "Sean Baker"
+        },
+        {
+          "titulo": "Conclave",
+          "premiado": "Peter Straughan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Brutalist",
+          "premiado": "Adrien Brody"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Anora",
+          "premiado": "Mikey Madison"
+        }
+      ]
+    },
+    "2024": {
+      "filme": [
+        {
+          "titulo": "Oppenheimer"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Oppenheimer",
+          "premiado": "Christopher Nolan"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "American Fiction",
+          "premiado": "Cord Jefferson"
+        },
+        {
+          "titulo": "Anatomy of a Fall",
+          "premiado": "Justine Triet; Arthur Harari"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Oppenheimer",
+          "premiado": "Cillian Murphy"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Poor Things",
+          "premiado": "Emma Stone"
+        }
+      ]
+    },
+    "2023": {
+      "filme": [
+        {
+          "titulo": "Everything Everywhere All at Once"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Everything Everywhere All at Once",
+          "premiado": "Dan Kwan; Daniel Scheinert"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Everything Everywhere All at Once",
+          "premiado": "Dan Kwan; Daniel Scheinert"
+        },
+        {
+          "titulo": "Women Talking",
+          "premiado": "Sarah Polley"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Whale",
+          "premiado": "Brendan Fraser"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Everything Everywhere All at Once",
+          "premiado": "Michelle Yeoh"
+        }
+      ]
+    },
+    "2022": {
+      "filme": [
+        {
+          "titulo": "CODA"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Power of the Dog",
+          "premiado": "Jane Campion"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Belfast",
+          "premiado": "Kenneth Branagh"
+        },
+        {
+          "titulo": "CODA",
+          "premiado": "Siân Héder"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "King Richard",
+          "premiado": "Will Smith"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Eyes of Tammy Faye",
+          "premiado": "Jessica Chastain"
+        }
+      ]
+    },
+    "2021": {
+      "filme": [
+        {
+          "titulo": "Nomadland"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Nomadland",
+          "premiado": "Chloé Zhao"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Promising Young Woman",
+          "premiado": "Emerald Fennell"
+        },
+        {
+          "titulo": "The Father",
+          "premiado": "Christopher Hampton; Florian Zeller"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Father",
+          "premiado": "Anthony Hopkins"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Nomadland",
+          "premiado": "Frances McDormand"
+        }
+      ]
+    },
+    "2020": {
+      "filme": [
+        {
+          "titulo": "Parasite"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Parasite",
+          "premiado": "Bong Joon-ho"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Jojo Rabbit",
+          "premiado": "Taika Waititi"
+        },
+        {
+          "titulo": "Parasite",
+          "premiado": "Han Jin-won; Bong Joon-ho"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Joker",
+          "premiado": "Joaquin Phoenix"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Judy",
+          "premiado": "Renée Zellweger"
+        }
+      ]
+    },
+    "2019": {
+      "filme": [
+        {
+          "titulo": "Green Book"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Roma",
+          "premiado": "Alfonso Cuarón"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "BlacKkKlansman",
+          "premiado": "Spike Lee; Charlie Wachtel; David Rabinowitz; Kevin Willmott"
+        },
+        {
+          "titulo": "Green Book",
+          "premiado": "Peter Farrelly; Nick Vallelonga; Brian Currie"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Bohemian Rhapsody",
+          "premiado": "Rami Malek"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Favourite",
+          "premiado": "Olivia Colman"
+        }
+      ]
+    },
+    "2018": {
+      "filme": [
+        {
+          "titulo": "The Shape of Water"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Shape of Water",
+          "premiado": "Guillermo del Toro"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Call Me by Your Name",
+          "premiado": "James Ivory"
+        },
+        {
+          "titulo": "Get Out",
+          "premiado": "Jordan Peele"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Darkest Hour",
+          "premiado": "Gary Oldman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Three Billboards Outside Ebbing, Missouri",
+          "premiado": "Frances McDormand"
+        }
+      ]
+    },
+    "2017": {
+      "filme": [
+        {
+          "titulo": "Moonlight"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "La La Land",
+          "premiado": "Damien Chazelle"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Manchester by the Sea",
+          "premiado": "Kenneth Lonergan"
+        },
+        {
+          "titulo": "Moonlight",
+          "premiado": "Tarell Alvin McCraney; Barry Jenkins"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Manchester by the Sea",
+          "premiado": "Casey Affleck"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "La La Land",
+          "premiado": "Emma Stone"
+        }
+      ]
+    },
+    "2016": {
+      "filme": [
+        {
+          "titulo": "Spotlight"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Revenant",
+          "premiado": "Alejandro González Iñárritu"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Spotlight",
+          "premiado": "Josh Singer; Tom McCarthy"
+        },
+        {
+          "titulo": "The Big Short",
+          "premiado": "Charles Randolph; Adam McKay"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Revenant",
+          "premiado": "Leonardo DiCaprio"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Room",
+          "premiado": "Brie Larson"
+        }
+      ]
+    },
+    "2015": {
+      "filme": [
+        {
+          "titulo": "Birdman"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Birdman",
+          "premiado": "Alejandro González Iñárritu"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Birdman",
+          "premiado": "Alejandro González Iñárritu; Nicolás Giacobone; Armando Bó; Alexander Dinelaris Jr."
+        },
+        {
+          "titulo": "The Imitation Game",
+          "premiado": "Graham Moore"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Theory of Everything",
+          "premiado": "Eddie Redmayne"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Still Alice",
+          "premiado": "Julianne Moore"
+        }
+      ]
+    },
+    "2014": {
+      "filme": [
+        {
+          "titulo": "12 Years a Slave"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Gravity",
+          "premiado": "Alfonso Cuarón"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "12 Years a Slave",
+          "premiado": "John Ridley"
+        },
+        {
+          "titulo": "Her",
+          "premiado": "Spike Jonze"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Dallas Buyers Club",
+          "premiado": "Matthew McConaughey"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Blue Jasmine",
+          "premiado": "Cate Blanchett"
+        }
+      ]
+    },
+    "2013": {
+      "filme": [
+        {
+          "titulo": "Argo"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Life of Pi",
+          "premiado": "Ang Lee"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Argo",
+          "premiado": "Chris Terrio"
+        },
+        {
+          "titulo": "Django Unchained",
+          "premiado": "Quentin Tarantino"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Lincoln",
+          "premiado": "Daniel Day-Lewis"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Silver Linings Playbook",
+          "premiado": "Jennifer Lawrence"
+        }
+      ]
+    },
+    "2012": {
+      "filme": [
+        {
+          "titulo": "The Artist"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Artist",
+          "premiado": "Michel Hazanavicius"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Midnight in Paris",
+          "premiado": "Woody Allen"
+        },
+        {
+          "titulo": "The Descendants",
+          "premiado": "Nat Faxon; Alexander Payne; Jim Rash"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Artist",
+          "premiado": "Jean Dujardin"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Iron Lady",
+          "premiado": "Meryl Streep"
+        }
+      ]
+    },
+    "2011": {
+      "filme": [
+        {
+          "titulo": "The King's Speech"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The King's Speech",
+          "premiado": "Tom Hooper"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The King's Speech",
+          "premiado": "David Seidler"
+        },
+        {
+          "titulo": "The Social Network",
+          "premiado": "Aaron Sorkin"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The King's Speech",
+          "premiado": "Colin Firth"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Black Swan",
+          "premiado": "Natalie Portman"
+        }
+      ]
+    },
+    "2010": {
+      "filme": [
+        {
+          "titulo": "The Hurt Locker"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Hurt Locker",
+          "premiado": "Kathryn Bigelow"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Precious",
+          "premiado": "Geoffrey S. Fletcher"
+        },
+        {
+          "titulo": "The Hurt Locker",
+          "premiado": "Mark Boal"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Crazy Heart",
+          "premiado": "Jeff Bridges"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Blind Side",
+          "premiado": "Sandra Bullock"
+        }
+      ]
+    },
+    "2009": {
+      "filme": [
+        {
+          "titulo": "Slumdog Millionaire"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Slumdog Millionaire",
+          "premiado": "Danny Boyle"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Milk",
+          "premiado": "Dustin Lance Black"
+        },
+        {
+          "titulo": "Slumdog Millionaire",
+          "premiado": "Simon Beaufoy"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Milk",
+          "premiado": "Sean Penn"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Reader",
+          "premiado": "Kate Winslet"
+        }
+      ]
+    },
+    "2008": {
+      "filme": [
+        {
+          "titulo": "No Country for Old Men"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "No Country for Old Men",
+          "premiado": "Joel Coen; Ethan Coen"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Juno",
+          "premiado": "Diablo Cody"
+        },
+        {
+          "titulo": "No Country for Old Men",
+          "premiado": "Joel Coen; Ethan Coen"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "There Will Be Blood",
+          "premiado": "Daniel Day-Lewis"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "La Vie en Rose",
+          "premiado": "Marion Cotillard"
+        }
+      ]
+    },
+    "2007": {
+      "filme": [
+        {
+          "titulo": "The Departed"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Departed",
+          "premiado": "Martin Scorsese"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Little Miss Sunshine",
+          "premiado": "Michael Arndt"
+        },
+        {
+          "titulo": "The Departed",
+          "premiado": "William Monahan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Last King of Scotland",
+          "premiado": "Forest Whitaker"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Queen",
+          "premiado": "Helen Mirren"
+        }
+      ]
+    },
+    "2006": {
+      "filme": [
+        {
+          "titulo": "Crash"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Brokeback Mountain",
+          "premiado": "Ang Lee"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Brokeback Mountain",
+          "premiado": "Diana Ossana; Larry McMurtry"
+        },
+        {
+          "titulo": "Crash",
+          "premiado": "Paul Haggis; Robert Moresco"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Capote",
+          "premiado": "Philip Seymour Hoffman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Walk the Line",
+          "premiado": "Reese Witherspoon"
+        }
+      ]
+    },
+    "2005": {
+      "filme": [
+        {
+          "titulo": "Million Dollar Baby"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Million Dollar Baby",
+          "premiado": "Clint Eastwood"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Eternal Sunshine of the Spotless Mind",
+          "premiado": "Charlie Kaufman; Michel Gondry; Pierre Bismuth"
+        },
+        {
+          "titulo": "Sideways",
+          "premiado": "Jim Taylor; Alexander Payne"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Ray",
+          "premiado": "Jamie Foxx"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Million Dollar Baby",
+          "premiado": "Hilary Swank"
+        }
+      ]
+    },
+    "2004": {
+      "filme": [
+        {
+          "titulo": "The Lord of the Rings: The Return of the King"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Lord of the Rings: The Return of the King",
+          "premiado": "Peter Jackson"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Lost in Translation",
+          "premiado": "Sofia Coppola"
+        },
+        {
+          "titulo": "The Lord of the Rings: The Return of the King",
+          "premiado": "Philippa Boyens; Fran Walsh; Peter Jackson"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Mystic River",
+          "premiado": "Sean Penn"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Monster",
+          "premiado": "Charlize Theron"
+        }
+      ]
+    },
+    "2003": {
+      "filme": [
+        {
+          "titulo": "Chicago"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Pianist",
+          "premiado": "Roman Polanski"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Talk to Her",
+          "premiado": "Pedro Almodóvar"
+        },
+        {
+          "titulo": "The Pianist",
+          "premiado": "Ronald Harwood"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Pianist",
+          "premiado": "Adrien Brody"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Hours",
+          "premiado": "Nicole Kidman"
+        }
+      ]
+    },
+    "2002": {
+      "filme": [
+        {
+          "titulo": "A Beautiful Mind"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "A Beautiful Mind",
+          "premiado": "Ron Howard"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Beautiful Mind",
+          "premiado": "Akiva Goldsman"
+        },
+        {
+          "titulo": "Gosford Park",
+          "premiado": "Julian Fellowes"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Training Day",
+          "premiado": "Denzel Washington"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Monster's Ball",
+          "premiado": "Halle Berry"
+        }
+      ]
+    },
+    "2001": {
+      "filme": [
+        {
+          "titulo": "Gladiator"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Traffic",
+          "premiado": "Steven Soderbergh"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Almost Famous",
+          "premiado": "Cameron Crowe"
+        },
+        {
+          "titulo": "Traffic",
+          "premiado": "Stephen Gaghan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Gladiator",
+          "premiado": "Russell Crowe"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Erin Brockovich",
+          "premiado": "Julia Roberts"
+        }
+      ]
+    },
+    "2000": {
+      "filme": [
+        {
+          "titulo": "American Beauty"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "American Beauty",
+          "premiado": "Sam Mendes"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "American Beauty",
+          "premiado": "Alan Ball"
+        },
+        {
+          "titulo": "The Cider House Rules",
+          "premiado": "John Irving"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "American Beauty",
+          "premiado": "Kevin Spacey"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Boys Don't Cry",
+          "premiado": "Hilary Swank"
+        }
+      ]
+    },
+    "1999": {
+      "filme": [
+        {
+          "titulo": "Shakespeare in Love"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Saving Private Ryan",
+          "premiado": "Steven Spielberg"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Gods and Monsters",
+          "premiado": "Bill Condon"
+        },
+        {
+          "titulo": "Shakespeare in Love",
+          "premiado": "Tom Stoppard; Marc Norman"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Life Is Beautiful",
+          "premiado": "Roberto Benigni"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Shakespeare in Love",
+          "premiado": "Gwyneth Paltrow"
+        }
+      ]
+    },
+    "1998": {
+      "filme": [
+        {
+          "titulo": "Titanic"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Titanic",
+          "premiado": "James Cameron"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Good Will Hunting",
+          "premiado": "Ben Affleck; Matt Damon"
+        },
+        {
+          "titulo": "L.A. Confidential",
+          "premiado": "Brian Helgeland; Curtis Hanson"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "As Good as It Gets",
+          "premiado": "Jack Nicholson"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "As Good as It Gets",
+          "premiado": "Helen Hunt"
+        }
+      ]
+    },
+    "1997": {
+      "filme": [
+        {
+          "titulo": "The English Patient"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The English Patient",
+          "premiado": "Anthony Minghella"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Fargo",
+          "premiado": "Joel Coen; Ethan Coen"
+        },
+        {
+          "titulo": "Sling Blade",
+          "premiado": "Billy Bob Thornton"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Shine",
+          "premiado": "Geoffrey Rush"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Fargo",
+          "premiado": "Frances McDormand"
+        }
+      ]
+    },
+    "1996": {
+      "filme": [
+        {
+          "titulo": "Braveheart"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Braveheart",
+          "premiado": "Mel Gibson"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Sense and Sensibility",
+          "premiado": "Emma Thompson"
+        },
+        {
+          "titulo": "The Usual Suspects",
+          "premiado": "Christopher McQuarrie"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Leaving Las Vegas",
+          "premiado": "Nicolas Cage"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Dead Man Walking",
+          "premiado": "Susan Sarandon"
+        }
+      ]
+    },
+    "1995": {
+      "filme": [
+        {
+          "titulo": "Forrest Gump"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Forrest Gump",
+          "premiado": "Robert Zemeckis"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Forrest Gump",
+          "premiado": "Eric Roth"
+        },
+        {
+          "titulo": "Pulp Fiction",
+          "premiado": "Quentin Tarantino; Roger Avary"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Forrest Gump",
+          "premiado": "Tom Hanks"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Blue Sky",
+          "premiado": "Jessica Lange"
+        }
+      ]
+    },
+    "1994": {
+      "filme": [
+        {
+          "titulo": "Schindler's List"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Schindler's List",
+          "premiado": "Steven Spielberg"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Schindler's List",
+          "premiado": "Steven Zaillian"
+        },
+        {
+          "titulo": "The Piano",
+          "premiado": "Jane Campion"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Philadelphia",
+          "premiado": "Tom Hanks"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Piano",
+          "premiado": "Holly Hunter"
+        }
+      ]
+    },
+    "1993": {
+      "filme": [
+        {
+          "titulo": "Unforgiven"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Unforgiven",
+          "premiado": "Clint Eastwood"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Howards End",
+          "premiado": "Ruth Prawer Jhabvala"
+        },
+        {
+          "titulo": "The Crying Game",
+          "premiado": "Neil Jordan"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Scent of a Woman",
+          "premiado": "Al Pacino"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Howards End",
+          "premiado": "Emma Thompson"
+        }
+      ]
+    },
+    "1992": {
+      "filme": [
+        {
+          "titulo": "The Silence of the Lambs"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Silence of the Lambs",
+          "premiado": "Jonathan Demme"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Silence of the Lambs",
+          "premiado": "Ted Tally"
+        },
+        {
+          "titulo": "Thelma & Louise",
+          "premiado": "Callie Khouri"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Silence of the Lambs",
+          "premiado": "Anthony Hopkins"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Silence of the Lambs",
+          "premiado": "Jodie Foster"
+        }
+      ]
+    },
+    "1991": {
+      "filme": [
+        {
+          "titulo": "Dances with Wolves"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Dances with Wolves",
+          "premiado": "Kevin Costner"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Dances with Wolves",
+          "premiado": "Michael Blake"
+        },
+        {
+          "titulo": "Ghost",
+          "premiado": "Bruce Joel Rubin"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Reversal of Fortune",
+          "premiado": "Jeremy Irons"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Misery",
+          "premiado": "Kathy Bates"
+        }
+      ]
+    },
+    "1990": {
+      "filme": [
+        {
+          "titulo": "Driving Miss Daisy"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Born on the Fourth of July",
+          "premiado": "Oliver Stone"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Dead Poets Society",
+          "premiado": "Tom Schulman"
+        },
+        {
+          "titulo": "Driving Miss Daisy",
+          "premiado": "Alfred Uhry"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "My Left Foot",
+          "premiado": "Daniel Day-Lewis"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Driving Miss Daisy",
+          "premiado": "Jessica Tandy"
+        }
+      ]
+    },
+    "1989": {
+      "filme": [
+        {
+          "titulo": "Rain Man"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Rain Man",
+          "premiado": "Barry Levinson"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Dangerous Liaisons",
+          "premiado": "Christopher Hampton"
+        },
+        {
+          "titulo": "Rain Man",
+          "premiado": "Barry Morrow; Ronald Bass"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Rain Man",
+          "premiado": "Dustin Hoffman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Accused",
+          "premiado": "Jodie Foster"
+        }
+      ]
+    },
+    "1988": {
+      "filme": [
+        {
+          "titulo": "The Last Emperor"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Last Emperor",
+          "premiado": "Bernardo Bertolucci"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Moonstruck",
+          "premiado": "John Patrick Shanley"
+        },
+        {
+          "titulo": "The Last Emperor",
+          "premiado": "Bernardo Bertolucci; Mark Peploe"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Wall Street",
+          "premiado": "Michael Douglas"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Moonstruck",
+          "premiado": "Cher"
+        }
+      ]
+    },
+    "1987": {
+      "filme": [
+        {
+          "titulo": "Platoon"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Platoon",
+          "premiado": "Oliver Stone"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Room with a View",
+          "premiado": "Ruth Prawer Jhabvala"
+        },
+        {
+          "titulo": "Hannah and Her Sisters",
+          "premiado": "Woody Allen"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Color of Money",
+          "premiado": "Paul Newman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Children of a Lesser God",
+          "premiado": "Marlee Matlin"
+        }
+      ]
+    },
+    "1986": {
+      "filme": [
+        {
+          "titulo": "Out of Africa"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Out of Africa",
+          "premiado": "Sydney Pollack"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Out of Africa",
+          "premiado": "Kurt Luedtke"
+        },
+        {
+          "titulo": "Witness",
+          "premiado": "William Kelley; Earl W. Wallace; Pamela Wallace"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Kiss of the Spider Woman",
+          "premiado": "William Damaged"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Trip to Bountiful",
+          "premiado": "Geraldine Page"
+        }
+      ]
+    },
+    "1985": {
+      "filme": [
+        {
+          "titulo": "Amadeus"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Amadeus",
+          "premiado": "Miloš Forman"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Amadeus",
+          "premiado": "Peter Shaffer"
+        },
+        {
+          "titulo": "Places in the Heart",
+          "premiado": "Robert Benton"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Amadeus",
+          "premiado": "F. Murray Abraham"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Places in the Heart",
+          "premiado": "Sally Field"
+        }
+      ]
+    },
+    "1984": {
+      "filme": [
+        {
+          "titulo": "Terms of Endearment"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Terms of Endearment",
+          "premiado": "James L. Brooks"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Tender Mercies",
+          "premiado": "Horton Foote"
+        },
+        {
+          "titulo": "Terms of Endearment",
+          "premiado": "James L. Brooks"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Tender Mercies",
+          "premiado": "Robert Duvall"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Terms of Endearment",
+          "premiado": "Shirley MacLaine"
+        }
+      ]
+    },
+    "1983": {
+      "filme": [
+        {
+          "titulo": "Gandhi"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Gandhi",
+          "premiado": "Richard Attenborough"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Gandhi",
+          "premiado": "John Briley"
+        },
+        {
+          "titulo": "Missing",
+          "premiado": "Donald E. Stewart; Costa-Gavras"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Gandhi",
+          "premiado": "Ben Kingsley"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Sophie's Choice",
+          "premiado": "Meryl Streep"
+        }
+      ]
+    },
+    "1982": {
+      "filme": [
+        {
+          "titulo": "Chariots of Fire"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Reds",
+          "premiado": "Warren Beatty"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Chariots of Fire",
+          "premiado": "Colin Welland"
+        },
+        {
+          "titulo": "On Golden Pond",
+          "premiado": "Ernest Thompson"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "On Golden Pond",
+          "premiado": "Henry Fonda"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "On Golden Pond",
+          "premiado": "Katharine Hepburn"
+        }
+      ]
+    },
+    "1981": {
+      "filme": [
+        {
+          "titulo": "Ordinary People"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Ordinary People",
+          "premiado": "Robert Redford"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Melvin and Howard",
+          "premiado": "Bo Goldman"
+        },
+        {
+          "titulo": "Ordinary People",
+          "premiado": "Alvin Sargent"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Raging Bull",
+          "premiado": "Robert De Niro"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Coal Miner's Daughter",
+          "premiado": "Sissy Spacek"
+        }
+      ]
+    },
+    "1980": {
+      "filme": [
+        {
+          "titulo": "Kramer vs. Kramer"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Kramer vs. Kramer",
+          "premiado": "Robert Benton"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Breaking Away",
+          "premiado": "Steve Tesich"
+        },
+        {
+          "titulo": "Kramer vs. Kramer",
+          "premiado": "Robert Benton"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Kramer vs. Kramer",
+          "premiado": "Dustin Hoffman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Norma Rae",
+          "premiado": "Sally Field"
+        }
+      ]
+    },
+    "1979": {
+      "filme": [
+        {
+          "titulo": "The Deer Hunter"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Deer Hunter",
+          "premiado": "Michael Cimino"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Coming Home",
+          "premiado": "Waldo Salt; Robert C. Jones; Nancy Dowd"
+        },
+        {
+          "titulo": "Midnight Express",
+          "premiado": "Oliver Stone"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Coming Home",
+          "premiado": "Jon Voight"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Coming Home",
+          "premiado": "Jane Fonda"
+        }
+      ]
+    },
+    "1978": {
+      "filme": [
+        {
+          "titulo": "Annie Hall"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Annie Hall",
+          "premiado": "Woody Allen"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Annie Hall",
+          "premiado": "Marshall Brickman; Woody Allen"
+        },
+        {
+          "titulo": "Julia",
+          "premiado": "Alvin Sargent"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Goodbye Girl",
+          "premiado": "Richard Dreyfuss"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Annie Hall",
+          "premiado": "Diane Keaton"
+        }
+      ]
+    },
+    "1977": {
+      "filme": [
+        {
+          "titulo": "Rocky"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Rocky",
+          "premiado": "John G. Avildsen"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "All the President's Men",
+          "premiado": "William Goldman"
+        },
+        {
+          "titulo": "Network",
+          "premiado": "Paddy Chayefsky"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Network",
+          "premiado": "Peter Finch"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Network",
+          "premiado": "Faye Dunaway"
+        }
+      ]
+    },
+    "1976": {
+      "filme": [
+        {
+          "titulo": "One Flew Over the Cuckoo's Nest"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "One Flew Over the Cuckoo's Nest",
+          "premiado": "Miloš Forman"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Dog Day Afternoon",
+          "premiado": "Frank Pierson"
+        },
+        {
+          "titulo": "One Flew Over the Cuckoo's Nest",
+          "premiado": "Bo Goldman; Lawrence Hauben"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "One Flew Over the Cuckoo's Nest",
+          "premiado": "Jack Nicholson"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "One Flew Over the Cuckoo's Nest",
+          "premiado": "Louise Fletcher"
+        }
+      ]
+    },
+    "1975": {
+      "filme": [
+        {
+          "titulo": "The Godfather Part II"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Godfather Part II",
+          "premiado": "Francis Ford Coppola"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Chinatown",
+          "premiado": "Robert Towne"
+        },
+        {
+          "titulo": "The Godfather Part II",
+          "premiado": "Mario Puzo; Francis Ford Coppola"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Harry and Tonto",
+          "premiado": "Art Carney"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Alice Doesn't Live Here Anymore",
+          "premiado": "Ellen Burstyn"
+        }
+      ]
+    },
+    "1974": {
+      "filme": [
+        {
+          "titulo": "The Sting"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Sting",
+          "premiado": "George Roy Hill"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Exorcist",
+          "premiado": "William Peter Blatty"
+        },
+        {
+          "titulo": "The Sting",
+          "premiado": "David S. Ward"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Save the Tiger",
+          "premiado": "Jack Lemmon"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A Touch of Class",
+          "premiado": "Glenda Jackson"
+        }
+      ]
+    },
+    "1973": {
+      "filme": [
+        {
+          "titulo": "The Godfather"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Cabaret",
+          "premiado": "Bob Fosse"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Candidate",
+          "premiado": "Jeremy Larner"
+        },
+        {
+          "titulo": "The Godfather",
+          "premiado": "Mario Puzo; Francis Ford Coppola"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Godfather",
+          "premiado": "Marlon Brando"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Cabaret",
+          "premiado": "Liza Minnelli"
+        }
+      ]
+    },
+    "1972": {
+      "filme": [
+        {
+          "titulo": "The French Connection"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The French Connection",
+          "premiado": "William Friedkin"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The French Connection",
+          "premiado": "Ernest Tidyman"
+        },
+        {
+          "titulo": "The Hospital",
+          "premiado": "Paddy Chayefsky"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The French Connection",
+          "premiado": "Gene Hackman"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Klute",
+          "premiado": "Jane Fonda"
+        }
+      ]
+    },
+    "1971": {
+      "filme": [
+        {
+          "titulo": "Patton"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Patton",
+          "premiado": "Franklin J. Schaffner"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "MASH",
+          "premiado": "Ring Lardner Jr."
+        },
+        {
+          "titulo": "Patton",
+          "premiado": "Francis Ford Coppola; Edmund H. North"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Patton",
+          "premiado": "George C. Scott"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Women in Love",
+          "premiado": "Glenda Jackson"
+        }
+      ]
+    },
+    "1970": {
+      "filme": [
+        {
+          "titulo": "Midnight Cowboy"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Midnight Cowboy",
+          "premiado": "John Schlesinger"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Butch Cassidy and the Sundance Kid",
+          "premiado": "William Goldman"
+        },
+        {
+          "titulo": "Midnight Cowboy",
+          "premiado": "Waldo Salt"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "True Grit",
+          "premiado": "John Wayne"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Prime of Miss Jean Brodie",
+          "premiado": "Maggie Smith"
+        }
+      ]
+    },
+    "1969": {
+      "filme": [
+        {
+          "titulo": "Oliver!"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Oliver!",
+          "premiado": "Carol Reed"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Lion in Winter",
+          "premiado": "James Goldman"
+        },
+        {
+          "titulo": "The Producers",
+          "premiado": "Mel Brooks"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Charly",
+          "premiado": "Cliff Robertson"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Funny Girl",
+          "premiado": "Barbra Streisand"
+        },
+        {
+          "titulo": "The Lion in Winter",
+          "premiado": "Katharine Hepburn"
+        }
+      ]
+    },
+    "1968": {
+      "filme": [
+        {
+          "titulo": "In the Heat of the Night"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Graduate",
+          "premiado": "Mike Nichols"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Guess Who's Coming to Dinner",
+          "premiado": "William Rose"
+        },
+        {
+          "titulo": "In the Heat of the Night",
+          "premiado": "Stirling Silliphant"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "In the Heat of the Night",
+          "premiado": "Rod Steiger"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Guess Who's Coming to Dinner",
+          "premiado": "Katharine Hepburn"
+        }
+      ]
+    },
+    "1967": {
+      "filme": [
+        {
+          "titulo": "A Man for All Seasons"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "A Man for All Seasons",
+          "premiado": "Fred Zinnemann"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Man and a Woman",
+          "premiado": "Claude Lelouch; Pierre Uytterhoeven"
+        },
+        {
+          "titulo": "A Man for All Seasons",
+          "premiado": "Robert Bolt"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "A Man for All Seasons",
+          "premiado": "Paul Scofield"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Who's Afraid of Virginia Woolf?",
+          "premiado": "Elizabeth Taylor"
+        }
+      ]
+    },
+    "1966": {
+      "filme": [
+        {
+          "titulo": "The Sound of Music"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Sound of Music",
+          "premiado": "Robert Wise"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Darling",
+          "premiado": "Frederic Raphael"
+        },
+        {
+          "titulo": "Doctor Zhivago",
+          "premiado": "Robert Bolt"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Cat Ballou",
+          "premiado": "Lee Marvin"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Darling",
+          "premiado": "Julie Christie"
+        }
+      ]
+    },
+    "1965": {
+      "filme": [
+        {
+          "titulo": "My Fair Lady"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "My Fair Lady",
+          "premiado": "George Cukor"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Becket",
+          "premiado": "Edward Anhalt"
+        },
+        {
+          "titulo": "Father Goose",
+          "premiado": "Frank Tarloff; S. H. Barnett; Peter Stone"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "My Fair Lady",
+          "premiado": "Rex Harrison"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Mary Poppins",
+          "premiado": "Julie Andrews"
+        }
+      ]
+    },
+    "1964": {
+      "filme": [
+        {
+          "titulo": "Tom Jones"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Tom Jones",
+          "premiado": "Tony Richardson"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "How the West Was Won",
+          "premiado": "James R. Webb"
+        },
+        {
+          "titulo": "Tom Jones",
+          "premiado": "John Osborne"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Lilies of the Field",
+          "premiado": "Sidney Poitier"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Hud",
+          "premiado": "Patricia Neal"
+        }
+      ]
+    },
+    "1963": {
+      "filme": [
+        {
+          "titulo": "Lawrence of Arabia"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Lawrence of Arabia",
+          "premiado": "David Lean"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Divorce, Italian Style",
+          "premiado": "Pietro Germi; Alfredo Giannetti; Ennio de Concini"
+        },
+        {
+          "titulo": "To Kill a Mockingbird",
+          "premiado": "Horton Foote"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "To Kill a Mockingbird",
+          "premiado": "Gregory Peck"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Miracle Worker",
+          "premiado": "Anne Bancroft"
+        }
+      ]
+    },
+    "1962": {
+      "filme": [
+        {
+          "titulo": "West Side Story"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "West Side Story",
+          "premiado": "Robert Wise; Jerome Robbins"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Judgment at Nuremberg",
+          "premiado": "Abby Mann"
+        },
+        {
+          "titulo": "Splendor in the Grass",
+          "premiado": "William Inge"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Judgment at Nuremberg",
+          "premiado": "Maximilian Schell"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Two Women",
+          "premiado": "Sophia Loren"
+        }
+      ]
+    },
+    "1961": {
+      "filme": [
+        {
+          "titulo": "The Apartment"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Apartment",
+          "premiado": "Billy Wilder"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Elmer Gantry",
+          "premiado": "Richard Brooks"
+        },
+        {
+          "titulo": "The Apartment",
+          "premiado": "Billy Wilder; I. A. L. Diamond"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Elmer Gantry",
+          "premiado": "Burt Lancaster"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "BUtterfield 8",
+          "premiado": "Elizabeth Taylor"
+        }
+      ]
+    },
+    "1960": {
+      "filme": [
+        {
+          "titulo": "Ben-Hur"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Ben-Hur",
+          "premiado": "William Wyler"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Pillow Talk",
+          "premiado": "Clarence Greene; Maurice Richlin; Russell Rouse; Stanley Shapiro"
+        },
+        {
+          "titulo": "Room at the Top",
+          "premiado": "Neil Paterson"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Ben-Hur",
+          "premiado": "Charlton Heston"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Room at the Top",
+          "premiado": "Simone Signoret"
+        }
+      ]
+    },
+    "1959": {
+      "filme": [
+        {
+          "titulo": "Gigi"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Gigi",
+          "premiado": "Vincente Minnelli"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Gigi",
+          "premiado": "Alan Jay Lerner"
+        },
+        {
+          "titulo": "The Defiant Ones",
+          "premiado": "Harold Jacob Smith; Nedrick Young"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Separate Tables",
+          "premiado": "David Niven"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "I Want to Live!",
+          "premiado": "Susan Hayward"
+        }
+      ]
+    },
+    "1958": {
+      "filme": [
+        {
+          "titulo": "The Bridge on the River Kwai"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Bridge on the River Kwai",
+          "premiado": "David Lean"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Designing Woman",
+          "premiado": "George Wells"
+        },
+        {
+          "titulo": "The Bridge on the River Kwai",
+          "premiado": "Carl Foreman; Michael Wilson; Pierre Boulle"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The Bridge on the River Kwai",
+          "premiado": "Alec Guinness"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Three Faces of Eve",
+          "premiado": "Joanne Woodward"
+        }
+      ]
+    },
+    "1957": {
+      "filme": [
+        {
+          "titulo": "Around the World in 80 Days"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Giant",
+          "premiado": "George Stevens"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Around the World in 80 Days",
+          "premiado": "James Poe; S. J. Perelman; John Farrow"
+        },
+        {
+          "titulo": "The Red Balloon",
+          "premiado": "Albert Lamorisse"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The King and I",
+          "premiado": "Yul Brynner"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Anastasia",
+          "premiado": "Ingrid Bergman"
+        }
+      ]
+    },
+    "1956": {
+      "filme": [
+        {
+          "titulo": "Marty"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "Marty",
+          "premiado": "Delbert Mann"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "Interrupted Melody",
+          "premiado": "Sonya Levien; William Ludwig"
+        },
+        {
+          "titulo": "Marty",
+          "premiado": "Paddy Chayefsky"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Marty",
+          "premiado": "Ernest Borgnine"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Rose Tattoo",
+          "premiado": "Anna Magnani"
+        }
+      ]
+    },
+    "1955": {
+      "filme": [
+        {
+          "titulo": "On the Waterfront"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "On the Waterfront",
+          "premiado": "Elia Kazan"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "On the Waterfront",
+          "premiado": "Budd Schulberg"
+        },
+        {
+          "titulo": "The Country Girl",
+          "premiado": "George Seaton"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "On the Waterfront",
+          "premiado": "Marlon Brando"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "The Country Girl",
+          "premiado": "Grace Kelly"
+        }
+      ]
+    },
+    "1954": {
+      "filme": [
+        {
+          "titulo": "From Here to Eternity"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "From Here to Eternity",
+          "premiado": "Fred Zinnemann"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "From Here to Eternity",
+          "premiado": "Daniel Taradash"
+        },
+        {
+          "titulo": "Titanic",
+          "premiado": "Charles Brackett; Richard L. Breen; Walter Reisch"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Stalag 17",
+          "premiado": "William Holden"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Roman Holiday",
+          "premiado": "Audrey Hepburn"
+        }
+      ]
+    },
+    "1953": {
+      "filme": [
+        {
+          "titulo": "The Greatest Show on Earth"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "The Quiet Man",
+          "premiado": "John Ford"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "The Bad and the Beautiful",
+          "premiado": "Charles Schnee"
+        },
+        {
+          "titulo": "The Lavender Hill Mob",
+          "premiado": "T. E. B. Clarke"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "High Noon",
+          "premiado": "Gary Cooper"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Come Back, Little Sheba",
+          "premiado": "Shirley Booth"
+        }
+      ]
+    },
+    "1952": {
+      "filme": [
+        {
+          "titulo": "An American in Paris"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "A Place in the Sun",
+          "premiado": "George Stevens"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "A Place in the Sun",
+          "premiado": "Michael Wilson; Harry Brown"
+        },
+        {
+          "titulo": "An American in Paris",
+          "premiado": "Alan Jay Lerner"
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "The African Queen",
+          "premiado": "Humphrey Bogart"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "A Streetcar Named Desire",
+          "premiado": "Vivien Leigh"
+        }
+      ]
+    },
+    "1951": {
+      "filme": [
+        {
+          "titulo": "All About Eve"
+        }
+      ],
+      "grande_premio": [],
+      "premio_do_juri": [],
+      "direcao": [
+        {
+          "titulo": "All About Eve",
+          "premiado": "Joseph L. Mankiewicz"
+        }
+      ],
+      "roteiro": [
+        {
+          "titulo": "All About Eve",
+          "premiado": "Joseph L. Mankiewicz"
+        },
+        {
+          "titulo": "Sunset Boulevard",
+          "premiado": "Billy Wilder; Charles Brackett; D. M. Marshman, Jr."
+        }
+      ],
+      "ator": [
+        {
+          "titulo": "Cyrano de Bergerac",
+          "premiado": "José Ferrer"
+        }
+      ],
+      "atriz": [
+        {
+          "titulo": "Born Yesterday",
+          "premiado": "Judy Holliday"
+        }
+      ]
+    }
+  }
+}
