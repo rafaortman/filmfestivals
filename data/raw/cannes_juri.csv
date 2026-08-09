@@ -1,23 +1,23 @@
 festival,categoria,ano_premio,titulo,diretor,premiado,empate,verificado
-cannes,Prêmio do Júri,1951,All About Eve,Joseph L. Mankiewicz,,N,P
-cannes,Prêmio do Júri,1952,We Are All Murderers,André Cayatte,,N,P
-cannes,Prêmio do Júri,1954,Knave of Hearts,René Clément,,N,P
-cannes,Prêmio do Júri,1955,Lost Continent,Leonardo Bonzi & Enrico Gras,,N,P
+cannes,Prêmio do Júri,1951,All About Eve,Joseph L. Mankiewicz,,N,S
+cannes,Prêmio do Júri,1952,We Are All Murderers,André Cayatte,,N,S
+cannes,Prêmio do Júri,1954,Knave of Hearts,René Clément,,N,S
+cannes,Prêmio do Júri,1955,Lost Continent,Leonardo Bonzi & Enrico Gras,,N,S
 cannes,Prêmio do Júri,1956,The Mystery of Picasso,Henri-Georges Clouzot,,N,S
 cannes,Prêmio do Júri,1957,Kanał,Andrzej Wajda,,S,S
 cannes,Prêmio do Júri,1957,The Seventh Seal,Ingmar Bergman,,S,S
 cannes,Prêmio do Júri,1958,Mon Oncle,Jacques Tati,,N,S
-cannes,Prêmio do Júri,1959,Stars,Konrad Wolf,,N,P
+cannes,Prêmio do Júri,1959,Stars,Konrad Wolf,,N,S
 cannes,Prêmio do Júri,1960,L'Avventura,Michelangelo Antonioni,,S,S
 cannes,Prêmio do Júri,1960,Odd Obsession,Kon Ichikawa,,S,S
-cannes,Prêmio do Júri,1961,Mother Joan of the Angels,Jerzy Kawalerowicz,,N,P
+cannes,Prêmio do Júri,1961,Mother Joan of the Angels,Jerzy Kawalerowicz,,N,S
 cannes,Prêmio do Júri,1962,L'Eclisse,Michelangelo Antonioni,,S,S
 cannes,Prêmio do Júri,1962,The Trial of Joan of Arc,Robert Bresson,,S,S
 cannes,Prêmio do Júri,1963,The Cassandra Cat,Vojtěch Jasný,,S,S
 cannes,Prêmio do Júri,1963,Harakiri,Masaki Kobayashi,,S,S
 cannes,Prêmio do Júri,1964,Woman in the Dunes,Hiroshi Teshigahara,,N,S
 cannes,Prêmio do Júri,1965,Kwaidan,Masaki Kobayashi,,N,S
-cannes,Prêmio do Júri,1966,Alfie,Lewis Gilbert,,N,P
+cannes,Prêmio do Júri,1966,Alfie,Lewis Gilbert,,N,S
 cannes,Prêmio do Júri,1969,Z,Costa-Gavras,,N,S
 cannes,Prêmio do Júri,1970,The Falcons,István Gaál,,S,S
 cannes,Prêmio do Júri,1970,The Strawberry Statement,Stuart Hagmann,,S,S
@@ -27,8 +27,8 @@ cannes,Prêmio do Júri,1972,Slaughterhouse-Five,George Roy Hill,,N,S
 cannes,Prêmio do Júri,1973,The Hourglass Sanatorium,Wojciech Has,,S,S
 cannes,Prêmio do Júri,1973,The Invitation,Claude Goretta,,S,S
 cannes,Prêmio do Júri,1974,La prima Angélica,Carlos Saura,,N,S
-cannes,Prêmio do Júri,1980,The Constant Factor,Krzysztof Zanussi,,N,P
-cannes,Prêmio do Júri,1983,Kharij,Mrinal Sen,,N,P
+cannes,Prêmio do Júri,1980,The Constant Factor,Krzysztof Zanussi,,N,S
+cannes,Prêmio do Júri,1983,Kharij,Mrinal Sen,,N,S
 cannes,Prêmio do Júri,1985,Colonel Redl,István Szabó,,N,S
 cannes,Prêmio do Júri,1986,Thérèse,Alain Cavalier,,N,S
 cannes,Prêmio do Júri,1987,Shinran: Path to Purity,Rentarō Mikuni,,S,S
