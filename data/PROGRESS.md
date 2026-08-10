@@ -57,10 +57,32 @@ e demais categorias vencidas pelos filmes que já entraram.
       SPARQL (P585 = ano da cerimônia; **recorte cerimônia ≥1929**). `data/raw/oscar_*.csv`,
       **679 registros, 97 edições (1929–2026)**. Ver "Dataset do Oscar" abaixo. verificado=N
       (fonte única Wikidata; falta conferência 2ª fonte).
-- [ ] Conferência do Oscar (flip N→S, como no Cannes) — Wikipedia por-cerimônia/oscars.org
-- [ ] Combinar baldes (Cannes+Oscar) → set de filmes no portão
-- [ ] Estágio 2+3: enriquecer via TMDB (adaptar enrich.py)
-- [ ] Badges não-portão (outras categorias dos filmes que entraram)
+- [x] **Conferência do Oscar** (flip N→S) — 679/679 via 2ª fonte Wikipedia por-cerimônia
+      (commit ad991ba).
+- [x] **Combinar baldes** (Cannes+Oscar) → `data/portao.json` via `scripts/build_gate.py`
+      (commit 7a2d1dd). Dedupe por título+ano+diretor; **644 filmes distintos no portão**.
+- [x] **Enriquecer via TMDB** (estágios 2+3) → `data/filmes.json` via `scripts/enrich.py`
+      (commit e9839f7). 644 filmes com pôster, sinopse, país, duração, gêneros e streaming BR.
+- [x] **Badges não-portão** — já estão no dado: `premios[]` de cada filme em `filmes.json`
+      traz TODAS as vitórias, inclusive atuação. Falta só **renderizar** (etapa de front-end).
+
+## FASE DE FRONT-END + DEPLOY (a fazer — dados prontos)
+> Estado (2026-08-09): dataset fechado e enriquecido (644 filmes). O front-end atual
+> (`index.html`/`app.js`/`data.js`) ainda é o app do **FilmCurator** copiado como
+> placeholder (`data.js` = `window.DB` com listas de críticos Guardian/NYT). O
+> `build_views.py` só gera página de conferência, não o app. Falta o app de verdade.
+
+- [ ] **Front-end do FilmFestivals** — substituir o placeholder do FilmCurator. Ligar em
+      `data/filmes.json`, descartar `data.js`. Ver ESCOPO §5–6:
+  - [ ] Timeline por **ano decrescente** com label de ano dividindo a lista (âncora = `ano_ancora`).
+  - [ ] **Card por filme**: badges agrupados por festival (🌴 Palma / 🏆 estatueta),
+        atuação com nome entre parênteses, nota `Cannes AAAA · Oscar AAAA` só quando os anos diferem.
+  - [ ] **Filtros**: fonte (Oscar/Cannes/ambos), ano (range único, mínimo dinâmico), categoria (a validar).
+- [ ] **Decisões de layout em aberto** (ESCOPO §10): sinopse embaixo vs. 3ª coluna;
+      filtro por categoria entra?; cor do ícone do Oscar (dourado vs. neutro).
+- [ ] **Deploy GitHub Pages** — servir do `main` (metatags já apontam p/ rafaortman.github.io/filmfestivals/).
+- [ ] **Streaming recorrente** (última etapa) — script agendável que reroda o TMDB
+      `watch/providers` (volátil, muda toda semana). Ver seção "Streaming".
 
 ## Dataset do Oscar (2026-08-09): 679 registros, 97 edições (1929–2026)
 Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
