@@ -5,6 +5,9 @@
 .DS_Store
 Thumbs.db
 
+# Atalhos do Google Drive (ponteiros da planilha-fonte, não são dado nem legíveis pelo git)
+*.gsheet
+
 # Config local do Claude Code
 .claude/
 
