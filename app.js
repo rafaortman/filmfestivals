@@ -425,3 +425,15 @@ async function boot() {
 }
 
 boot();
+
+// ---- Consentimento LGPD (informativo; o GA4 dispara sempre) ----
+(() => {
+  const bar = $('lgpd'); if (!bar) return;
+  const KEY = 'filmfestivals:lgpd';
+  if (localStorage.getItem(KEY)) return;   // já dispensou → não mostra de novo
+  bar.hidden = false;
+  $('lgpdOk').addEventListener('click', () => {
+    localStorage.setItem(KEY, '1');
+    bar.hidden = true;
+  });
+})();
