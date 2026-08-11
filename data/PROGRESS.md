@@ -66,25 +66,31 @@ e demais categorias vencidas pelos filmes que já entraram.
 - [x] **Badges não-portão** — já estão no dado: `premios[]` de cada filme em `filmes.json`
       traz TODAS as vitórias, inclusive atuação. Falta só **renderizar** (etapa de front-end).
 
-## FASE DE FRONT-END + DEPLOY (a fazer — dados prontos)
-> Estado (2026-08-09): dataset fechado e enriquecido (644 filmes). O front-end atual
-> (`index.html`/`app.js`/`data.js`) ainda é o app do **FilmCurator** copiado como
-> placeholder (`data.js` = `window.DB` com listas de críticos Guardian/NYT). O
-> `build_views.py` só gera página de conferência, não o app. Falta o app de verdade.
+## FASE DE FRONT-END + DEPLOY
+> **PUBLICADO (2026-08-11): https://rafaortman.github.io/filmfestivals/** — GitHub Pages
+> servindo do `main` (root). App completo no ar sobre `data/filmes.json` (644 filmes).
 
-- [ ] **Front-end do FilmFestivals** — substituir o placeholder do FilmCurator. Ligar em
-      `data/filmes.json`, descartar `data.js`. Ver ESCOPO §5–6:
-  - [ ] Timeline por **ano decrescente** com label de ano dividindo a lista (âncora = `ano_ancora`).
-  - [ ] **Card por filme**: badges agrupados por festival (🌴 Palma / 🏆 estatueta),
-        atuação com nome entre parênteses, nota `Cannes AAAA · Oscar AAAA` só quando os anos diferem.
-  - [ ] **Filtros**: fonte (Oscar/Cannes/ambos), ano (range único, mínimo dinâmico), categoria (a validar).
-- [ ] **Decisões de layout em aberto** (ESCOPO §10): sinopse embaixo vs. 3ª coluna;
-      filtro por categoria entra?; cor do ícone do Oscar (dourado vs. neutro).
-- [ ] **Regenerar arte do ícone** — `img/favicon.png` e `img/shareimg.png` ainda são a arte do
-      FilmCurator. Refazer com o novo ícone do app (troféu, o mesmo SVG do logo no `<h1>`).
-- [ ] **Deploy GitHub Pages** — servir do `main` (metatags já apontam p/ rafaortman.github.io/filmfestivals/).
-- [ ] **Streaming recorrente** (última etapa) — script agendável que reroda o TMDB
-      `watch/providers` (volátil, muda toda semana). Ver seção "Streaming".
+- [x] **Front-end do FilmFestivals** — placeholder do FilmCurator substituído; `data.js`
+      removido; `index.html`/`app.js` reescritos sobre `data/filmes.json` (fetch). Reusa o
+      estilo do FilmCurator, com dados/lógica próprios. Commit 6cb7078.
+  - [x] Timeline por ano-âncora com divisor de ano (só nos sorts por ano).
+  - [x] Card com badges por festival (ícones `assets/cannes-circle.svg`/`oscar-circle.svg`
+        como `<img>`), atuação com nome, nota `Cannes AAAA · Oscar AAAA` quando os anos diferem.
+  - [x] Filtros: festival (união) + "só premiados nos dois", busca, plataforma, país,
+        diretor, gênero, ano, duração, streaming; sorteio; favoritos.
+  - [x] **Ordenação por prestígio** dentro do ano (vetor de prêmios; escala própria por
+        festival; atuação como desempate). Ver LADDER em `app.js`.
+- [x] **Decisões de layout** (ESCOPO §10): sinopse na 3ª coluna (mantida); SEM filtro por
+      categoria (não entrou); ícone = troféu no logo + emblemas circulares Cannes/Oscar.
+- [x] **Arte do ícone** — `img/favicon.png` (32×32 P transparente, só o troféu) e
+      `img/shareimg.png` (1200×630, layout do FilmCurator) regenerados. Commit 11f2c56.
+      Gerador: scratchpad (Node + @resvg/resvg-js + opentype.js; NÃO está no repo).
+- [x] **Analytics** — GA4 `G-EDEMJY802C` (reusa a propriedade do FilmCurator; dados
+      misturados, separar por caminho `/filmfestivals/`) + barra LGPD. Commit c315b8a.
+- [x] **Deploy GitHub Pages** — no ar (ver topo da seção). Cross-link recíproco com o
+      FilmCurator feito nos dois sites.
+- [ ] **Streaming recorrente** (última etapa, ainda a fazer) — script agendável que reroda
+      o TMDB `watch/providers` (volátil, muda toda semana). Ver seção "Streaming".
 
 ## Dataset do Oscar (2026-08-09): 679 registros, 97 edições (1929–2026)
 Fonte: **Wikidata SPARQL** (query.wikidata.org). Decidido usar Wikidata direto porque
