@@ -139,6 +139,7 @@
       small {
         color: var(--muted);
         display: block;
+        margin-top: 10px;
       }
 
       & a {
@@ -942,6 +943,63 @@
         padding: 8px 16px
       }
     }
+
+    /* ==== FilmFestivals: timeline, prêmios por festival ==== */
+
+    /* Divisor de ano na timeline */
+    .yearsep {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--accent);
+      padding: 12px 2px 4px;
+      margin-top: 8px;
+      border-bottom: 1px solid color-mix(in srgb, var(--muted) 25%, transparent);
+    }
+
+    .yearsep:first-child {
+      margin-top: 0
+    }
+
+    /* Prêmios agrupados por festival (badge) */
+    .awards {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      margin-top: 2px;
+
+      @media (max-width: 700px) {
+        align-items: center
+      }
+    }
+
+    .award {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12.5px;
+      color: var(--accent-2);
+      line-height: 1.35
+    }
+
+    .aw-txt {
+      min-width: 0
+    }
+
+    /* Ícones de festival: o SVG tal e qual, só dimensionado. */
+    .fest-ic {
+      flex: none;
+      display: inline-block;
+      width: 30px;
+      height: 30px
+    }
+
+    /* Nota de anos (só quando Cannes e Oscar diferem) */
+    .fnote {
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-top: 1px
+    }
   </style>
 </head>
 
@@ -950,13 +1008,15 @@
     <div class="head-main">
       <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
           <path
-            d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
-        </svg>film<span>curator</span></h1>
+            d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm285 93q35-35 35-85v-240H360v240q0 50 35 85t85 35q50 0 85-35Zm115-93q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z" />
+        </svg>film<span>festivals</span></h1>
       <div class="sub">
         <strong>
-          Escolher um bom filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada.
+          Os filmes vencedores dos principais prêmios de Cannes (desde 1951, quando o festival
+          passou a ser regular) e do Oscar (desde 1929, sua primeira cerimônia).
         </strong>
-        Filtre pelo seu interesse ou simplesmente sorteie um filme.
+        <small>Veja também o <a href="https://rafaortman.github.io/filmcurator/" target="_blank"
+            rel="noopener">FilmCurator</a> — uma curadoria de listas da crítica.</small>
       </div>
     </div>
     <button class="favview" id="favView" type="button" aria-disabled="true" aria-pressed="false"
@@ -996,8 +1056,12 @@
         </div>
 
         <div class="fgroup">
-          <h2>Lista</h2>
-          <div class="chips" id="listChips"><!-- gerado das fontes em app.js --></div>
+          <h2>Festival</h2>
+          <div class="chips" id="sourceChips">
+            <span class="chip on" data-fest="cannes">Cannes</span>
+            <span class="chip on" data-fest="oscar">Oscar</span>
+          </div>
+          <label class="fld" style="margin-top:8px"><input type="checkbox" id="onlyBoth"> Só premiados nos dois festivais</label>
         </div>
 
         <div class="fgroup">
@@ -1029,7 +1093,7 @@
         </div>
 
         <div class="fgroup">
-          <label class="fld">Ano do filme</label>
+          <label class="fld">Ano da premiação</label>
           <div class="dualrange">
             <div class="dr-track"></div>
             <div class="dr-fill" id="yearFill"></div>
@@ -1061,13 +1125,9 @@
         <div class="sortwrap">
           <span class="count">Ordenar:</span>
           <select id="sort">
-            <option value="score">Pontos (soma das listas)</option>
-            <option value="gua">Rank Guardian</option>
-            <option value="nyt">Rank Times</option>
-            <option value="bbc">Rank BBC</option>
-            <option value="yearDesc">Ano (mais recente)</option>
-            <option value="yearAsc">Ano (mais antigo)</option>
-            <option value="titleOrig">Título (A–Z)</option>
+            <option value="yearDesc">Ano da premiação (mais recente)</option>
+            <option value="yearAsc">Ano da premiação (mais antigo)</option>
+            <option value="titleAZ">Título (A–Z)</option>
             <option value="durAsc">Duração (menor)</option>
             <option value="durDesc">Duração (maior)</option>
           </select>
@@ -1080,27 +1140,12 @@
   <footer class="foot">
     <span class="updated" id="updated"></span>
     <div class="info">
-      Listas curadas: 
-      <a href="https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century" target="_blank"
-        rel="noopener">Guardian</a>,
-      <a href="https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html" target="_blank"
-        rel="noopener">The New York Times</a>,
-      <a href="https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films" target="_blank"
-        rel="noopener">BBC</a>,
-      <a href="https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636" target="_blank"
-        rel="noopener">Rolling Stone</a>,
-      <a href="https://www.filmsite.org/villvoice.html" target="_blank" rel="noopener">Village Voice</a> e
-      <a href="https://www.bfi.org.uk/sight-and-sound/news/sight-sound-presents-greatest-films-all-time" target="_blank"
-        rel="noopener">Sight &amp; Sound</a>.
-      Dados fornecidos pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
+      Vitórias em <a href="https://www.festival-cannes.com/" target="_blank" rel="noopener">Cannes</a> e no
+      <a href="https://www.oscars.org/" target="_blank" rel="noopener">Oscar</a> (dados públicos).
+      Informações dos filmes pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
     </div>
-    <span class="cright">© <a href="https://rafaortman.github.io/filmcurator/">Rafael Ortman</a> • 2026</span>
+    <span class="cright">© <a href="https://rafaortman.github.io/filmfestivals/">Rafael Ortman</a> • 2026</span>
   </footer>
-
-  <div class="lgpd" id="lgpd" hidden>
-    <span>Usamos cookies do Google Analytics para entender como o site é usado. Ao continuar navegando, você concorda.</span>
-    <button type="button" id="lgpdOk">Entendi</button>
-  </div>
 
   <div class="modal-overlay" id="shuffleModal">
     <div class="modal" role="dialog" aria-modal="true" aria-label="Filme sorteado">
@@ -1131,7 +1176,6 @@
     </div>
   </div>
 
-  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 

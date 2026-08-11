@@ -80,6 +80,8 @@ e demais categorias vencidas pelos filmes que já entraram.
   - [ ] **Filtros**: fonte (Oscar/Cannes/ambos), ano (range único, mínimo dinâmico), categoria (a validar).
 - [ ] **Decisões de layout em aberto** (ESCOPO §10): sinopse embaixo vs. 3ª coluna;
       filtro por categoria entra?; cor do ícone do Oscar (dourado vs. neutro).
+- [ ] **Regenerar arte do ícone** — `img/favicon.png` e `img/shareimg.png` ainda são a arte do
+      FilmCurator. Refazer com o novo ícone do app (troféu, o mesmo SVG do logo no `<h1>`).
 - [ ] **Deploy GitHub Pages** — servir do `main` (metatags já apontam p/ rafaortman.github.io/filmfestivals/).
 - [ ] **Streaming recorrente** (última etapa) — script agendável que reroda o TMDB
       `watch/providers` (volátil, muda toda semana). Ver seção "Streaming".
