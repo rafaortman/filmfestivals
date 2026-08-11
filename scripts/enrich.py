@@ -163,6 +163,24 @@ def resolve(film):
         return None, "diretor não confere"
     return cands[0]["id"], "título-only (verificar)"
 
+def best_overview(tmdb_id, pt):
+    """Cascata de sinopse: pt-BR -> en -> qualquer idioma -> "" (o app mostra
+    'Sinopse indisponível'). Só bate no endpoint /translations quando pt vem vazio."""
+    pt = (pt or "").strip()
+    if pt:
+        return pt
+    tr = get(f"/movie/{tmdb_id}/translations", {}).get("translations", [])
+    def pick(pred):
+        for t in tr:
+            if pred(t):
+                o = ((t.get("data") or {}).get("overview") or "").strip()
+                if o:
+                    return o
+        return ""
+    return (pick(lambda t: t.get("iso_639_1") == "pt")
+            or pick(lambda t: t.get("iso_639_1") == "en")
+            or pick(lambda t: True))
+
 def tmdb_fields(tmdb_id):
     d = get(f"/movie/{tmdb_id}", {"language": "pt-BR",
             "append_to_response": "credits,external_ids,watch/providers"})
@@ -189,7 +207,7 @@ def tmdb_fields(tmdb_id):
         "duracao": d.get("runtime") or "",
         "generos": [g["name"] for g in d.get("genres", [])],
         "poster_path": d.get("poster_path") or "",
-        "sinopse": (d.get("overview") or "").replace("\n", " ").strip(),
+        "sinopse": best_overview(tmdb_id, d.get("overview")).replace("\n", " ").strip(),
         "streaming": plats,
         "streaming_checked_at": TODAY,
     }
